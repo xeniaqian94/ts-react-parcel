@@ -1,7 +1,13 @@
-import * as React from 'react'
-import { render } from 'react-dom'
-import './index.css'
+import * as React from 'react';
+import {render} from 'react-dom';
+import './index.css';
+import * as data from '../data/metadataToHighlight-soylent.json';
 
-import App from './components/App'
+import { Welcome } from "./components/Welcome";
 
-render(<App />, document.getElementById('root'))
+const word = data.note;
+const participantDetails=data.participantDetail;
+
+console.log(word); 
+
+render(<Welcome note={word}  participantDetail= {participantDetails} />, document.getElementById('example'));
