@@ -1,13 +1,18 @@
-import * as React from 'react';
-import {render} from 'react-dom';
-import './index.css';
-import * as data from '../data/metadataToHighlight-soylent.json';
+import * as React from 'react'
+import { render } from 'react-dom'
+import './index.css'
 
-import { Welcome } from "./components/Welcome";
+import data = require('../data/metadataToHighlight-soylent.json')
+console.log(data)
 
-const word = data.note;
-const participantDetails=data.participantDetail;
+import { Welcome } from './components/Welcome'
 
-console.log(word); 
+const word = data.note
+const participantDetails = data.participantDetail
 
-render(<Welcome note={word}  participantDetail= {participantDetails} />, document.getElementById('example'));
+console.log(word)
+
+render(
+  <Welcome note={word} participantDetail={participantDetails} />,
+  document.getElementById('example')
+)

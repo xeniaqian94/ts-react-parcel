@@ -1,4 +1,4 @@
-import * as React from 'react'
+import Component from 'react'
 
 import Toggle from './Toggle'
 import ToggleButton from './ToggleButton'
@@ -38,7 +38,7 @@ const App: React.SFC<AppProps> = ({
       <Toggle onToggle={onToggle}>
         <Layers.Layer1 />
       </Toggle>
-      <input id='inputbox' value='Something' />
+      <input id="inputbox" value="Something" />
     </div>
   )
 }
