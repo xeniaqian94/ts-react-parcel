@@ -1,3 +1,4 @@
+
 # Typescript + React + Parcel = ❤️
 
 This repository has basic settings for buildling react application in Typescript.
@@ -29,7 +30,7 @@ yarn install
     # With type checking
     yarn develop
 
-    # Transpile only
+    # Transpile only (this is what Xin's code is using!!)
     yarn start
 
 Execute the command and you can run & test the application on `localhost:1234` in the browser.
