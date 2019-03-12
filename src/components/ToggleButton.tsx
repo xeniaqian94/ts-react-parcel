@@ -1,7 +1,7 @@
-import * as React from "react"
+import * as React from 'react'
 interface WelcomeProps {
- note: string,
+  note: string
 }
-const Welcome: React.SFC<WelcomeProps> = (props) => {
- return <h1>Hello, {props.note}</h1>;
+const Welcome: React.SFC<WelcomeProps> = props => {
+  return <h1>Hello, {props.note}</h1>
 }

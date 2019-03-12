@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { render } from 'react-dom'
-export interface HelloProps {
-  note: any
-}
+
 export interface Detail {
   // TypeScript types: https://www.tutorialspoint.com/typescript/typescript_types.htm
   text: string

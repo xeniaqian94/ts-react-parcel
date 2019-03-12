@@ -1,0 +1,13 @@
+{
+    "pageNumber": 9,
+    "participant_detail": [
+        {
+            "id": "0009-0328",
+            "substr_tohighlight": "The five tasks in the left column led to a variety of request strategies.",
+            "str": "Table III. The five tasks in the left column led to a variety of request strategies. Terse, error",
+            "startOffset": 11,
+            "endOffset": 84,
+            "note": "opening bracket (open-ended) on endOffset"
+        }
+    ]
+}

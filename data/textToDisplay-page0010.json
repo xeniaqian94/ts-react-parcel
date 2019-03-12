@@ -1,0 +1,6753 @@
+{
+  "pageNumber": 10,
+  "text": [
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 746.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0000",
+      "top": 35.15999999999997,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 306.003, 57.84480000000008],
+      "fontName": "g_d3_f34",
+      "id": "0010-0001",
+      "top": 724.1351999999999,
+      "left": 306.003,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 306.003, 42.30378000000008],
+      "fontName": "g_d3_f34",
+      "id": "0010-0002",
+      "top": 739.67622,
+      "left": 306.003,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CONCLUSION",
+      "dir": "ltr",
+      "width": 60.47999999999998,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 54, 722.52],
+      "fontName": "g_d3_f35",
+      "id": "0010-0003",
+      "top": 60.48000000000002,
+      "left": 54,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.5020000000000002,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 114.48, 722.52],
+      "fontName": "g_d3_f35",
+      "id": "0010-0004",
+      "top": 60.48000000000002,
+      "left": 114.48,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "The following conclusion was Shortn’ed ",
+      "dir": "ltr",
+      "width": 165.2799,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 711.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0005",
+      "top": 70.68000000000006,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "to 85% length:",
+      "dir": "ltr",
+      "width": 58.79736,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 219.36006, 711.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0006",
+      "top": 70.68000000000006,
+      "left": 219.36006,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 278.15742, 711.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0007",
+      "top": 70.68000000000006,
+      "left": 278.15742,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "This  paper  present",
+      "dir": "ltr",
+      "width": 77.91552000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54.00000000000003, 695.75898],
+      "fontName": "g_d3_f34",
+      "id": "0010-0008",
+      "top": 86.22102000000007,
+      "left": 54.00000000000003,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "s   Soylent,  a  word  processing  interface  ",
+      "dir": "ltr",
+      "width": 170.40011999999993,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 131.87544000000003, 695.75898],
+      "fontName": "g_d3_f34",
+      "id": "0010-0009",
+      "top": 86.22102000000007,
+      "left": 131.87544000000003,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "that  uses  crowd  workers  to  help  with  proofreading,  doc",
+      "dir": "ltr",
+      "width": 231.65237999999988,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98998000000002, 684.2960999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0010",
+      "top": 97.68390000000011,
+      "left": 53.98998000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "u-",
+      "dir": "ltr",
+      "width": 8.286539999999999,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 285.65238, 684.2960999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0011",
+      "top": 97.68390000000011,
+      "left": 285.65238,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ment shortening, editing and commenting tasks.",
+      "dir": "ltr",
+      "width": 194.22767999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98998, 672.7730999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0012",
+      "top": 109.20690000000013,
+      "left": 53.98998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  Soylent is ",
+      "dir": "ltr",
+      "width": 48.63708,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 248.26775999999998, 672.7730999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0013",
+      "top": 109.20690000000013,
+      "left": 248.26775999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "an  example  of  a",
+      "dir": "ltr",
+      "width": 67.93560000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 661.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0014",
+      "top": 120.72000000000003,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  new",
+      "dir": "ltr",
+      "width": 20.540999999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 121.92, 661.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0015",
+      "top": 120.72000000000003,
+      "left": 121.92,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 142.56119999999999, 661.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0016",
+      "top": 120.72000000000003,
+      "left": 142.56119999999999,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "kind  of",
+      "dir": "ltr",
+      "width": 30.06,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 146.46, 661.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0017",
+      "top": 120.72000000000003,
+      "left": 146.46,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  interactive  user  interface  in  ",
+      "dir": "ltr",
+      "width": 121.25201999999999,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 176.58, 661.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0018",
+      "top": 120.72000000000003,
+      "left": 176.58,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "which the end ",
+      "dir": "ltr",
+      "width": 59.59896,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.99532000000002, 649.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0019",
+      "top": 132.18288000000007,
+      "left": 53.99532000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "user has",
+      "dir": "ltr",
+      "width": 33.035940000000004,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 114.05520000000001, 649.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0020",
+      "top": 132.18288000000007,
+      "left": 114.05520000000001,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " direct ",
+      "dir": "ltr",
+      "width": 28.22634,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 147.05106, 649.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0021",
+      "top": 132.18288000000007,
+      "left": 147.05106,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "access to a crowd of workers ",
+      "dir": "ltr",
+      "width": 121.09169999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 175.78842, 649.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0022",
+      "top": 132.18288000000007,
+      "left": 175.78842,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "for  assistance  with  tasks  that  require  human  attention  and  ",
+      "dir": "ltr",
+      "width": 243.65633999999991,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.985299999999995, 638.2741199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0023",
+      "top": 143.7058800000001,
+      "left": 53.985299999999995,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "common  sense.",
+      "dir": "ltr",
+      "width": 64.61898000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 626.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0024",
+      "top": 155.22000000000003,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "   Implementing  these  kinds  of  ",
+      "dir": "ltr",
+      "width": 136.5225,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 118.61898, 626.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0025",
+      "top": 155.22000000000003,
+      "left": 118.61898,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "interfaces ",
+      "dir": "ltr",
+      "width": 41.24231999999999,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 255.18, 626.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0026",
+      "top": 155.22000000000003,
+      "left": 255.18,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "requires",
+      "dir": "ltr",
+      "width": 32.254380000000005,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0027",
+      "top": 166.68000000000006,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  new ",
+      "dir": "ltr",
+      "width": 23.146199999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 86.28443999999999, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0028",
+      "top": 166.68000000000006,
+      "left": 86.28443999999999,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "software ",
+      "dir": "ltr",
+      "width": 36.93372,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 110.88353999999998, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0029",
+      "top": 166.68000000000006,
+      "left": 110.88353999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "programming  patterns",
+      "dir": "ltr",
+      "width": 89.9295,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 149.28017999999997, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0030",
+      "top": 166.68000000000006,
+      "left": 149.28017999999997,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 239.27981999999997, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0031",
+      "top": 166.68000000000006,
+      "left": 239.27981999999997,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "for  interface  ",
+      "dir": "ltr",
+      "width": 54.629039999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 243.24, 615.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0032",
+      "top": 166.68000000000006,
+      "left": 243.24,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "software",
+      "dir": "ltr",
+      "width": 34.5189,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 603.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0033",
+      "top": 178.20000000000005,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ",  since  crowds  behave  differently  than  computer  ",
+      "dir": "ltr",
+      "width": 210.10937999999987,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 88.44, 603.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0034",
+      "top": 178.20000000000005,
+      "left": 88.44,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "systems.",
+      "dir": "ltr",
+      "width": 34.10808,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54.00126, 592.257],
+      "fontName": "g_d3_f34",
+      "id": "0010-0035",
+      "top": 189.72300000000007,
+      "left": 54.00126,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  We have introduced one important pattern, Find",
+      "dir": "ltr",
+      "width": 202.53425999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 88.1394, 592.257],
+      "fontName": "g_d3_f34",
+      "id": "0010-0036",
+      "top": 189.72300000000007,
+      "left": 88.1394,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-",
+      "dir": "ltr",
+      "width": 3.33666,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 290.70372, 592.257],
+      "fontName": "g_d3_f34",
+      "id": "0010-0037",
+      "top": 189.72300000000007,
+      "left": 290.70372,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Fix",
+      "dir": "ltr",
+      "width": 13.326600000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54.001259999999974, 580.7941199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0038",
+      "top": 201.1858800000001,
+      "left": 54.001259999999974,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-Verify, which splits complex editing tasks into a series ",
+      "dir": "ltr",
+      "width": 229.41791999999992,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 67.37795999999997, 580.7941199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0039",
+      "top": 201.1858800000001,
+      "left": 67.37795999999997,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "of identification, genera",
+      "dir": "ltr",
+      "width": 95.81123999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 569.28],
+      "fontName": "g_d3_f34",
+      "id": "0010-0040",
+      "top": 212.70000000000005,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "tion, and verification stages ",
+      "dir": "ltr",
+      "width": 113.15586000000002,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 149.88138, 569.28],
+      "fontName": "g_d3_f34",
+      "id": "0010-0041",
+      "top": 212.70000000000005,
+      "left": 149.88138,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "that use ",
+      "dir": "ltr",
+      "width": 33.346560000000004,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 263.09736, 569.28],
+      "fontName": "g_d3_f34",
+      "id": "0010-0042",
+      "top": 212.70000000000005,
+      "left": 263.09736,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "independent  agreement  and  voting  ",
+      "dir": "ltr",
+      "width": 146.71284,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 557.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0043",
+      "top": 224.22000000000003,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "to  produce  reliable  r",
+      "dir": "ltr",
+      "width": 85.43052000000002,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 200.76, 557.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0044",
+      "top": 224.22000000000003,
+      "left": 200.76,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "e-",
+      "dir": "ltr",
+      "width": 7.6452599999999995,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 286.26066, 557.76],
+      "fontName": "g_d3_f34",
+      "id": "0010-0045",
+      "top": 224.22000000000003,
+      "left": 286.26066,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "sults.",
+      "dir": "ltr",
+      "width": 20.831580000000006,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.997059999999976, 546.29712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0046",
+      "top": 235.68288000000007,
+      "left": 53.997059999999976,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  We  evaluated  Soylent  with",
+      "dir": "ltr",
+      "width": 115.29011999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 74.87873999999998, 546.29712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0047",
+      "top": 235.68288000000007,
+      "left": 74.87873999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  a  range  of  editing  tasks,  ",
+      "dir": "ltr",
+      "width": 107.28413999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 190.25903999999997, 546.29712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0048",
+      "top": 235.68288000000007,
+      "left": 190.25903999999997,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "finding  and  correcting  82%  of  grammar  errors",
+      "dir": "ltr",
+      "width": 190.79081999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 534.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0049",
+      "top": 247.20000000000005,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 244.86095999999998, 534.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0050",
+      "top": 247.20000000000005,
+      "left": 244.86095999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "when  co",
+      "dir": "ltr",
+      "width": 34.60908,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 248.28, 534.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0051",
+      "top": 247.20000000000005,
+      "left": 248.28,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "m-",
+      "dir": "ltr",
+      "width": 10.90176,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 282.9, 534.78],
+      "fontName": "g_d3_f34",
+      "id": "0010-0052",
+      "top": 247.20000000000005,
+      "left": 282.9,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "bined  with  automatic  checking",
+      "dir": "ltr",
+      "width": 126.60270000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 523.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0053",
+      "top": 258.72,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ",  shortening  text  to",
+      "dir": "ltr",
+      "width": 78.50669999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 180.6, 523.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0054",
+      "top": 258.72,
+      "left": 180.6,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  appro",
+      "dir": "ltr",
+      "width": 26.412719999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 259.13676, 523.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0055",
+      "top": 258.72,
+      "left": 259.13676,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "x-",
+      "dir": "ltr",
+      "width": 8.40678,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 285.58956, 523.26],
+      "fontName": "g_d3_f34",
+      "id": "0010-0056",
+      "top": 258.72,
+      "left": 285.58956,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "imately ",
+      "dir": "ltr",
+      "width": 32.42472000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98728, 511.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0057",
+      "top": 270.18287999999995,
+      "left": 53.98728,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "85% ",
+      "dir": "ltr",
+      "width": 20.92176,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 87.10338, 511.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0058",
+      "top": 270.18287999999995,
+      "left": 87.10338,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "of original length ",
+      "dir": "ltr",
+      "width": 73.93758,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 108.64638, 511.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0059",
+      "top": 270.18287999999995,
+      "left": 108.64638,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "per iteration, and executing ",
+      "dir": "ltr",
+      "width": 114.47849999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 182.56392, 511.79712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0060",
+      "top": 270.18287999999995,
+      "left": 182.56392,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "a variety of human macros successfully.",
+      "dir": "ltr",
+      "width": 160.39013999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98728, 500.27412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0061",
+      "top": 281.70588000000004,
+      "left": 53.98728,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 214.48764, 500.27412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0062",
+      "top": 281.70588000000004,
+      "left": 214.48764,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Future work falls in three categories.",
+      "dir": "ltr",
+      "width": 149.77895999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98728, 484.79321999999996],
+      "fontName": "g_d3_f34",
+      "id": "0010-0063",
+      "top": 297.18678000000006,
+      "left": 53.98728,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  First are new crowd",
+      "dir": "ltr",
+      "width": 86.7732,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 203.86643999999998, 484.79321999999996],
+      "fontName": "g_d3_f34",
+      "id": "0010-0064",
+      "top": 297.18678000000006,
+      "left": 203.86643999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-",
+      "dir": "ltr",
+      "width": 3.33666,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 290.62962, 484.79321999999996],
+      "fontName": "g_d3_f34",
+      "id": "0010-0065",
+      "top": 297.18678000000006,
+      "left": 290.62962,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "driven  features  for  word  processing,  such  as  readability  ",
+      "dir": "ltr",
+      "width": 244.9489199999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98728, 473.27021999999994],
+      "fontName": "g_d3_f34",
+      "id": "0010-0066",
+      "top": 308.7097800000001,
+      "left": 53.98728,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "analysis,  smart",
+      "dir": "ltr",
+      "width": 62.33442,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0067",
+      "top": 320.16,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  find",
+      "dir": "ltr",
+      "width": 21.543000000000003,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 116.33442, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0068",
+      "top": 320.16,
+      "left": 116.33442,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-and",
+      "dir": "ltr",
+      "width": 17.65524,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 137.93753999999998, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0069",
+      "top": 320.16,
+      "left": 137.93753999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-replace ",
+      "dir": "ltr",
+      "width": 34.64916,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 155.69297999999998, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0070",
+      "top": 320.16,
+      "left": 155.69297999999998,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "(so  that  renaming  “M",
+      "dir": "ltr",
+      "width": 94.5888,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 193.26, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0071",
+      "top": 320.16,
+      "left": 193.26,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "i-",
+      "dir": "ltr",
+      "width": 6.072120000000001,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 287.82, 461.82],
+      "fontName": "g_d3_f34",
+      "id": "0010-0072",
+      "top": 320.16,
+      "left": 287.82,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "chael”  to  “Michelle”  also  changes  “he”  to  “she”)",
+      "dir": "ltr",
+      "width": 201.66252,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 450.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0073",
+      "top": 331.68,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ",  and  fi",
+      "dir": "ltr",
+      "width": 29.969819999999995,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 255.72, 450.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0074",
+      "top": 331.68,
+      "left": 255.72,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "g-",
+      "dir": "ltr",
+      "width": 8.40678,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 285.59964, 450.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0075",
+      "top": 331.68,
+      "left": 285.59964,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ure  or  citation  number  checking.",
+      "dir": "ltr",
+      "width": 139.76898,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.997360000000015, 438.777],
+      "fontName": "g_d3_f34",
+      "id": "0010-0076",
+      "top": 343.20300000000003,
+      "left": 53.997360000000015,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "   Second  are  new  tech-",
+      "dir": "ltr",
+      "width": 100.12985999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 193.7964, 438.777],
+      "fontName": "g_d3_f34",
+      "id": "0010-0077",
+      "top": 343.20300000000003,
+      "left": 193.7964,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "niques  for  optimizing  crowd-",
+      "dir": "ltr",
+      "width": 126.78306,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.997359999999986, 427.31412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0078",
+      "top": 354.66588,
+      "left": 53.997359999999986,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "programmed  algorithms  to  ",
+      "dir": "ltr",
+      "width": 118.87727999999998,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 180.78042, 427.31412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0079",
+      "top": 354.66588,
+      "left": 180.78042,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "reduce wait time and cost.",
+      "dir": "ltr",
+      "width": 107.43444,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.997359999999986, 415.79112],
+      "fontName": "g_d3_f34",
+      "id": "0010-0080",
+      "top": 366.18888000000004,
+      "left": 53.997359999999986,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "  Finally, we believe that our",
+      "dir": "ltr",
+      "width": 118.02558,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 161.52197999999999, 415.79112],
+      "fontName": "g_d3_f34",
+      "id": "0010-0081",
+      "top": 366.18888000000004,
+      "left": 161.52197999999999,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " re-",
+      "dir": "ltr",
+      "width": 14.23842,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 279.65778, 415.79112],
+      "fontName": "g_d3_f34",
+      "id": "0010-0082",
+      "top": 366.18888000000004,
+      "left": 279.65778,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "search",
+      "dir": "ltr",
+      "width": 25.571039999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.98734000000002, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0083",
+      "top": 377.71188000000006,
+      "left": 53.98734000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " points",
+      "dir": "ltr",
+      "width": 27.324540000000002,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 79.54836000000002, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0084",
+      "top": 377.71188000000006,
+      "left": 79.54836000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " the way to",
+      "dir": "ltr",
+      "width": 45.220259999999996,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 106.84284000000001, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0085",
+      "top": 377.71188000000006,
+      "left": 106.84284000000001,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ward",
+      "dir": "ltr",
+      "width": 19.969859999999997,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 152.08314000000001, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0086",
+      "top": 377.71188000000006,
+      "left": 152.08314000000001,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " integrating on",
+      "dir": "ltr",
+      "width": 59.017799999999994,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 172.06302000000002, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0087",
+      "top": 377.71188000000006,
+      "left": 172.06302000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-demand crowd ",
+      "dir": "ltr",
+      "width": 65.6811,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 231.10086000000004, 404.26811999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0088",
+      "top": 377.71188000000006,
+      "left": 231.10086000000004,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "work in",
+      "dir": "ltr",
+      "width": 30.94176,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 53.97732000000002, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0089",
+      "top": 389.17476000000005,
+      "left": 53.97732000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "to  other ",
+      "dir": "ltr",
+      "width": 36.15216,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 84.93912000000002, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0090",
+      "top": 389.17476000000005,
+      "left": 84.93912000000002,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "authoring",
+      "dir": "ltr",
+      "width": 38.26638,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 118.41594, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0091",
+      "top": 389.17476000000005,
+      "left": 118.41594,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " interfaces, particularly ",
+      "dir": "ltr",
+      "width": 95.0397,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 156.75246, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0092",
+      "top": 389.17476000000005,
+      "left": 156.75246,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "in ",
+      "dir": "ltr",
+      "width": 10.300559999999999,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 251.85228, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0093",
+      "top": 389.17476000000005,
+      "left": 251.85228,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "creative ",
+      "dir": "ltr",
+      "width": 34.168200000000006,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 262.233, 392.80523999999997],
+      "fontName": "g_d3_f34",
+      "id": "0010-0094",
+      "top": 389.17476000000005,
+      "left": 262.233,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "domains",
+      "dir": "ltr",
+      "width": 33.9177,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 381.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0095",
+      "top": 400.68,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 87.89766, 381.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0096",
+      "top": 400.68,
+      "left": 87.89766,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "like image editing and programming",
+      "dir": "ltr",
+      "width": 146.02146,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 90.42, 381.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0097",
+      "top": 400.68,
+      "left": 90.42,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ". ",
+      "dir": "ltr",
+      "width": 4.96992,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 236.46, 381.3],
+      "fontName": "g_d3_f34",
+      "id": "0010-0098",
+      "top": 400.68,
+      "left": 236.46,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACKNOWLEDGMENTS",
+      "dir": "ltr",
+      "width": 98.055,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 54, 366.72],
+      "fontName": "g_d3_f35",
+      "id": "0010-0099",
+      "top": 416.28,
+      "left": 54,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.5020000000000002,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 152.04, 366.72],
+      "fontName": "g_d3_f35",
+      "id": "0010-0100",
+      "top": 416.28,
+      "left": 152.04,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "We  thank  the  MIT  User  Interface  Design  and  Haystack  ",
+      "dir": "ltr",
+      "width": 244.72848000000013,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 355.44],
+      "fontName": "g_d3_f34",
+      "id": "0010-0101",
+      "top": 426.54,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "groups  for  their  ",
+      "dir": "ltr",
+      "width": 68.30634,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 343.97712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0102",
+      "top": 438.00288,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "support. ",
+      "dir": "ltr",
+      "width": 35.00988,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 122.39652, 343.97712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0103",
+      "top": 438.00288,
+      "left": 122.39652,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "This  work  was  supported  in  part  ",
+      "dir": "ltr",
+      "width": 138.96738000000002,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 158.63886, 343.97712],
+      "fontName": "g_d3_f34",
+      "id": "0010-0104",
+      "top": 438.00288,
+      "left": 158.63886,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "by ",
+      "dir": "ltr",
+      "width": 12.524999999999999,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 332.45412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0105",
+      "top": 449.52588000000003,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "National Science Foundation ",
+      "dir": "ltr",
+      "width": 118.58670000000002,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 66.54504, 332.45412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0106",
+      "top": 449.52588000000003,
+      "left": 66.54504,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "award IIS",
+      "dir": "ltr",
+      "width": 39.11808,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 185.16179999999997, 332.45412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0107",
+      "top": 449.52588000000003,
+      "left": 185.16179999999997,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-0712793.",
+      "dir": "ltr",
+      "width": 40.871579999999994,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 224.27987999999996, 332.45412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0108",
+      "top": 449.52588000000003,
+      "left": 224.27987999999996,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 265.14143999999993, 332.45412],
+      "fontName": "g_d3_f34",
+      "id": "0010-0109",
+      "top": 449.52588000000003,
+      "left": 265.14143999999993,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "REFERENCES",
+      "dir": "ltr",
+      "width": 61.48799999999999,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 54, 317.88],
+      "fontName": "g_d3_f35",
+      "id": "0010-0110",
+      "top": 465.12,
+      "left": 54,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.5020000000000002,
+      "height": 81,
+      "transform": [9, 0, 0, 9, 115.5, 317.88],
+      "fontName": "g_d3_f35",
+      "id": "0010-0111",
+      "top": 465.12,
+      "left": 115.5,
+      "fontHeight": 9,
+      "fontWidth": 9,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "1.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 54, 307.0201],
+      "fontName": "g_d3_f34",
+      "id": "0010-0112",
+      "top": 475.49989999999997,
+      "left": 54,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.13844, 307.0201],
+      "fontName": "g_d3_f35",
+      "id": "0010-0113",
+      "top": 475.49989999999997,
+      "left": 61.13844,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Bernstein, M., Marcus, A., Karger, D.R., and Miller, R.C. ",
+      "dir": "ltr",
+      "width": 222.03107999999995,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40012, 307.0201],
+      "fontName": "g_d3_f34",
+      "id": "0010-0114",
+      "top": 475.49989999999997,
+      "left": 68.40012,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Enhancing Directed Content Sharing on the Web. ",
+      "dir": "ltr",
+      "width": 190.98408,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40012, 296.09914000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0115",
+      "top": 486.42085999999995,
+      "left": 68.40012,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '10",
+      "dir": "ltr",
+      "width": 30.18432,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 259.3842000000001, 296.09914000000003],
+      "fontName": "g_d3_f36",
+      "id": "0010-0116",
+      "top": 486.42085999999995,
+      "left": 259.3842000000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ",
+      "dir": "ltr",
+      "width": 4.76844,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 289.68228, 296.09914000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0117",
+      "top": 486.42085999999995,
+      "left": 289.68228,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACM Press (2010).",
+      "dir": "ltr",
+      "width": 74.10516,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999999, 285.17818000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0118",
+      "top": 497.3418199999999,
+      "left": 68.40011999999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 142.56216, 285.17818000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0119",
+      "top": 497.3418199999999,
+      "left": 142.56216,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "2.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 54, 271.2615400000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0120",
+      "top": 511.2584599999999,
+      "left": 54,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.13844, 271.2615400000001],
+      "fontName": "g_d3_f35",
+      "id": "0010-0121",
+      "top": 511.2584599999999,
+      "left": 61.13844,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Bernstein, M., Tan, D., Smith, G., Czerwinski, M., et al. ",
+      "dir": "ltr",
+      "width": 216.03971999999993,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40012, 271.2615400000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0122",
+      "top": 511.2584599999999,
+      "left": 68.40012,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Collabio: A Game for Annotating People within Social ",
+      "dir": "ltr",
+      "width": 211.47983999999997,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40012, 260.3405800000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0123",
+      "top": 522.1794199999999,
+      "left": 68.40012,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Networks. ",
+      "dir": "ltr",
+      "width": 41.64564,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40012, 249.4196200000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0124",
+      "top": 533.1003799999999,
+      "left": 68.40012,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "UIST '09",
+      "dir": "ltr",
+      "width": 33.94788,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 110.10264000000001, 249.4196200000001],
+      "fontName": "g_d3_f36",
+      "id": "0010-0125",
+      "top": 533.1003799999999,
+      "left": 110.10264000000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2009), 177–",
+      "dir": "ltr",
+      "width": 100.17516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 144.05052, 249.4196200000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0126",
+      "top": 533.1003799999999,
+      "left": 144.05052,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "180.",
+      "dir": "ltr",
+      "width": 16.59,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 244.32048, 249.4196200000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0127",
+      "top": 533.1003799999999,
+      "left": 244.32048,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 260.93892, 249.4196200000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0128",
+      "top": 533.1003799999999,
+      "left": 260.93892,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "3.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 53.99999999999997, 235.5029800000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0129",
+      "top": 547.0170199999999,
+      "left": 53.99999999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.138439999999974, 235.5029800000001],
+      "fontName": "g_d3_f35",
+      "id": "0010-0130",
+      "top": 547.0170199999999,
+      "left": 61.138439999999974,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Bigham, J.P., Jayant, C., Ji, H., Little, G., et al. VizWiz: ",
+      "dir": "ltr",
+      "width": 215.49936,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999997, 235.5029800000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0131",
+      "top": 547.0170199999999,
+      "left": 68.40011999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Nearly Real",
+      "dir": "ltr",
+      "width": 45.560880000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999997, 224.58202000000009],
+      "fontName": "g_d3_f34",
+      "id": "0010-0132",
+      "top": 557.9379799999999,
+      "left": 68.40011999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-time Answers to Visual Qu",
+      "dir": "ltr",
+      "width": 106.44143999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 113.99891999999997, 224.58202000000009],
+      "fontName": "g_d3_f34",
+      "id": "0010-0133",
+      "top": 557.9379799999999,
+      "left": 113.99891999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "estions. ",
+      "dir": "ltr",
+      "width": 31.0944,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 220.55411999999995, 224.58202000000009],
+      "fontName": "g_d3_f34",
+      "id": "0010-0134",
+      "top": 557.9379799999999,
+      "left": 220.55411999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "UIST '10",
+      "dir": "ltr",
+      "width": 34.004760000000005,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 251.69591999999994, 224.58202000000009],
+      "fontName": "g_d3_f36",
+      "id": "0010-0135",
+      "top": 557.9379799999999,
+      "left": 251.69591999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ",
+      "dir": "ltr",
+      "width": 4.71156,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 285.7006799999999, 224.58202000000009],
+      "fontName": "g_d3_f34",
+      "id": "0010-0136",
+      "top": 557.9379799999999,
+      "left": 285.7006799999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACM Press (2010).",
+      "dir": "ltr",
+      "width": 74.10516,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999993, 213.66106000000008],
+      "fontName": "g_d3_f34",
+      "id": "0010-0137",
+      "top": 568.85894,
+      "left": 68.40011999999993,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 142.56215999999995, 213.66106000000008],
+      "fontName": "g_d3_f34",
+      "id": "0010-0138",
+      "top": 568.85894,
+      "left": 142.56215999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "4.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 53.99999999999994, 199.67806000000007],
+      "fontName": "g_d3_f34",
+      "id": "0010-0139",
+      "top": 582.8419399999999,
+      "left": 53.99999999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.138439999999946, 199.67806000000007],
+      "fontName": "g_d3_f35",
+      "id": "0010-0140",
+      "top": 582.8419399999999,
+      "left": 61.138439999999946,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Clarke, J. and Lapata, M. Models for sentence compres-",
+      "dir": "ltr",
+      "width": 212.93976000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999994, 199.67806000000007],
+      "fontName": "g_d3_f34",
+      "id": "0010-0141",
+      "top": 582.8419399999999,
+      "left": 68.40011999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "sion: a comparison across domains, training requirements ",
+      "dir": "ltr",
+      "width": 220.95035999999996,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999994, 188.75710000000007],
+      "fontName": "g_d3_f34",
+      "id": "0010-0142",
+      "top": 593.7629,
+      "left": 68.40011999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "and evaluation measures. ",
+      "dir": "ltr",
+      "width": 98.06112000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999994, 177.83614000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0143",
+      "top": 604.68386,
+      "left": 68.40011999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACL '06",
+      "dir": "ltr",
+      "width": 31.340880000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 166.46124, 177.83614000000006],
+      "fontName": "g_d3_f36",
+      "id": "0010-0144",
+      "top": 604.68386,
+      "left": 166.46124,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", Association for Co",
+      "dir": "ltr",
+      "width": 76.43723999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 197.87795999999997, 177.83614000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0145",
+      "top": 604.68386,
+      "left": 197.87795999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "m-",
+      "dir": "ltr",
+      "width": 10.30476,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 274.43844, 177.83614000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0146",
+      "top": 604.68386,
+      "left": 274.43844,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "putational Linguistics (2006).",
+      "dir": "ltr",
+      "width": 112.59396000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999999, 166.91518000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0147",
+      "top": 615.60482,
+      "left": 68.40011999999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 181.07939999999996, 166.91518000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0148",
+      "top": 615.60482,
+      "left": 181.07939999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "5.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 53.99999999999997, 152.99854000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0149",
+      "top": 629.5214599999999,
+      "left": 53.99999999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.138439999999974, 152.99854000000005],
+      "fontName": "g_d3_f35",
+      "id": "0010-0150",
+      "top": 629.5214599999999,
+      "left": 61.138439999999974,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Cohn, T. and Lapata, M. S",
+      "dir": "ltr",
+      "width": 101.01888,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999997, 152.99854000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0151",
+      "top": 629.5214599999999,
+      "left": 68.40011999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "entence compression beyond ",
+      "dir": "ltr",
+      "width": 112.10100000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 169.43795999999998, 152.99854000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0152",
+      "top": 629.5214599999999,
+      "left": 169.43795999999998,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "word deletion. ",
+      "dir": "ltr",
+      "width": 57.211800000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40011999999997, 142.07758000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0153",
+      "top": 640.44242,
+      "left": 68.40011999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "COLING '08",
+      "dir": "ltr",
+      "width": 48.74616,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 125.61191999999997, 142.07758000000004],
+      "fontName": "g_d3_f36",
+      "id": "0010-0154",
+      "top": 640.44242,
+      "left": 125.61191999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", (2008).",
+      "dir": "ltr",
+      "width": 32.36472,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 174.42443999999998, 142.07758000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0155",
+      "top": 640.44242,
+      "left": 174.42443999999998,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 206.82707999999997, 142.07758000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0156",
+      "top": 640.44242,
+      "left": 206.82707999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "6.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 54.00947999999994, 128.16094000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0157",
+      "top": 654.35906,
+      "left": 54.00947999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.14791999999994, 128.16094000000004],
+      "fontName": "g_d3_f35",
+      "id": "0010-0158",
+      "top": 654.35906,
+      "left": 61.14791999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Cypher, A. ",
+      "dir": "ltr",
+      "width": 44.38536,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40959999999994, 128.16094000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0159",
+      "top": 654.35906,
+      "left": 68.40959999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Watch What I Do",
+      "dir": "ltr",
+      "width": 66.15144,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 112.79495999999995, 128.16094000000004],
+      "fontName": "g_d3_f36",
+      "id": "0010-0160",
+      "top": 654.35906,
+      "left": 112.79495999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ". MIT Press, Cambridge, MA, ",
+      "dir": "ltr",
+      "width": 116.29116,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 178.94639999999993, 128.16094000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0161",
+      "top": 654.35906,
+      "left": 178.94639999999993,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "1993.",
+      "dir": "ltr",
+      "width": 21.330000000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40959999999994, 117.23998000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0162",
+      "top": 665.2800199999999,
+      "left": 68.40959999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 89.76803999999994, 117.23998000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0163",
+      "top": 665.2800199999999,
+      "left": 89.76803999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "7.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 54.00947999999994, 103.32334000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0164",
+      "top": 679.19666,
+      "left": 54.00947999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 61.14791999999994, 103.32334000000004],
+      "fontName": "g_d3_f35",
+      "id": "0010-0165",
+      "top": 679.19666,
+      "left": 61.14791999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Dourish, P. and Bellotti, V. Awareness and coordination in ",
+      "dir": "ltr",
+      "width": 226.5246,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40959999999994, 103.32334000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0166",
+      "top": 679.19666,
+      "left": 68.40959999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "shared workspaces. ",
+      "dir": "ltr",
+      "width": 76.17179999999998,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 68.40959999999994, 92.40238000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0167",
+      "top": 690.11762,
+      "left": 68.40959999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CSCW '92",
+      "dir": "ltr",
+      "width": 39.25668,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 144.58139999999995, 92.40238000000005],
+      "fontName": "g_d3_f36",
+      "id": "0010-0168",
+      "top": 690.11762,
+      "left": 144.58139999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (1992).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 183.91391999999993, 92.40238000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0169",
+      "top": 690.11762,
+      "left": 183.91391999999993,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 262.81595999999996, 92.40238000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0170",
+      "top": 690.11762,
+      "left": 262.81595999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "8.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.07487999999995, 722.0450200000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0171",
+      "top": 60.47497999999973,
+      "left": 318.07487999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 325.21331999999995, 722.0450200000002],
+      "fontName": "g_d3_f35",
+      "id": "0010-0172",
+      "top": 60.47497999999973,
+      "left": 325.21331999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Evans, B. and Chi, E. Toward",
+      "dir": "ltr",
+      "width": 113.76000000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 722.0450200000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0173",
+      "top": 60.47497999999973,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "s a model of understanding ",
+      "dir": "ltr",
+      "width": 105.20904000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 446.17812, 722.0450200000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0174",
+      "top": 60.47497999999973,
+      "left": 446.17812,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "social search. ",
+      "dir": "ltr",
+      "width": 53.49564,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 711.1240600000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0175",
+      "top": 71.39593999999977,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CSCW '08",
+      "dir": "ltr",
+      "width": 39.285120000000006,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 385.97063999999995, 711.1240600000002],
+      "fontName": "g_d3_f36",
+      "id": "0010-0176",
+      "top": 71.39593999999977,
+      "left": 385.97063999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2008).",
+      "dir": "ltr",
+      "width": 78.78828000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 425.2557599999999, 711.1240600000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0177",
+      "top": 71.39593999999977,
+      "left": 425.2557599999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 504.13883999999996, 711.1240600000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0178",
+      "top": 71.39593999999977,
+      "left": 504.13883999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "9.",
+      "dir": "ltr",
+      "width": 7.11,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.07487999999995, 697.2074200000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0179",
+      "top": 85.3125799999998,
+      "left": 318.07487999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 325.21331999999995, 697.2074200000002],
+      "fontName": "g_d3_f35",
+      "id": "0010-0180",
+      "top": 85.3125799999998,
+      "left": 325.21331999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Hartmann, B., MacDougall, D., Brandt, J., and Klemmer, ",
+      "dir": "ltr",
+      "width": 220.53324000000006,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 697.2074200000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0181",
+      "top": 85.3125799999998,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "S. What Would Other Programmers Do? Suggesting Solu-",
+      "dir": "ltr",
+      "width": 221.98368000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 686.2864600000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0182",
+      "top": 96.23353999999983,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "tions to Error Messages. ",
+      "dir": "ltr",
+      "width": 94.69572000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 675.3655000000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0183",
+      "top": 107.15449999999987,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '10",
+      "dir": "ltr",
+      "width": 30.26016,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 427.17072, 675.3655000000001],
+      "fontName": "g_d3_f36",
+      "id": "0010-0184",
+      "top": 107.15449999999987,
+      "left": 427.17072,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2010).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 457.51619999999997, 675.3655000000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0185",
+      "top": 107.15449999999987,
+      "left": 457.51619999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 536.3518799999999, 675.3655000000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0186",
+      "top": 107.15449999999987,
+      "left": 536.3518799999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "10.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.07487999999995, 661.4488600000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0187",
+      "top": 121.0711399999999,
+      "left": 318.07487999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.95331999999996, 661.4488600000001],
+      "fontName": "g_d3_f35",
+      "id": "0010-0188",
+      "top": 121.0711399999999,
+      "left": 329.95331999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Heer, J. and Bostock, M. Cro",
+      "dir": "ltr",
+      "width": 110.94444000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.47499999999997, 661.4488600000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0189",
+      "top": 121.0711399999999,
+      "left": 332.47499999999997,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "wdsourcing Graphical Pe",
+      "dir": "ltr",
+      "width": 95.98500000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 443.47632, 661.4488600000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0190",
+      "top": 121.0711399999999,
+      "left": 443.47632,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "r-",
+      "dir": "ltr",
+      "width": 6.3516,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 539.48028, 661.4488600000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0191",
+      "top": 121.0711399999999,
+      "left": 539.48028,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ception: Using Mechanical Turk to Assess Visualization ",
+      "dir": "ltr",
+      "width": 216.44736000000015,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.48447999999996, 650.5279],
+      "fontName": "g_d3_f34",
+      "id": "0010-0192",
+      "top": 131.99209999999994,
+      "left": 332.48447999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Design. ",
+      "dir": "ltr",
+      "width": 31.63476,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.48447999999996, 639.60694],
+      "fontName": "g_d3_f34",
+      "id": "0010-0193",
+      "top": 142.91305999999997,
+      "left": 332.48447999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '10",
+      "dir": "ltr",
+      "width": 30.17484,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 364.16664, 639.60694],
+      "fontName": "g_d3_f36",
+      "id": "0010-0194",
+      "top": 142.91305999999997,
+      "left": 364.16664,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2010).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 394.40783999999996, 639.60694],
+      "fontName": "g_d3_f34",
+      "id": "0010-0195",
+      "top": 142.91305999999997,
+      "left": 394.40783999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 473.30987999999996, 639.60694],
+      "fontName": "g_d3_f34",
+      "id": "0010-0196",
+      "top": 142.91305999999997,
+      "left": 473.30987999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "11.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09383999999994, 625.6239400000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0197",
+      "top": 156.89605999999992,
+      "left": 318.09383999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97227999999996, 625.6239400000001],
+      "fontName": "g_d3_f35",
+      "id": "0010-0198",
+      "top": 156.89605999999992,
+      "left": 329.97227999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Kittur, A., Chi, E.H., and Suh, B. Crowdsourcing user ",
+      "dir": "ltr",
+      "width": 207.85847999999993,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 625.6239400000001],
+      "fontName": "g_d3_f34",
+      "id": "0010-0199",
+      "top": 156.89605999999992,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "studies with Mechanical Turk. ",
+      "dir": "ltr",
+      "width": 117.90276000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 614.70298],
+      "fontName": "g_d3_f34",
+      "id": "0010-0200",
+      "top": 167.81701999999996,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '08",
+      "dir": "ltr",
+      "width": 30.25068,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 450.39672, 614.70298],
+      "fontName": "g_d3_f36",
+      "id": "0010-0201",
+      "top": 167.81701999999996,
+      "left": 450.39672,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press ",
+      "dir": "ltr",
+      "width": 51.106680000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 480.75167999999996, 614.70298],
+      "fontName": "g_d3_f34",
+      "id": "0010-0202",
+      "top": 167.81701999999996,
+      "left": 480.75167999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "(2008).",
+      "dir": "ltr",
+      "width": 27.6816,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 603.78202],
+      "fontName": "g_d3_f34",
+      "id": "0010-0203",
+      "top": 178.73798,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 360.21347999999995, 603.78202],
+      "fontName": "g_d3_f34",
+      "id": "0010-0204",
+      "top": 178.73798,
+      "left": 360.21347999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "12.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09383999999994, 589.86538],
+      "fontName": "g_d3_f34",
+      "id": "0010-0205",
+      "top": 192.65462000000002,
+      "left": 318.09383999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97227999999996, 589.86538],
+      "fontName": "g_d3_f35",
+      "id": "0010-0206",
+      "top": 192.65462000000002,
+      "left": 329.97227999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Knight, K. and Marcu, D. Summar",
+      "dir": "ltr",
+      "width": 132.04692,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 589.86538],
+      "fontName": "g_d3_f34",
+      "id": "0010-0207",
+      "top": 192.65462000000002,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ization beyond sentence ",
+      "dir": "ltr",
+      "width": 93.62448000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 464.61672, 589.86538],
+      "fontName": "g_d3_f34",
+      "id": "0010-0208",
+      "top": 192.65462000000002,
+      "left": 464.61672,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "extraction:",
+      "dir": "ltr",
+      "width": 40.50804,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 578.9444199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0209",
+      "top": 203.57558000000006,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " a probabilistic approach to sentence compre",
+      "dir": "ltr",
+      "width": 169.27488000000005,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 373.0494, 578.9444199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0210",
+      "top": 203.57558000000006,
+      "left": 373.0494,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "s-",
+      "dir": "ltr",
+      "width": 6.78768,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 542.37168, 578.9444199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0211",
+      "top": 203.57558000000006,
+      "left": 542.37168,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "sion. ",
+      "dir": "ltr",
+      "width": 20.54316,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 568.0234599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0212",
+      "top": 214.4965400000001,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Artificial Intelligence 139",
+      "dir": "ltr",
+      "width": 98.07060000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 353.07503999999994, 568.0234599999999],
+      "fontName": "g_d3_f36",
+      "id": "0010-0213",
+      "top": 214.4965400000001,
+      "left": 353.07503999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", 1 (2002).",
+      "dir": "ltr",
+      "width": 39.61692000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 451.17407999999995, 568.0234599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0214",
+      "top": 214.4965400000001,
+      "left": 451.17407999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 490.77203999999995, 568.0234599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0215",
+      "top": 214.4965400000001,
+      "left": 490.77203999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "13.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09383999999994, 554.1068199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0216",
+      "top": 228.41318000000012,
+      "left": 318.09383999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97227999999996, 554.1068199999999],
+      "fontName": "g_d3_f35",
+      "id": "0010-0217",
+      "top": 228.41318000000012,
+      "left": 329.97227999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Krieger, M., Stark, E.M., and Klemmer, S.R. Coordinating ",
+      "dir": "ltr",
+      "width": 225.71879999999996,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 554.1068199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0218",
+      "top": 228.41318000000012,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "tasks on the commons: designing for personal goals, e",
+      "dir": "ltr",
+      "width": 205.4316,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 543.1858599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0219",
+      "top": 239.33414000000016,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "x-",
+      "dir": "ltr",
+      "width": 7.89684,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 537.9919199999999, 543.1858599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0220",
+      "top": 239.33414000000016,
+      "left": 537.9919199999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "pertise and serendipity. ",
+      "dir": "ltr",
+      "width": 90.76152000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939599999999, 532.2648999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0221",
+      "top": 250.2551000000002,
+      "left": 332.4939599999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '09",
+      "dir": "ltr",
+      "width": 30.127439999999996,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 423.3313199999999, 532.2648999999998],
+      "fontName": "g_d3_f36",
+      "id": "0010-0222",
+      "top": 250.2551000000002,
+      "left": 423.3313199999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2009).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 453.5156399999999, 532.2648999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0223",
+      "top": 250.2551000000002,
+      "left": 453.5156399999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 532.4176799999999, 532.2648999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0224",
+      "top": 250.2551000000002,
+      "left": 532.4176799999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "14.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938399999999, 518.3482599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0225",
+      "top": 264.1717400000002,
+      "left": 318.0938399999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722799999999, 518.3482599999998],
+      "fontName": "g_d3_f35",
+      "id": "0010-0226",
+      "top": 264.1717400000002,
+      "left": 329.9722799999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Kukich, K. Techniques for automatically correcting words ",
+      "dir": "ltr",
+      "width": 224.3536799999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939599999999, 518.3482599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0227",
+      "top": 264.1717400000002,
+      "left": 332.4939599999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "in text. ",
+      "dir": "ltr",
+      "width": 28.781280000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939599999999, 507.4272999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0228",
+      "top": 275.09270000000026,
+      "left": 332.4939599999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACM Computing Surveys (CSUR) 24",
+      "dir": "ltr",
+      "width": 140.78748000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 361.27523999999994, 507.4272999999998],
+      "fontName": "g_d3_f36",
+      "id": "0010-0229",
+      "top": 275.09270000000026,
+      "left": 361.27523999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", 4 (1992).",
+      "dir": "ltr",
+      "width": 39.61692000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 502.06271999999996, 507.4272999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0230",
+      "top": 275.09270000000026,
+      "left": 502.06271999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 541.7175599999999, 507.4272999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0231",
+      "top": 275.09270000000026,
+      "left": 541.7175599999999,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "15.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09383999999994, 493.5106599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0232",
+      "top": 289.0093400000002,
+      "left": 318.09383999999994,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97227999999996, 493.5106599999998],
+      "fontName": "g_d3_f35",
+      "id": "0010-0233",
+      "top": 289.0093400000002,
+      "left": 329.97227999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Lieberman, H. ",
+      "dir": "ltr",
+      "width": 57.52464,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 493.5106599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0234",
+      "top": 289.0093400000002,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Your Wish is My Command",
+      "dir": "ltr",
+      "width": 104.42219999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 389.97119999999995, 493.5106599999998],
+      "fontName": "g_d3_f36",
+      "id": "0010-0235",
+      "top": 289.0093400000002,
+      "left": 389.97119999999995,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ". Morgan ",
+      "dir": "ltr",
+      "width": 37.24692,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 494.3934, 493.5106599999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0236",
+      "top": 289.0093400000002,
+      "left": 494.3934,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Kaufmann, San Francisco, 2001.",
+      "dir": "ltr",
+      "width": 124.50084000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49395999999996, 482.5896999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0237",
+      "top": 299.93030000000016,
+      "left": 332.49395999999996,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 457.05168, 482.5896999999998],
+      "fontName": "g_d3_f34",
+      "id": "0010-0238",
+      "top": 299.93030000000016,
+      "left": 457.05168,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "16.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09384, 468.67305999999985],
+      "fontName": "g_d3_f34",
+      "id": "0010-0239",
+      "top": 313.84694000000013,
+      "left": 318.09384,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97228, 468.67305999999985],
+      "fontName": "g_d3_f35",
+      "id": "0010-0240",
+      "top": 313.84694000000013,
+      "left": 329.97228,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Little, G., Chilton, L., Goldman, M., and Miller, R.C. ",
+      "dir": "ltr",
+      "width": 205.51691999999997,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 468.67305999999985],
+      "fontName": "g_d3_f34",
+      "id": "0010-0241",
+      "top": 313.84694000000013,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "TurKit: Human Computation Algorithms on Mechanical ",
+      "dir": "ltr",
+      "width": 217.29107999999994,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 457.75209999999987],
+      "fontName": "g_d3_f34",
+      "id": "0010-0242",
+      "top": 324.7679000000001,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Turk. ",
+      "dir": "ltr",
+      "width": 23.24496,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 446.77425999999986],
+      "fontName": "g_d3_f34",
+      "id": "0010-0243",
+      "top": 335.7457400000001,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "UIST '10",
+      "dir": "ltr",
+      "width": 33.94788,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 355.77684, 446.77425999999986],
+      "fontName": "g_d3_f36",
+      "id": "0010-0244",
+      "top": 335.7457400000001,
+      "left": 355.77684,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2010).",
+      "dir": "ltr",
+      "width": 78.81672,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 389.72472, 446.77425999999986],
+      "fontName": "g_d3_f34",
+      "id": "0010-0245",
+      "top": 335.7457400000001,
+      "left": 389.72472,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 468.63624, 446.77425999999986],
+      "fontName": "g_d3_f34",
+      "id": "0010-0246",
+      "top": 335.7457400000001,
+      "left": 468.63624,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "17.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09384, 432.8576199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0247",
+      "top": 349.6623800000001,
+      "left": 318.09384,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97228, 432.8576199999999],
+      "fontName": "g_d3_f35",
+      "id": "0010-0248",
+      "top": 349.6623800000001,
+      "left": 329.97228,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Little, G., Lau, T.A., Cypher, A., Lin, J., et al. Koala: Ca",
+      "dir": "ltr",
+      "width": 215.41403999999986,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 432.8576199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0249",
+      "top": 349.6623800000001,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "p-",
+      "dir": "ltr",
+      "width": 7.89684,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 547.9554, 432.8576199999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0250",
+      "top": 349.6623800000001,
+      "left": 547.9554,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ture, Share, Automate, Personalize Business Processes on ",
+      "dir": "ltr",
+      "width": 221.49072000000015,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 421.9366599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0251",
+      "top": 360.5833400000001,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "the Web. ",
+      "dir": "ltr",
+      "width": 36.65915999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396, 411.0156999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0252",
+      "top": 371.50430000000006,
+      "left": 332.49396,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '07",
+      "dir": "ltr",
+      "width": 30.13692,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 369.21000000000004, 411.0156999999999],
+      "fontName": "g_d3_f36",
+      "id": "0010-0253",
+      "top": 371.50430000000006,
+      "left": 369.21000000000004,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", (2007).",
+      "dir": "ltr",
+      "width": 32.478480000000005,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 399.39432000000005, 411.0156999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0254",
+      "top": 371.50430000000006,
+      "left": 399.39432000000005,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 431.85384000000005, 411.0156999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0255",
+      "top": 371.50430000000006,
+      "left": 431.85384000000005,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "18.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09384000000006, 397.0990599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0256",
+      "top": 385.4209400000001,
+      "left": 318.09384000000006,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97228000000007, 397.0990599999999],
+      "fontName": "g_d3_f35",
+      "id": "0010-0257",
+      "top": 385.4209400000001,
+      "left": 329.97228000000007,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Marcu, D. ",
+      "dir": "ltr",
+      "width": 41.14319999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939600000001, 397.0990599999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0258",
+      "top": 385.4209400000001,
+      "left": 332.4939600000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "The Theory and Practice of Discourse Parsing ",
+      "dir": "ltr",
+      "width": 180.12000000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 373.63716000000005, 397.0990599999999],
+      "fontName": "g_d3_f36",
+      "id": "0010-0259",
+      "top": 385.4209400000001,
+      "left": 373.63716000000005,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "and Summarization",
+      "dir": "ltr",
+      "width": 74.12412,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939600000001, 386.1780999999999],
+      "fontName": "g_d3_f36",
+      "id": "0010-0260",
+      "top": 396.34190000000007,
+      "left": 332.4939600000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ". MIT Press, 2000.",
+      "dir": "ltr",
+      "width": 70.74924000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 406.6180800000002, 386.1780999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0261",
+      "top": 396.34190000000007,
+      "left": 406.6180800000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 477.3957600000001, 386.1780999999999],
+      "fontName": "g_d3_f34",
+      "id": "0010-0262",
+      "top": 396.34190000000007,
+      "left": 477.3957600000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "19.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 372.26145999999994],
+      "fontName": "g_d3_f34",
+      "id": "0010-0263",
+      "top": 410.25854000000004,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 372.26145999999994],
+      "fontName": "g_d3_f35",
+      "id": "0010-0264",
+      "top": 410.25854000000004,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Mason, W. and Watts, D. Financial Incentives and the ",
+      "dir": "ltr",
+      "width": 208.06704,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 372.26145999999994],
+      "fontName": "g_d3_f34",
+      "id": "0010-0265",
+      "top": 410.25854000000004,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "“Performance of Crowds”. ",
+      "dir": "ltr",
+      "width": 103.87236000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 361.34049999999996],
+      "fontName": "g_d3_f34",
+      "id": "0010-0266",
+      "top": 421.1795,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACM SIGKDD Workshop on ",
+      "dir": "ltr",
+      "width": 112.40436000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 436.36631999999986, 361.34049999999996],
+      "fontName": "g_d3_f36",
+      "id": "0010-0267",
+      "top": 421.1795,
+      "left": 436.36631999999986,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Human Computation",
+      "dir": "ltr",
+      "width": 79.89744000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 350.41954],
+      "fontName": "g_d3_f36",
+      "id": "0010-0268",
+      "top": 432.10046,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2009).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 412.3914000000002, 350.41954],
+      "fontName": "g_d3_f34",
+      "id": "0010-0269",
+      "top": 432.10046,
+      "left": 412.3914000000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 491.31240000000014, 350.41954],
+      "fontName": "g_d3_f34",
+      "id": "0010-0270",
+      "top": 432.10046,
+      "left": 491.31240000000014,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "20.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 336.50289999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0271",
+      "top": 446.0171,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 336.50289999999995],
+      "fontName": "g_d3_f35",
+      "id": "0010-0272",
+      "top": 446.0171,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Miller, R. and Myers, B. Interactive simultaneous editing ",
+      "dir": "ltr",
+      "width": 219.92651999999993,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 336.50289999999995],
+      "fontName": "g_d3_f34",
+      "id": "0010-0273",
+      "top": 446.0171,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "of multiple text regions. ",
+      "dir": "ltr",
+      "width": 93.67187999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 325.58194],
+      "fontName": "g_d3_f34",
+      "id": "0010-0274",
+      "top": 456.93806,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "USENIX '01",
+      "dir": "ltr",
+      "width": 46.68900000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 426.1563600000001, 325.58194],
+      "fontName": "g_d3_f36",
+      "id": "0010-0275",
+      "top": 456.93806,
+      "left": 426.1563600000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", (2001).",
+      "dir": "ltr",
+      "width": 32.4216,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 472.8453600000002, 325.58194],
+      "fontName": "g_d3_f34",
+      "id": "0010-0276",
+      "top": 456.93806,
+      "left": 472.8453600000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 505.2385200000001, 325.58194],
+      "fontName": "g_d3_f34",
+      "id": "0010-0277",
+      "top": 456.93806,
+      "left": 505.2385200000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "21.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 311.6653],
+      "fontName": "g_d3_f34",
+      "id": "0010-0278",
+      "top": 470.8547,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 311.6653],
+      "fontName": "g_d3_f35",
+      "id": "0010-0279",
+      "top": 470.8547,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Quinn, A.J. and Bederson, B.B. A Taxonomy of Distr",
+      "dir": "ltr",
+      "width": 204.63528000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 311.6653],
+      "fontName": "g_d3_f34",
+      "id": "0010-0280",
+      "top": 470.8547,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "i-",
+      "dir": "ltr",
+      "width": 5.801760000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 537.2145600000001, 311.6653],
+      "fontName": "g_d3_f34",
+      "id": "0010-0281",
+      "top": 470.8547,
+      "left": 537.2145600000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "buted Human Computation.  ",
+      "dir": "ltr",
+      "width": 110.50836000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 300.74434],
+      "fontName": "g_d3_f34",
+      "id": "0010-0282",
+      "top": 481.77565999999996,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "22.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 286.82770000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0283",
+      "top": 495.69229999999993,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 286.82770000000005],
+      "fontName": "g_d3_f35",
+      "id": "0010-0284",
+      "top": 495.69229999999993,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Ross, J., Irani, L., Silberman, M.S., Zaldivar, A., et al. ",
+      "dir": "ltr",
+      "width": 208.4272799999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 286.82770000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0285",
+      "top": 495.69229999999993,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Who Are the Crowdworkers? Shifting Demographics in ",
+      "dir": "ltr",
+      "width": 214.96847999999991,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 275.84986000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0286",
+      "top": 506.67013999999995,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Amazon Mechanical Turk. ",
+      "dir": "ltr",
+      "width": 104.48855999999998,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 264.92890000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0287",
+      "top": 517.5910999999999,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "alt.chi '10",
+      "dir": "ltr",
+      "width": 37.90104,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 436.9825200000001, 264.92890000000006],
+      "fontName": "g_d3_f36",
+      "id": "0010-0288",
+      "top": 517.5910999999999,
+      "left": 436.9825200000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press.",
+      "dir": "ltr",
+      "width": 51.0498,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 474.88356000000016, 264.92890000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0289",
+      "top": 517.5910999999999,
+      "left": 474.88356000000016,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 526.0566000000001, 264.92890000000006],
+      "fontName": "g_d3_f34",
+      "id": "0010-0290",
+      "top": 517.5910999999999,
+      "left": 526.0566000000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "23.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 251.01226000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0291",
+      "top": 531.50774,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 251.01226000000005],
+      "fontName": "g_d3_f35",
+      "id": "0010-0292",
+      "top": 531.50774,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Sala, M., Partridge, K., Jacobson, L., and Begole, J. An ",
+      "dir": "ltr",
+      "width": 212.90183999999996,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 251.01226000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0293",
+      "top": 531.50774,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Exploration into Activity",
+      "dir": "ltr",
+      "width": 95.4162,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 240.09130000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0294",
+      "top": 542.4286999999999,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "-Informed Physic",
+      "dir": "ltr",
+      "width": 66.16092000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 428.01444000000015, 240.09130000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0295",
+      "top": 542.4286999999999,
+      "left": 428.01444000000015,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "al Advertising ",
+      "dir": "ltr",
+      "width": 56.434439999999995,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 494.1943200000001, 240.09130000000005],
+      "fontName": "g_d3_f34",
+      "id": "0010-0296",
+      "top": 542.4286999999999,
+      "left": 494.1943200000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Using PEST. ",
+      "dir": "ltr",
+      "width": 52.00728,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 229.17034000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0297",
+      "top": 553.34966,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Pervasive '07",
+      "dir": "ltr",
+      "width": 51.26784000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 384.5012400000001, 229.17034000000004],
+      "fontName": "g_d3_f36",
+      "id": "0010-0298",
+      "top": 553.34966,
+      "left": 384.5012400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", Springer Berlin Heidelberg ",
+      "dir": "ltr",
+      "width": 110.47044000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 435.8164800000001, 229.17034000000004],
+      "fontName": "g_d3_f34",
+      "id": "0010-0299",
+      "top": 553.34966,
+      "left": 435.8164800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "(2007).",
+      "dir": "ltr",
+      "width": 27.6816,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 218.24938000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0300",
+      "top": 564.27062,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 360.2134800000001, 218.24938000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0301",
+      "top": 564.27062,
+      "left": 360.2134800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "24.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000001, 204.33274000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0302",
+      "top": 578.1872599999999,
+      "left": 318.0938400000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000001, 204.33274000000003],
+      "fontName": "g_d3_f35",
+      "id": "0010-0303",
+      "top": 578.1872599999999,
+      "left": 329.9722800000001,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Simon, I., Morris, D., and Basu, S. MySong: automatic ",
+      "dir": "ltr",
+      "width": 211.84955999999997,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 204.33274000000003],
+      "fontName": "g_d3_f34",
+      "id": "0010-0304",
+      "top": 578.1872599999999,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "accompaniment generation for vocal melodies. ",
+      "dir": "ltr",
+      "width": 180.41388000000006,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 193.41178000000002],
+      "fontName": "g_d3_f34",
+      "id": "0010-0305",
+      "top": 589.10822,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Proc. CHI ",
+      "dir": "ltr",
+      "width": 41.930040000000005,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 512.9078400000002, 193.41178000000002],
+      "fontName": "g_d3_f36",
+      "id": "0010-0306",
+      "top": 589.10822,
+      "left": 512.9078400000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "'08",
+      "dir": "ltr",
+      "width": 11.575080000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000013, 182.49082],
+      "fontName": "g_d3_f36",
+      "id": "0010-0307",
+      "top": 600.02918,
+      "left": 332.49396000000013,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2008).",
+      "dir": "ltr",
+      "width": 78.84516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 344.06904000000014, 182.49082],
+      "fontName": "g_d3_f34",
+      "id": "0010-0308",
+      "top": 600.02918,
+      "left": 344.06904000000014,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 422.91420000000016, 182.49082],
+      "fontName": "g_d3_f34",
+      "id": "0010-0309",
+      "top": 600.02918,
+      "left": 422.91420000000016,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "25.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.09384000000017, 168.57418],
+      "fontName": "g_d3_f34",
+      "id": "0010-0310",
+      "top": 613.94582,
+      "left": 318.09384000000017,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000002, 168.57418],
+      "fontName": "g_d3_f35",
+      "id": "0010-0311",
+      "top": 613.94582,
+      "left": 329.9722800000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Snow, R., O'Connor, B., Jurafsky, D., and Ng, A",
+      "dir": "ltr",
+      "width": 185.30556000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939600000002, 168.57418],
+      "fontName": "g_d3_f34",
+      "id": "0010-0312",
+      "top": 613.94582,
+      "left": 332.4939600000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ".Y. Cheap ",
+      "dir": "ltr",
+      "width": 40.60283999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 517.8374400000002, 168.57418],
+      "fontName": "g_d3_f34",
+      "id": "0010-0313",
+      "top": 613.94582,
+      "left": 517.8374400000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "and fast",
+      "dir": "ltr",
+      "width": 29.738760000000006,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000024, 157.65322],
+      "fontName": "g_d3_f34",
+      "id": "0010-0314",
+      "top": 624.8667800000001,
+      "left": 332.49396000000024,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "—but is it good?: evaluating non-",
+      "dir": "ltr",
+      "width": 127.92312000000003,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 362.25168000000025, 157.65322],
+      "fontName": "g_d3_f34",
+      "id": "0010-0315",
+      "top": 624.8667800000001,
+      "left": 362.25168000000025,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "expert annota-",
+      "dir": "ltr",
+      "width": 54.55740000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 490.23168000000027, 157.65322],
+      "fontName": "g_d3_f34",
+      "id": "0010-0316",
+      "top": 624.8667800000001,
+      "left": 490.23168000000027,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "tions for natural language tasks. ",
+      "dir": "ltr",
+      "width": 123.42012000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000024, 146.73226],
+      "fontName": "g_d3_f34",
+      "id": "0010-0317",
+      "top": 635.78774,
+      "left": 332.49396000000024,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "ACL '08",
+      "dir": "ltr",
+      "width": 31.284,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 455.91408000000035, 146.73226],
+      "fontName": "g_d3_f36",
+      "id": "0010-0318",
+      "top": 635.78774,
+      "left": 455.91408000000035,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", (2008).",
+      "dir": "ltr",
+      "width": 32.421600000000005,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 487.29288000000025, 146.73226],
+      "fontName": "g_d3_f34",
+      "id": "0010-0319",
+      "top": 635.78774,
+      "left": 487.29288000000025,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 519.6955200000002, 146.73226],
+      "fontName": "g_d3_f34",
+      "id": "0010-0320",
+      "top": 635.78774,
+      "left": 519.6955200000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "26.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000002, 132.81562],
+      "fontName": "g_d3_f34",
+      "id": "0010-0321",
+      "top": 649.70438,
+      "left": 318.0938400000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.97228000000024, 132.81562],
+      "fontName": "g_d3_f35",
+      "id": "0010-0322",
+      "top": 649.70438,
+      "left": 329.97228000000024,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "Sorokin, A. and Forsyth, D. Utility data annotation with ",
+      "dir": "ltr",
+      "width": 214.93055999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000024, 132.81562],
+      "fontName": "g_d3_f34",
+      "id": "0010-0323",
+      "top": 649.70438,
+      "left": 332.49396000000024,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "Amazon Mechanical Turk. ",
+      "dir": "ltr",
+      "width": 104.48855999999998,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.49396000000024, 121.89466],
+      "fontName": "g_d3_f34",
+      "id": "0010-0324",
+      "top": 660.62534,
+      "left": 332.49396000000024,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CVPR '08",
+      "dir": "ltr",
+      "width": 37.74936,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 436.9825200000002, 121.89466],
+      "fontName": "g_d3_f36",
+      "id": "0010-0325",
+      "top": 660.62534,
+      "left": 436.9825200000002,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", (2008).",
+      "dir": "ltr",
+      "width": 32.4216,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 474.6939600000003, 121.89466],
+      "fontName": "g_d3_f34",
+      "id": "0010-0326",
+      "top": 660.62534,
+      "left": 474.6939600000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.37,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 507.0966000000003, 121.89466],
+      "fontName": "g_d3_f34",
+      "id": "0010-0327",
+      "top": 660.62534,
+      "left": 507.0966000000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "27.",
+      "dir": "ltr",
+      "width": 11.850000000000001,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 318.0938400000003, 107.97802],
+      "fontName": "g_d3_f34",
+      "id": "0010-0328",
+      "top": 674.54198,
+      "left": 318.0938400000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.6354400000000004,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 329.9722800000003, 107.97802],
+      "fontName": "g_d3_f35",
+      "id": "0010-0329",
+      "top": 674.54198,
+      "left": 329.9722800000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "sans-serif",
+        "ascent": 0.9052734375,
+        "descent": -0.2119140625
+      }
+    },
+    {
+      "str": "von Ahn, L. and Dabbish, L. Labeling image",
+      "dir": "ltr",
+      "width": 170.55468,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939600000003, 107.97802],
+      "fontName": "g_d3_f34",
+      "id": "0010-0330",
+      "top": 674.54198,
+      "left": 332.4939600000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "s with a co",
+      "dir": "ltr",
+      "width": 40.88723999999999,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 503.13396000000034, 107.97802],
+      "fontName": "g_d3_f34",
+      "id": "0010-0331",
+      "top": 674.54198,
+      "left": 503.13396000000034,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "m-",
+      "dir": "ltr",
+      "width": 10.30476,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 544.1160000000003, 107.97802],
+      "fontName": "g_d3_f34",
+      "id": "0010-0332",
+      "top": 674.54198,
+      "left": 544.1160000000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "puter game. ",
+      "dir": "ltr",
+      "width": 47.200919999999996,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 332.4939600000003, 97.00018],
+      "fontName": "g_d3_f34",
+      "id": "0010-0333",
+      "top": 685.51982,
+      "left": 332.4939600000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": "CHI '04",
+      "dir": "ltr",
+      "width": 30.26016,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 379.6948800000003, 97.00018],
+      "fontName": "g_d3_f36",
+      "id": "0010-0334",
+      "top": 685.51982,
+      "left": 379.6948800000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": ", ACM Press (2004).  ",
+      "dir": "ltr",
+      "width": 83.58516000000002,
+      "height": 89.8704,
+      "transform": [9.48, 0, 0, 9.48, 410.0119200000003, 97.00018],
+      "fontName": "g_d3_f34",
+      "id": "0010-0335",
+      "top": 685.51982,
+      "left": 410.0119200000003,
+      "fontHeight": 9.48,
+      "fontWidth": 9.48,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    },
+    {
+      "str": " ",
+      "dir": "ltr",
+      "width": 2.505,
+      "height": 100.40039999999999,
+      "transform": [10.02, 0, 0, 10.02, 54, 80.34],
+      "fontName": "g_d3_f34",
+      "id": "0010-0336",
+      "top": 701.64,
+      "left": 54,
+      "fontHeight": 10.02,
+      "fontWidth": 10.02,
+      "scaleX": 1,
+      "fallbackFontName": "sans-serif",
+      "style": {
+        "fontFamily": "serif",
+        "ascent": 0.89111328125,
+        "descent": -0.21630859375
+      }
+    }
+  ],
+  "viewportFlat": {
+    "width": 612,
+    "height": 792,
+    "xMin": 0,
+    "yMin": 0,
+    "xMax": 612,
+    "yMax": 792
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "pageNumber": 6,
+    "participant_detail": [
+        {
+            "id": "0006-0009",
+            "substr_tohighlight": "must agree on a text region.",
+            "str": "must agree on a text region. Each agreed",
+            "startOffset": 0,
+            "endOffset": 28,
+            "note": "opening bracket (open-ended) on endOffset"
+        },
+        {
+            "id": "0006-0057",
+            "substr_tohighlight": "We require a minimum of six wor",
+            "str": "timeout at each stage. We require a minimum of six wor",
+            "startOffset": 23,
+            "endOffset": 54,
+            "note": "opening bracket (open-ended) on endOffset"
+        },
+        {
+            "id": "0006-0060",
+            "substr_tohighlight": " in Find, three workers in Fix, and three workers in Ver",
+            "str": " in Find, three workers in Fix, and three workers in Ver",
+            "startOffset": 0,
+            "endOffset": 56,
+            "note": "opening bracket (open-ended) on endOffset"
+        }
+    ]
+}

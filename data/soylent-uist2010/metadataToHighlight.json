@@ -1,0 +1,45 @@
+{
+    "note": "Below are a list of (key, value) for metadata.     Each key is the metadata type, the value is a list of     top-scored sentences for that metadata type.     These sentences were parsed and concatenated with an external tool (spacy). ",
+    "participant_detail": [
+        {
+            "text": "We require a minimum of six workers in Find, three workers in Fix, and three workers in Verify.",
+            "score": 0.867300271987915
+        },
+        {
+            "text": "The five tasks in the left column led to a variety of request strategies.",
+            "score": 0.8479893803596497
+        },
+        {
+            "text": "We then sent the description to Mechanical Turk and requested that five Turkers complete each request.",
+            "score": 0.7994505167007446
+        },
+        {
+            "text": "Workers were able to blend these cuts into the sentence easily.",
+            "score": 0.7880347371101379
+        },
+        {
+            "text": "Results Users were generally successful at communicating their intention (Table III).",
+            "score": 0.732488751411438
+        },
+        {
+            "text": "We asked them to write a task description for their prompt using The Human Macro.",
+            "score": 0.6785865426063538
+        },
+        {
+            "text": "Instead of training on previous users, we ask crowd workers to solve personalized tasks on demand each time.",
+            "score": 0.5528777241706848
+        },
+        {
+            "text": "At least 20% of the Turkers must agree on a text region.",
+            "score": 0.49783745408058167
+        },
+        {
+            "text": "Human Macro Evaluation We were interested in understanding whether end users could instruct Mechanical Turk workers to perform openended tasks.",
+            "score": 0.47474169731140137
+        },
+        {
+            "text": "Future work falls in three categories.",
+            "score": 0.3126634955406189
+        }
+    ]
+}

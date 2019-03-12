@@ -77,3 +77,19 @@ by Mauricio Allende (https://mallendeo.com/)
 .toggle-input {
   display: none;
 }
+
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
