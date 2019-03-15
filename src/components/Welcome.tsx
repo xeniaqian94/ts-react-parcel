@@ -71,28 +71,25 @@ export class Welcome extends React.Component<any, any> {
     console.log(process.env.NODE_ENV)
     return (
       // <div>
-      // <Grommet theme={theme}>
-
-      /* Something{' '}
-          <Box
-            direction="row"
-            border={{ color: 'brand', size: 'large' }}
-            pad="medium"
-          >
-            <Box pad="small" background="dark-3">
-              <Box pad="large" background="yellow">
-                Something
-              </Box>
-              <Box pad="large" background="green" />
+      <Grommet theme={theme}>
+        {/* <Box
+          direction="row"
+          border={{ color: 'brand', size: 'large' }}
+          pad="medium"
+        >
+          <Box pad="small" background="dark-3">
+            <Box pad="large" background="yellow">
+              Something
             </Box>
-            <Box pad="medium" background="light-3" />
-          </Box> */
-
-      /* <RichAccordion
-            note={this.state.note}
-            participantDetail={this.state.participantDetail}
-          /> */
-      /* </Grommet> */
+            <Box pad="large" background="green" />
+          </Box>
+          <Box pad="medium" background="light-3" />
+        </Box>{' '} */}
+        <RichAccordion
+          note={this.state.note}
+          participantDetail={this.state.participantDetail}
+        />
+      </Grommet>
 
       /* {this.state.participantDetail.map((item: Detail, index: any) => (
           // good practice: always have a key -> https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js
@@ -101,7 +98,7 @@ export class Welcome extends React.Component<any, any> {
           </h5>
         ))} */
       /* </div> */
-      <div className={styles.relative}>Something else</div>
+      // <div className={styles.relative}>Something else</div>
     )
     // return <h5>{this.state.participantDetail[1].text}</h5>;
   }

@@ -1,9 +1,13 @@
 import * as React from 'react'
 import fs = require('fs')
+
+// Disabling most file system reading exercise
+
 // import fs from 'fs'
-var text = fs.readFileSync('data/textToDisplay-page0010.json', 'utf8')
+// var text = fs.readFileSync('data/textToDisplay-page0010.json', 'utf8')
 // console.log(text)
-import jsonfile = require('jsonfile')
+// import jsonfile = require('jsonfile')
+
 import path = require('path')
 import { PageText } from './PageText'
 import { oc } from 'ts-optchain'
@@ -45,6 +49,7 @@ interface Page {
   page: any // pdfjs.PDFPageProxy;
   linesOfText: LineOfText[]
   // images: Image[];
+  metadataToHighlight: PageOfText
 }
 
 import styled from 'styled-components'
@@ -142,17 +147,13 @@ export class Viewer extends React.Component<
     // console.log(dataa)
     const fullDirPath = path.join(pdfRootDir, pdfDir)
     const pdfPath = path.join(fullDirPath, pdfDir + '.pdf')
-    // const seg = await jsonfile.readFile(
-    //   // require(path.join(fullDirPath, 'userSegments.json'))
-    //   path.join(fullDirPath, 'userSegments.json')
-    // )
-    const filePath = path.join(fullDirPath, 'userSegments.json')
-    console.log(filePath)
-    console.log(filePath === 'data/soylent-uist2010/userSegments.json')
-    // var seg = fs.readFileSync('data/soylent-uist2010/userSegments.json', 'utf8')
-    var seg = fs.readFileSync(filePath, 'utf8')
 
-    console.log(seg)
+    // var seg = fs.readFileSync('data/soylent-uist2010/userSegments.json', 'utf8')
+    const seg = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/userSegments.json', 'utf8')
+    )
+
+    console.log(seg.numberOfPages)
     const pageNumbersToLoadFixed = checkGetPageNumsToLoad(
       seg.numberOfPages,
       pageNumbersToLoad
@@ -162,53 +163,77 @@ export class Viewer extends React.Component<
       // pdfPages,
       linesOfText,
       textToDisplay,
+      metadataToHighlight,
       columnLefts,
-      userSegments,
+      // userSegments,
     ] = await Promise.all([
-      // loadPdfPages(pdfPath, pageNumbersToLoad),
-      //fs.readFile is not a function? https://github.com/parcel-bundler/parcel/issues/135
-      //https://stackoverflow.com/questions/43048113/use-fs-in-typescript/43048371
-      loadPageJson(fullDirPath, 'linesOfText', pageNumbersToLoad),
-      loadPageJson(fullDirPath, 'textToDisplay', pageNumbersToLoad),
-      jsonfile.readFile(path.join(fullDirPath, 'columnLefts.json')),
-      loadPageJson(fullDirPath, 'userSegments', pageNumbersToLoad),
+      // Xin refactored loadPageJson to have many magic numbers, to be changed soon!!
+      loadPageJson('data/soylent-uist2010/', 'linesOfText', pageNumbersToLoad),
+      loadPageJson(
+        'data/soylent-uist2010/',
+        'textToDisplay',
+        pageNumbersToLoad
+      ),
+      loadPageJson(
+        'data/soylent-uist2010/',
+        'metadataToHighlight',
+        pageNumbersToLoad
+      ),
+      JSON.parse(
+        fs.readFileSync('data/soylent-uist2010/columnLefts.json', 'utf8')
+      ),
+      // loadPageJson('data/soylent-uist2010/', 'userSegments', pageNumbersToLoad),
     ])
+    console.log(linesOfText)
+    // console.log('pageNumbersToLoadFixed[i]' + pageNumbersToLoadFixed[0])
 
     let pages = [] as Page[]
     for (let i in linesOfText) {
       pages.push({
         linesOfText: linesOfText[i],
-        // page: pdfPages[i],
-        page: null,
+        page: null, //relies on pdf.js
         pageNumber: pageNumbersToLoadFixed[i],
         text: textToDisplay[i],
-        viewport: null,
-        // viewport: pdfPages[i].getViewport(this.state.scale),
+        viewport: null, // relies on pdf.js
+        metadataToHighlight: metadataToHighlight[i],
       })
     }
-    if (this.state.scale !== 1) {
-      const scaledPages = this.scalePages(pages, 1, this.state.scale)
-      this.setState({ pages: scaledPages, columnLefts })
-    } else {
-      this.setState({ pages, columnLefts })
-    }
+
+    // if (this.state.scale !== 1) {
+    //   const scaledPages = this.scalePages(pages, 1, this.state.scale)
+    //   this.setState({ pages: scaledPages, columnLefts })
+    // } else {
+    //   this.setState({ pages, columnLefts })
+    // }
+
+    // TODO: scaledPage relies on viewPoint of pdf.js comment for now
+    this.setState({ pages, columnLefts })
   }
 
   renderPages = () => {
-    const { pages } = this.state
+    const { pages } = this.state //single or multiple pages
     const havePages = pages.length > 0
     if (!havePages) return null
     return pages.map((page, pageIx) => {
-      const { width, height } = page.viewport
+      // const { width, height } = { 612: any, 792: any } //page.viewport
+
+      const width = 1024
+      const height = 1500 // these are not screen size, but the PDF letter-size
+
+      // const width = 612
+      // const height = 792 // 2k screen size?
+
       return (
         <div
           key={page.pageNumber}
           style={{ width, height, position: 'relative' }}
         >
-          <PageText
+          <PageText // PageText is a set of text spans
             key={'text-' + page.pageNumber}
             scale={this.state.scale}
             pageOfText={page.text}
+            linesOfText={page.linesOfText}
+            metadataToHighlight={page.metadataToHighlight}
             // height={height}
           />
         </div>
@@ -221,7 +246,7 @@ export class Viewer extends React.Component<
     // todo: set height and width and then scrollto
     return (
       <div
-        ref={this.scrollRef}
+        ref={this.scrollRef} //this is where scroll functionality is enabled
         style={{
           maxWidth: width,
           maxHeight: height,

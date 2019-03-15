@@ -171,6 +171,7 @@
 197,soylent-uist2010.,0.0004706719482783228,197,A small number (3–5) of workers propose revisions.
 388,soylent-uist2010.,0.00046984959044493735,388,"Our work suggests that it may be possible to transition from an era where Wizard of Oz techniques were used only as prototyping tools to an era where a ""Wizard of Turk"" can be permanently wired into a system."
 214,soylent-uist2010.,0.00046480612945742905,214,One challenge that the Find-Fix-Verify pattern shares with other Mechanical Turk algorithms is that it can stall when workers are slow to accept the task.
+6,soylent-uist2010.,0.0004591444740071893,6,ACM Classification: H5.2 [Information interfaces and presentation]: User Interfaces. -
 79,soylent-uist2010.,0.00045227661030367017,79,Quinn and Bederson have authored a survey of human computation systems that expands on this brief review [21].
 34,soylent-uist2010.,0.0004508507845457643,34,"We expand these contri- 1 http://www.mturk.com butions with feasibility studies of the performance, cost, and time delay of our three main components and a discussion of the limitations of our approach with respect to privacy, delay, cost, and domain knowledge."
 173,soylent-uist2010.,0.00043644438846968114,173,"For example, when asked to reword a phrase, one Eager Beaver provided a litany of options: The theme of loneliness features throughout many scenes in Of Mice and Men and is often the principal, significant, primary, preeminent, prevailing, foremost, essential, crucial, vital, critical theme of sections during this story."
@@ -249,7 +250,6 @@
 306,soylent-uist2010.,0.00016070112178567797,306,We then ran Input Passes Word's Checker 4 ESL Notes Wikipedia UIST Draft Content 1 paragraph 4 sentences 49 words 1 paragraph 8 sentences 166 words 2 paragraphs 8 sentences 107 words 1 paragraph 5 sentences 63 words 1 paragraph 6 sentences 135 words Errors all/caught/fixed 9 / 9 / 8 12 / 5 / 4 14 / 8 / 8 Turkers $4.76 77 workers $2.26 38 workers $4.72 79 workers 47 min 42–53 min 8 / 7 / 6 $2.18 36 workers 54 min Example Output Time 48 min Marketing areis bad for brands big and small.
 371,soylent-uist2010.,0.00015824618458282202,371,I was amazed by how big everything was [...] http://commons.wikimedia.org /wiki/File:03_yosemite_half_dome.jpg Take a look at your computer.
 95,soylent-uist2010.,0.00015717405767645687,95,This is painful work and a questionable use of the authors' time.
-6,soylent-uist2010.,0.00014782263315282762,6,ACM Classification: H5.2 [Information interfaces and presentation]: User Interfaces.
 406,soylent-uist2010.,0.00014262969489209354,406,"However, crowdsourced interfaces will need to consider legal questions carefully."
 98,soylent-uist2010.,0.00013614432828035206,98,"Additionally, they cannot use language generation techniques to make sure the resulting text flows."
 204,soylent-uist2010.,0.0001303702883888036,204,"Why not let Turkers find an error and fix it, for increased efficiency and economy?"

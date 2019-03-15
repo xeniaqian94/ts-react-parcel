@@ -1,0 +1,13 @@
+{
+    "pageNumber": 10,
+    "participant_detail": [
+        {
+            "id": "0010-0063",
+            "substr_tohighlight": "Future work falls in three categories.",
+            "str": "Future work falls in three categories.",
+            "startOffset": 0,
+            "endOffset": 38,
+            "note": "opening bracket (open-ended) on endOffset"
+        }
+    ]
+}

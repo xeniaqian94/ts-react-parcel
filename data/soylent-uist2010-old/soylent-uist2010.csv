@@ -5,7 +5,7 @@
 3,soylent-uist2010.pdf_3,"We thus present Soylent, a word processing interface that enables writers to call on Mechanical Turk workers to shorten, proofread, and otherwise edit parts of their documents on demand.",
 4,soylent-uist2010.pdf_4,"To improve worker quality, we introduce the Find-Fix-Verify crowd programming pattern, which splits tasks into a series of generation and review stages.",
 5,soylent-uist2010.pdf_5,"Evaluation studies demonstrate the feasibility of crowdsourced editing and investigate questions of reliability, cost, wait time, and work time for edits.",
-6,soylent-uist2010.pdf_6,ACM Classification: H5.2 [Information interfaces and presentation]: User Interfaces. ,
+6,soylent-uist2010.pdf_6,ACM Classification: H5.2 [Information interfaces and presentation]: User Interfaces. -,
 7,soylent-uist2010.pdf_7,Graphical user interfaces.,
 8,soylent-uist2010.pdf_8,"General terms: Design, Human Factors Keywords: Outsourcing, Mechanical Turk, Crowdsourcing INTRODUCTION Word processing is a complex task that touches on many goals of human-computer interaction.",
 9,soylent-uist2010.pdf_9,It supports a deep cognitive activity – writing – and requires complicated manipulations.,

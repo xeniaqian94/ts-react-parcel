@@ -1,29 +1,200 @@
 {
     "pageNumber": 6,
-    "participant_detail": [
+    "text": [
         {
-            "id": "0006-0009",
-            "substr_tohighlight": "must agree on a text region.",
             "str": "must agree on a text region. Each agreed",
-            "startOffset": 0,
-            "endOffset": 28,
-            "note": "opening bracket (open-ended) on endOffset"
+            "dir": "ltr",
+            "width": 163.55645999999993,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.979960000000005,
+                424.49664000000007
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0009",
+            "top": 357.48335999999995,
+            "left": 53.979960000000005,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            },
+            "corresponding_sentence_normalized": "at least 20% of the turkers must agree on a text region.",
+            "substr_text_normalized": "must agree on a text region."
         },
         {
-            "id": "0006-0057",
-            "substr_tohighlight": "We require a minimum of six wor",
             "str": "timeout at each stage. We require a minimum of six wor",
-            "startOffset": 23,
-            "endOffset": 54,
-            "note": "opening bracket (open-ended) on endOffset"
+            "dir": "ltr",
+            "width": 231.53213999999994,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.909820000000025,
+                225.00845999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0057",
+            "top": 556.97154,
+            "left": 53.909820000000025,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            },
+            "corresponding_sentence_normalized": "we require a minimum of six workers in find, three workers in fix, and three workers in verify.",
+            "substr_text_normalized": "we require a minimum of six wor"
         },
         {
-            "id": "0006-0060",
-            "substr_tohighlight": " in Find, three workers in Fix, and three workers in Ver",
             "str": " in Find, three workers in Fix, and three workers in Ver",
-            "startOffset": 0,
-            "endOffset": 56,
-            "note": "opening bracket (open-ended) on endOffset"
+            "dir": "ltr",
+            "width": 222.05322,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                65.61318000000003,
+                213.48545999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0060",
+            "top": 568.49454,
+            "left": 65.61318000000003,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            },
+            "corresponding_sentence_normalized": "we require a minimum of six workers in find, three workers in fix, and three workers in verify.",
+            "substr_text_normalized": " in find, three workers in fix, and three workers in ver"
+        },
+        {
+            "str": "k-",
+            "dir": "ltr",
+            "width": 8.40678,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                285.51210000000003,
+                225.00845999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0058",
+            "top": 556.97154,
+            "left": 285.51210000000003,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
+        },
+        {
+            "str": "ers",
+            "dir": "ltr",
+            "width": 11.683319999999998,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.909820000000025,
+                213.48545999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0059",
+            "top": 568.49454,
+            "left": 53.909820000000025,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
+        },
+        {
+            "str": "i-",
+            "dir": "ltr",
+            "width": 6.072120000000001,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                287.72652000000005,
+                213.48545999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0061",
+            "top": 568.49454,
+            "left": 287.72652000000005,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
+        },
+        {
+            "str": "fy. ",
+            "dir": "ltr",
+            "width": 13.356660000000002,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.90982000000005,
+                201.96245999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0006-0062",
+            "top": 580.01754,
+            "left": 53.90982000000005,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
         }
     ]
 }

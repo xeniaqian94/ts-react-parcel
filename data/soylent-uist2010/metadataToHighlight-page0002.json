@@ -1,13 +1,115 @@
 {
     "pageNumber": 2,
-    "participant_detail": [
+    "text": [
         {
-            "id": "0002-0082",
-            "substr_tohighlight": "previous users, we ask crowd workers to",
             "str": "previous users, we ask crowd workers to ",
-            "startOffset": 0,
-            "endOffset": 39,
-            "note": "opening bracket (open-ended) on endOffset"
+            "dir": "ltr",
+            "width": 165.71075999999996,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.91983999999991,
+                449.0957399999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0002-0082",
+            "top": 332.88426000000044,
+            "left": 53.91983999999991,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            },
+            "corresponding_sentence_normalized": "instead of training on previous users, we ask crowd workers to solve personalized tasks on demand each time.",
+            "substr_text_normalized": "previous users, we ask crowd workers to"
+        },
+        {
+            "str": ". Instead of training on ",
+            "dir": "ltr",
+            "width": 96.55272,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                200.3821799999999,
+                460.55861999999956
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0002-0081",
+            "top": 321.42138000000045,
+            "left": 200.3821799999999,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
+        },
+        {
+            "str": "solve ",
+            "dir": "ltr",
+            "width": 23.617139999999996,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                219.7007399999999,
+                449.0957399999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0002-0083",
+            "top": 332.88426000000044,
+            "left": 219.7007399999999,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
+        },
+        {
+            "str": "personalized ",
+            "dir": "ltr",
+            "width": 52.94568,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                243.39803999999992,
+                449.0957399999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0002-0084",
+            "top": 332.88426000000044,
+            "left": 243.39803999999992,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            }
         }
     ]
 }

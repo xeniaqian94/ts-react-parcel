@@ -18,16 +18,10 @@ console.log(word)
 
 render(
   // <Welcome note={word} participantDetail={participantDetails} />,
-  // <PageText
-  //   key={'text-' + 321}
-  //   scale={1.0}
-  //   pageOfText={Something}
-  //   // height={height}
-  // />,
 
   <Viewer
     pathInfo={{ pdfRootDir: 'data', pdfDir: 'soylent-uist2010' }}
-    pageNumbersToLoad={[1]}
+    pageNumbersToLoad={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
     viewBox={{
       left: 107.148 - 20,
       top: 490.84180000000083 - 20,
@@ -37,5 +31,6 @@ render(
     }}
     showLineBoxes={true}
   />,
+
   document.getElementById('example')
 )

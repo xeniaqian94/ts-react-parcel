@@ -1,0 +1,13 @@
+{
+    "pageNumber": 2,
+    "participant_detail": [
+        {
+            "id": "0002-0082",
+            "substr_tohighlight": "previous users, we ask crowd workers to",
+            "str": "previous users, we ask crowd workers to ",
+            "startOffset": 0,
+            "endOffset": 39,
+            "note": "opening bracket (open-ended) on endOffset"
+        }
+    ]
+}

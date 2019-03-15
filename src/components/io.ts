@@ -103,32 +103,351 @@ export const existsElseMake = async (
   }
 }
 
+// export const loadPageJson = async (
+//   dir: string,
+//   filePrefix: 'textToDisplay' | 'linesOfText' | 'userSegments',
+//   pageNumbersToLoad: number[] = []
+// ) => {
+//   // todo: make sure filePrefix + ".json" gets made when all pages are done
+//   // await existsElseMake(
+//   //   path.join(dir, filePrefix + '.json'),
+//   //   preprocessPdfs([dir])
+//   // )
+
+//   //fs.readFile is not a function? https://github.com/parcel-bundler/parcel/issues/135
+//   //https://stackoverflow.com/questions/43048113/use-fs-in-typescript/43048371
+//   const finalFile = await jsonfile.readFileSync(
+//     path.join(dir, filePrefix + '.json')
+//   )
+//   const numberOfPages = finalFile.numberOfPages
+//   const pageNumbers = checkGetPageNumsToLoad(numberOfPages, pageNumbersToLoad)
+
+//   let pages = []
+//   for (let pageNum of pageNumbers) {
+//     const pageId = zeroPad(pageNum, 4)
+//     const page = await jsonfile.readFile(
+//       `${dir}/${filePrefix}-page${pageId}.json`
+//     ) //todo PageToDisplay type
+//     pages.push(page)
+//   }
+//   return pages // sorted by page number
+// }
+
+export const zeroPad = (aNumber: number, nDigits: number) => {
+  const str = String(aNumber)
+  const nZeros = nDigits - str.length
+  if (nZeros <= 0) {
+    return str
+  } else {
+    return (
+      Array(nZeros)
+        .fill(0)
+        .join('') + str
+    )
+  }
+}
+
 export const loadPageJson = async (
   dir: string,
-  filePrefix: 'textToDisplay' | 'linesOfText' | 'userSegments',
+  filePrefix:
+    | 'textToDisplay'
+    | 'linesOfText'
+    | 'userSegments'
+    | 'metadataToHighlight',
   pageNumbersToLoad: number[] = []
 ) => {
-  // todo: make sure filePrefix + ".json" gets made when all pages are done
-  // await existsElseMake(
-  //   path.join(dir, filePrefix + '.json'),
-  //   preprocessPdfs([dir])
-  // )
-
-  //fs.readFile is not a function? https://github.com/parcel-bundler/parcel/issues/135
-  //https://stackoverflow.com/questions/43048113/use-fs-in-typescript/43048371
-  const finalFile = await jsonfile.readFileSync(
-    path.join(dir, filePrefix + '.json')
-  )
-  const numberOfPages = finalFile.numberOfPages
-  const pageNumbers = checkGetPageNumsToLoad(numberOfPages, pageNumbersToLoad)
-
   let pages = []
-  for (let pageNum of pageNumbers) {
-    const pageId = zeroPad(pageNum, 4)
-    const page = await jsonfile.readFile(
-      `${dir}/${filePrefix}-page${pageId}.json`
-    ) //todo PageToDisplay type
+  if (filePrefix === 'textToDisplay') {
+    let page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0001.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0002.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0003.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0004.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0005.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0006.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0007.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0008.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0009.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/textToDisplay-page0010.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+  } else if (filePrefix === 'linesOfText') {
+    let page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0001.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0002.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0003.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0004.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0005.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0006.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0007.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0008.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0009.json', 'utf8')
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync('data/soylent-uist2010/linesOfText-page0010.json', 'utf8')
+    )
+    pages.push(page)
+  } else if (filePrefix === 'userSegments') {
+    let page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0001.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0002.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0003.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0004.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0005.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0006.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0007.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0008.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0009.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/userSegments-page0010.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+  } else if (filePrefix === 'metadataToHighlight') {
+    let page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0001.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0002.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0003.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0004.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0005.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0006.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0007.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0008.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0009.json',
+        'utf8'
+      )
+    )
+    pages.push(page)
+
+    page = JSON.parse(
+      fs.readFileSync(
+        'data/soylent-uist2010/metadataToHighlight-page0010.json',
+        'utf8'
+      )
+    )
     pages.push(page)
   }
+
   return pages // sorted by page number
 }

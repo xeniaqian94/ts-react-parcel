@@ -1,13 +1,34 @@
 {
     "pageNumber": 10,
-    "participant_detail": [
+    "text": [
         {
-            "id": "0010-0063",
-            "substr_tohighlight": "Future work falls in three categories.",
             "str": "Future work falls in three categories.",
-            "startOffset": 0,
-            "endOffset": 38,
-            "note": "opening bracket (open-ended) on endOffset"
+            "dir": "ltr",
+            "width": 149.77895999999998,
+            "height": 100.40039999999999,
+            "transform": [
+                10.02,
+                0,
+                0,
+                10.02,
+                53.98728,
+                484.79321999999996
+            ],
+            "fontName": "g_d3_f34",
+            "id": "0010-0063",
+            "top": 297.18678000000006,
+            "left": 53.98728,
+            "fontHeight": 10.02,
+            "fontWidth": 10.02,
+            "scaleX": 1,
+            "fallbackFontName": "sans-serif",
+            "style": {
+                "fontFamily": "serif",
+                "ascent": 0.89111328125,
+                "descent": -0.21630859375
+            },
+            "corresponding_sentence_normalized": "future work falls in three categories.",
+            "substr_text_normalized": "future work falls in three categories."
         }
     ]
 }

@@ -1,0 +1,290 @@
+[
+  {
+    "dest": [{ "num": 314, "gen": 0 }, { "name": "XYZ" }, 182, 610, 0],
+    "url": null,
+    "title": "Abstract",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 314, "gen": 0 }, { "name": "XYZ" }, 426, 366, 0],
+    "url": null,
+    "title": "Introduction",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 317, "gen": 0 }, { "name": "XYZ" }, 457, 335, 0],
+    "url": null,
+    "title": "Related Work",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "count": 2,
+    "bold": false,
+    "italic": false,
+    "items": [
+      {
+        "dest": [{ "num": 317, "gen": 0 }, { "name": "XYZ" }, 494, 298, 0],
+        "url": null,
+        "title": "Crowdsourcing",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "bold": false,
+        "italic": false,
+        "items": []
+      },
+      {
+        "dest": [{ "num": 317, "gen": 0 }, { "name": "XYZ" }, 560, 232, 0],
+        "url": null,
+        "title": "Artificial Intelligence for Word Processing",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "bold": false,
+        "italic": false,
+        "items": []
+      }
+    ]
+  },
+  {
+    "dest": [{ "num": 335, "gen": 0 }, { "name": "XYZ" }, 498, 294, 0],
+    "url": null,
+    "title": "Soylent",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "count": 3,
+    "bold": false,
+    "italic": false,
+    "items": [
+      {
+        "dest": [{ "num": 335, "gen": 0 }, { "name": "XYZ" }, 547, 245, 0],
+        "url": null,
+        "title": "Shortn: Text Shortening",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "bold": false,
+        "italic": false,
+        "items": []
+      },
+      {
+        "dest": [{ "num": 335, "gen": 0 }, { "name": "XYZ" }, 540, 252, 0],
+        "url": null,
+        "title": "Crowdproof: Crowdsourced Proofreading",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "bold": false,
+        "italic": false,
+        "items": []
+      },
+      {
+        "dest": [{ "num": 324, "gen": 0 }, { "name": "XYZ" }, 278, 514, 0],
+        "url": null,
+        "title": "The Human Macro: Natural Language Crowd Scripting",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "bold": false,
+        "italic": false,
+        "items": []
+      }
+    ]
+  },
+  {
+    "dest": [{ "num": 324, "gen": 0 }, { "name": "XYZ" }, 240, 552, 0],
+    "url": null,
+    "title": "Techniques for Programming Crowds",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "count": 7,
+    "bold": false,
+    "italic": false,
+    "items": [
+      {
+        "dest": [{ "num": 324, "gen": 0 }, { "name": "XYZ" }, 346, 446, 0],
+        "url": null,
+        "title": "Challenges in Programming with Crowd Workers",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "count": 2,
+        "bold": false,
+        "italic": false,
+        "items": [
+          {
+            "dest": [{ "num": 324, "gen": 0 }, { "name": "XYZ" }, 487, 305, 0],
+            "url": null,
+            "title": "High Variance of Effort",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          },
+          {
+            "dest": [{ "num": 329, "gen": 0 }, { "name": "XYZ" }, 316, 476, 0],
+            "url": null,
+            "title": "Turkers Introduce Errors",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          }
+        ]
+      },
+      {
+        "dest": [{ "num": 329, "gen": 0 }, { "name": "XYZ" }, 421, 371, 0],
+        "url": null,
+        "title": "The Find-Fix-Verify Pattern",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "count": 3,
+        "bold": false,
+        "italic": false,
+        "items": [
+          {
+            "dest": [{ "num": 329, "gen": 0 }, { "name": "XYZ" }, 562, 230, 0],
+            "url": null,
+            "title": "Find-Fix-Verify",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          },
+          {
+            "dest": [{ "num": 329, "gen": 0 }, { "name": "XYZ" }, 269, 523, 0],
+            "url": null,
+            "title": "Pattern Discussion",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          },
+          {
+            "dest": [{ "num": 329, "gen": 0 }, { "name": "XYZ" }, 589, 203, 0],
+            "url": null,
+            "title": "Find-Fix-Verify in Soylent",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dest": [{ "num": 408, "gen": 0 }, { "name": "XYZ" }, 642, 150, 0],
+    "url": null,
+    "title": "Implementation",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 408, "gen": 0 }, { "name": "XYZ" }, 88, 704, 0],
+    "url": null,
+    "title": "Evaluation",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "count": 7,
+    "bold": false,
+    "italic": false,
+    "items": [
+      {
+        "dest": [{ "num": 408, "gen": 0 }, { "name": "XYZ" }, 137, 655, 0],
+        "url": null,
+        "title": "Shortn Evaluation",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "count": 1,
+        "bold": false,
+        "italic": false,
+        "items": [
+          {
+            "dest": [{ "num": 408, "gen": 0 }, { "name": "XYZ" }, 458, 334, 0],
+            "url": null,
+            "title": "Results",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          }
+        ]
+      },
+      {
+        "dest": [{ "num": 409, "gen": 0 }, { "name": "XYZ" }, 656, 136, 0],
+        "url": null,
+        "title": "Crowdproof Evaluation",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "count": 1,
+        "bold": false,
+        "italic": false,
+        "items": [
+          {
+            "dest": [{ "num": 246, "gen": 0 }, { "name": "XYZ" }, 334, 458, 0],
+            "url": null,
+            "title": "Results",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          }
+        ]
+      },
+      {
+        "dest": [{ "num": 246, "gen": 0 }, { "name": "XYZ" }, 334, 458, 0],
+        "url": null,
+        "title": "Human Macro Evaluation",
+        "color": { "0": 0, "1": 0, "2": 0 },
+        "count": 2,
+        "bold": false,
+        "italic": false,
+        "items": [
+          {
+            "dest": [{ "num": 246, "gen": 0 }, { "name": "XYZ" }, 394, 398, 0],
+            "url": null,
+            "title": "Method",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          },
+          {
+            "dest": [{ "num": 246, "gen": 0 }, { "name": "XYZ" }, 653, 139, 0],
+            "url": null,
+            "title": "Results",
+            "color": { "0": 0, "1": 0, "2": 0 },
+            "bold": false,
+            "italic": false,
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dest": [{ "num": 410, "gen": 0 }, { "name": "XYZ" }, 472, 320, 0],
+    "url": null,
+    "title": "Discussion",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 379, "gen": 0 }, { "name": "XYZ" }, 61, 731, 0],
+    "url": null,
+    "title": "Conclusion",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 379, "gen": 0 }, { "name": "XYZ" }, 417, 375, 0],
+    "url": null,
+    "title": "Acknowledgments",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  },
+  {
+    "dest": [{ "num": 379, "gen": 0 }, { "name": "XYZ" }, 466, 326, 0],
+    "url": null,
+    "title": "References",
+    "color": { "0": 0, "1": 0, "2": 0 },
+    "bold": false,
+    "italic": false,
+    "items": []
+  }
+]
