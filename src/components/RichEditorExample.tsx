@@ -73,10 +73,64 @@ export class RichEditorExample extends React.Component {
       RichUtils.toggleInlineStyle(this.state.editorState, inlineStyle)
     )
   }
+
+  _getTextSelection(contentState, selection, blockDelimiter) {
+    blockDelimiter = blockDelimiter || '\n'
+    var startKey = selection.getStartKey()
+    var endKey = selection.getEndKey()
+    var blocks = contentState.getBlockMap()
+
+    var lastWasEnd = false
+    var selectedBlock = blocks
+      .skipUntil(function(block) {
+        return block.getKey() === startKey
+      })
+      .takeUntil(function(block) {
+        var result = lastWasEnd
+
+        if (block.getKey() === endKey) {
+          lastWasEnd = true
+        }
+
+        return result
+      })
+
+    return selectedBlock
+      .map(function(block) {
+        var key = block.getKey()
+        var text = block.getText()
+
+        var start = 0
+        var end = text.length
+
+        if (key === startKey) {
+          start = selection.getStartOffset()
+        }
+        if (key === endKey) {
+          end = selection.getEndOffset()
+        }
+
+        text = text.slice(start, end)
+        return text
+      })
+      .join(blockDelimiter)
+  }
+
   _onBoldClick() {
     // TODO: console.log SELECTED piece of text
     // This will also make the "bold" key in the second line as selected
+
+    // Editor state includes the current selection state:
+    // https://draftjs.org/docs/api-reference-editor-state
     this.onChange(RichUtils.toggleInlineStyle(this.state.editorState, 'BOLD'))
+    console.log("{CURRENT SELECTION}"
+      this._getTextSelection(
+        this.state.editorState.getCurrentContent(),
+        this.state.editorState.getSelection(),
+        '\n'
+      )
+    )
+    // window.alert('this.state.editorState')
   }
 
   render() {
