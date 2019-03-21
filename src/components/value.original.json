@@ -1,0 +1,123 @@
+{
+  "document": {
+    "nodes": [
+      {
+        "object": "block",
+        "type": "paragraph",
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
+                "text": "The most important problems in science are increasingly interdisciplinary [x]
+
+                This means we have a growing interdisciplinary “burden of knowledge” [x] - intuitively, the “overhead” we have to pay to get into a position to do the science is getting bigger and bigger
+                
+                We’re coping with this (for now)...
+                With more specialized education [x]
+                Scientists are increasingly older when they win a Nobel prize and when they get their first PhD [x]
+                By doing more science in teams [x, x]
+                
+                But how long can this last? We’re starting to see some signs of strain
+                While research effort has skyrocketed, research productivity (ratio of impact/breakthroughs to effort) has stagnated or declined [x]
+                
+                Primary conjecture: the growing interdisciplinary burden of knowledge is straining the infrastructure we use to synthesize knowledge
+                
+                Infrastructure is invisible until it fails
+                
+                Primary “big question”: What infrastructures can we build to secure the long-term health of open, collaborative, interdisciplinary science?
+                "
+              },
+              // {
+              //   "text": "rich",
+              //   "marks": [
+              //     {
+              //       "type": "bold"
+              //     }
+              //   ]
+              // },
+              {
+                "text": " text, "
+              },
+              {
+                "text": "much",
+                "marks": [
+                  {
+                    "type": "italic"
+                  }
+                ]
+              },
+              {
+                "text": " better than a "
+              },
+              {
+                "text": "<textarea>",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ]
+              },
+              {
+                "text": "!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
+                "text": "Since it's rich text, you can do things like turn a selection of text "
+              },
+              {
+                "text": "bold",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ]
+              },
+              {
+                "text": ", or add a semantically rendered block quote in the middle of the page, like this:"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "block-quote",
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
+                "text": "A wise quote."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
+                "text": "Try it out for yourself!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
