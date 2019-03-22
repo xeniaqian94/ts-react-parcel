@@ -3,6 +3,8 @@ import { storiesOf } from '@storybook/react'
 import { RichEditorExample } from './RichEditorExample'
 import { SlateRichTextEditor } from './SlateRichTextEditor'
 import { SlateEditor } from './SlateEditor'
+import { SimpleCollapsible } from './SimpleCollapsible'
+import { Display } from './CardSlider'
 import { normalizeColor, deepMerge } from 'grommet/utils'
 import { Block } from 'slate'
 import { Grommet, Box, Button, Grid, Text, Carousel, CheckBox } from 'grommet'
@@ -21,6 +23,7 @@ const checkboxCheckStyle = css`
   background-color: #e03a3e;
   border-color: #e03a3e;
 `
+
 // https://teamcolorcodes.com/maryland-terrapins-color-codes/
 
 const customToggleTheme = {
@@ -67,6 +70,10 @@ const customToggleTheme = {
     gap: 'xsmall',
     size: '18px',
   },
+}
+
+var divStyle = {
+  backgroundImage: require('./logo.png'), // 'url(' + './logo.png' + ')',
 }
 
 const customCheckBoxTheme = {
@@ -123,40 +130,42 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     numOfX: 0,
     contextMapping: null,
     editorValue: null,
-    infoCards:null,
+    infoCards: null,
   }
   mapping = require('./mapping.json')
   // infoCards:any = null
 
-  graph=require('./state.json')
-  claim2Context=null
+  graph = require('./state.json')
+  claim2Context = null
 
-
-  fromClaimToContext(){ // Claim is the target, context is the source 
-    const links=this.graph["graph"]["links"]
-    let claimID2ContextID=Object()
-    let claim2ClaimID=Object()
-    let contextID2Context=Object()
-    const flattenedClaims=[].concat.apply([],Object.values(this.mapping))
+  fromClaimToContext() {
+    // Claim is the target, context is the source
+    const links = this.graph['graph']['links']
+    let claimID2ContextID = Object()
+    let claim2ClaimID = Object()
+    let contextID2Context = Object()
+    const flattenedClaims = [].concat.apply([], Object.values(this.mapping))
 
     for (const linkID in links) {
-      let link = links[linkID];
-      claimID2ContextID[link["target"]]=link["source"]
+      let link = links[linkID]
+      claimID2ContextID[link['target']] = link['source']
     }
 
-    const nodes=this.graph["graph"]["nodes"]
+    const nodes = this.graph['graph']['nodes']
 
-    for (const nodeID in nodes){
+    for (const nodeID in nodes) {
       let node = nodes[nodeID]
 
-      if (node["data"].hasOwnProperty("text")){
+      if (node['data'].hasOwnProperty('text')) {
         // console.log(node["data"]["text"])
-        if (flattenedClaims.includes(node["data"]["text"])){
-          claim2ClaimID[node["data"]["text"]]=node["id"]
+        if (flattenedClaims.includes(node['data']['text'])) {
+          claim2ClaimID[node['data']['text']] = node['id']
         }
-      }else if (node["style"]["type"]==="circle"&& node["style"]["fill"]==="blue"){
-        contextID2Context[node["id"]]=node
-
+      } else if (
+        node['style']['type'] === 'circle' &&
+        node['style']['fill'] === 'blue'
+      ) {
+        contextID2Context[node['id']] = node
       }
     }
     console.log(contextID2Context)
@@ -167,19 +176,17 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     // }
     console.log(claimID2ContextID)
 
-    let claim2Context=Object()
-    for (const claim in  claim2ClaimID){
-      const claimID=claim2ClaimID[claim]
-      const contextID=claimID2ContextID[claimID]
-      const context=contextID2Context[contextID]
-      claim2Context[claim]=context
+    let claim2Context = Object()
+    for (const claim in claim2ClaimID) {
+      const claimID = claim2ClaimID[claim]
+      const contextID = claimID2ContextID[claimID]
+      const context = contextID2Context[contextID]
+      claim2Context[claim] = context
     }
-    this.claim2Context=claim2Context
-
-
+    this.claim2Context = claim2Context
   }
-  
-  componentDidMount(){
+
+  componentDidMount() {
     this.fromClaimToContext()
 
     // console.log("componentDidMount")
@@ -206,7 +213,7 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     this.getContextMapping(value)
   }
 
-  getContextMapping(value:any) {
+  getContextMapping(value: any) {
     let currentContextMapping: Object[] = []
     // console.log(this.state.editorValue.document.nodes)
     // console.log('this.state.editorValue.document.nodes.size')
@@ -217,14 +224,21 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     for (var i = 0; i < value.document.nodes.size; i++) {
       const node: Block = value.document.nodes.get(i)
       const nodeText = node.text.replace(/\[x\]|\[x,*|,*x\]/g, '').trim()
-      if (null!=this.mapping[nodeText] && null!=this.claim2Context &&null!=this.claim2Context[this.mapping[nodeText]]){
+      if (
+        null != this.mapping[nodeText] &&
+        null != this.claim2Context &&
+        null != this.claim2Context[this.mapping[nodeText]]
+      ) {
         currentContextMapping.push({
-        userInput: nodeText,
-        similarClaim: this.mapping[nodeText],
-        contextStruct: this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()+" ", //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
-      })}
-     }
-    this.setState({contextMapping:currentContextMapping})
+          userInput: nodeText,
+          similarClaim: this.mapping[nodeText],
+          contextStruct: this.claim2Context[
+            this.mapping[nodeText]
+          ].data.pdfDir.toString(), //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
+        })
+      }
+    }
+    this.setState({ contextMapping: currentContextMapping })
 
     // let infoCards = []
     // for (var i = 0; i < currentContextMapping.length; i++) {
@@ -267,10 +281,17 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     //   someSolaris.push(<Solaris vcolor="brand" size="large" />) //{i.toString()}
     // }
 
-    let infoCards = []
-    const currentContextMapping=this.state.contextMapping===null?[]:this.state.contextMapping
-    for (const i = 0; i < currentContextMapping.length; i++) {
-      infoCards.push(<Box gap="medium" pad="medium" key="infocard-gap-"{i.toString()} />) //This is the gap
+    let infoCards = [] //Carousal may not be the best option Information card slider instead!! https://doreentseng.github.io/a-cards-slider-with-reactjs/
+    const currentContextMapping =
+      this.state.contextMapping === null ? [] : this.state.contextMapping
+
+    for (var i = 0; i < currentContextMapping.length; i++) {
+      const gapKey = 'infocard-gap-' + i.toString()
+      infoCards.push(<Box gap="medium" pad="medium" key={gapKey} />) //This is the gap
+      const buttonKey = 'infocard-' + i.toString()
+      // const Background =
+      // 'https://images.pexels.com/photos/34153/pexels-photo.jpg'
+      const Background = require('./logo.png')
       infoCards.push(
         <Box
           width="auto"
@@ -280,30 +301,44 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
           ]}
         >
           <Carousel>
-            <Button key="infocard-"{i.toString()} href="#" hoverIndicator>
+            <Button key={buttonKey} href="#" hoverIndicator>
               <Box
                 pad={{
                   horizontal: 'medium',
                   vertical: 'small',
                 }}
-                height="large"
+                height="medium"
                 background={{ color: '#E03A3E', opacity: 'weak' }}
                 round="medium"
               >
-                <Text weight="bold">Original text: </Text><Text>{currentContextMapping[i].userInput}</Text>
-                <Text weight="bold">Claim text: </Text><Text>{currentContextMapping[i].similarClaim}</Text>
-                <Text weight="bold">Context struct: </Text><Text>{currentContextMapping[i].contextStruct}</Text>
+                <Text weight="bold">Original text: </Text>
+                <Text>{currentContextMapping[i].userInput}</Text>
+                <Text weight="bold">Claim text: </Text>
+                <Text>{currentContextMapping[i].similarClaim}</Text>
+                <Text weight="bold">Context struct: </Text>
+                <Text>{currentContextMapping[i].contextStruct}</Text>
               </Box>
             </Button>
+            <div>
+              <img src={require('./logo.png')} className="img-responsive" />
+            </div>
+            {/* <Button> */}
+            <SimpleCollapsible open={true} />
+            {/* </Button> */}
+            <Box pad="xlarge" background="accent-1">
+              <Attraction size="xlarge" href="#" />
+            </Box>
           </Carousel>
         </Box>
       )
     }
     // this.setState({infoCards:infoCards})
-  
 
     return (
       <Grommet full theme={deepMerge(grommet, customToggleTheme)}>
+        <div>
+          <Display />
+        </div>
         <Grid
           fill
           rows={['auto', 'auto']}
@@ -342,7 +377,10 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
               }
               checked={this.state.sidebar}
               onChange={() => {
-                if (this.state.sidebar === false && this.state.editorValue!=null) {
+                if (
+                  this.state.sidebar === false &&
+                  this.state.editorValue != null
+                ) {
                   //to be changed to true
                   {
                     this.getContextMapping(this.state.editorValue)
