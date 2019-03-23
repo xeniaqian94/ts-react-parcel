@@ -43,6 +43,27 @@
           }
         ]
       },
+
+      {
+        "object": "block",
+        "type": "bulleted-list",
+        "nodes": [
+          {
+            "object": "block",
+            "type": "list-item",
+            "nodes": [
+              {
+                "object": "text",
+                "leaves": [
+                  {
+                    "text": "With more specialized education [x]"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "object": "block",
         "type": "bulleted-list",

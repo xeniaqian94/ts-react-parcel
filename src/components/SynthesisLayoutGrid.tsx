@@ -169,11 +169,6 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
       }
     }
     console.log(contextID2Context)
-
-    // const links=Object.keys(this.graph["graph"]["links"])
-    // for (var i=0;i<links.length;i++){
-    //   claimID2ContextID[this.graph["graph"]["links"][links[i]]['source']]=this.graph["graph"]["links"][links[i]]['target']
-    // }
     console.log(claimID2ContextID)
 
     let claim2Context = Object()
@@ -184,6 +179,8 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
       claim2Context[claim] = context
     }
     this.claim2Context = claim2Context
+    console.log('claim2Context')
+    console.log(claim2Context)
   }
 
   componentDidMount() {
@@ -215,12 +212,6 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
 
   getContextMapping(value: any) {
     let currentContextMapping: Object[] = []
-    // console.log(this.state.editorValue.document.nodes)
-    // console.log('this.state.editorValue.document.nodes.size')
-    // console.log(this.state.editorValue.document.nodes.size)
-
-    // for (var i = 0; i < this.state.editorValue.document.nodes.size; i++) {
-    //   const node: Block = this.state.editorValue.document.nodes.get(i)
     for (var i = 0; i < value.document.nodes.size; i++) {
       const node: Block = value.document.nodes.get(i)
       const nodeText = node.text.replace(/\[x\]|\[x,*|,*x\]/g, '').trim()
@@ -232,45 +223,11 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
         currentContextMapping.push({
           userInput: nodeText,
           similarClaim: this.mapping[nodeText],
-          contextStruct: this.claim2Context[
-            this.mapping[nodeText]
-          ].data.pdfDir.toString(), //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
+          contextStruct: this.claim2Context[this.mapping[nodeText]].data, //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
         })
       }
     }
     this.setState({ contextMapping: currentContextMapping })
-
-    // let infoCards = []
-    // for (var i = 0; i < currentContextMapping.length; i++) {
-    //   infoCards.push(<Box gap="medium" pad="medium" />) //This is the gap
-    //   infoCards.push(
-    //     <Box
-    //       width="auto"
-    //       animation={[
-    //         { type: 'fadeIn', duration: 1000 },
-    //         { type: 'slideLeft', size: 'xlarge', duration: 1000 },
-    //       ]}
-    //     >
-    //       <Carousel>
-    //         <Button key="infocard-"{i.toString()} href="#" hoverIndicator>
-    //           <Box
-    //             pad={{
-    //               horizontal: 'medium',
-    //               vertical: 'small',
-    //             }}
-    //             height="small"
-    //             background={{ color: '#E03A3E', opacity: 'weak' }}
-    //             round="medium"
-    //           >
-    //             <Text weight="bold">Original text: </Text><Text>{currentContextMapping[i].originalText}</Text>
-    //             <Text weight="bold">Context text: </Text><Text>{currentContextMapping[i].context}</Text>
-    //           </Box>
-    //         </Button>
-    //       </Carousel>
-    //     </Box>
-    //   )
-    // }
-    // this.setState({infoCards:infoCards})
   }
 
   render() {
@@ -291,57 +248,64 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
       const buttonKey = 'infocard-' + i.toString()
       // const Background =
       // 'https://images.pexels.com/photos/34153/pexels-photo.jpg'
-      const Background = require('./logo.png')
+
       infoCards.push(
-        <Box
-          width="auto"
-          animation={[
-            { type: 'fadeIn', duration: 1000 },
-            { type: 'slideLeft', size: 'xlarge', duration: 1000 },
-          ]}
-        >
-          <Carousel>
-            <Button key={buttonKey} href="#" hoverIndicator>
-              <Box
-                pad={{
-                  horizontal: 'medium',
-                  vertical: 'small',
-                }}
-                height="medium"
-                background={{ color: '#E03A3E', opacity: 'weak' }}
-                round="medium"
-              >
-                <Text weight="bold">Original text: </Text>
-                <Text>{currentContextMapping[i].userInput}</Text>
-                <Text weight="bold">Claim text: </Text>
-                <Text>{currentContextMapping[i].similarClaim}</Text>
-                <Text weight="bold">Context struct: </Text>
-                <Text>{currentContextMapping[i].contextStruct}</Text>
-              </Box>
-            </Button>
-            <div>
-              <img src={require('./logo.png')} className="img-responsive" />
-            </div>
-            {/* <Button> */}
-            <SimpleCollapsible open={true} />
-            {/* </Button> */}
-            <Box pad="xlarge" background="accent-1">
-              <Attraction size="xlarge" href="#" />
-            </Box>
-          </Carousel>
-        </Box>
+        <Display
+          originalText={currentContextMapping[i].userInput}
+          similarClaim={currentContextMapping[i].similarClaim}
+          contextStruct={currentContextMapping[i].contextStruct}
+        />
       )
+
+      // const Background = require('./logo.png')
+      // infoCards.push(
+      //   <Box
+      //     width="auto"
+      //     animation={[
+      //       { type: 'fadeIn', duration: 1000 },
+      //       { type: 'slideLeft', size: 'xlarge', duration: 1000 },
+      //     ]}
+      //   >
+      //     <Carousel>
+      //       <Button key={buttonKey} href="#" hoverIndicator>
+      //         <Box
+      //           pad={{
+      //             horizontal: 'medium',
+      //             vertical: 'small',
+      //           }}
+      //           height="medium"
+      //           background={{ color: '#E03A3E', opacity: 'weak' }}
+      //           round="medium"
+      //         >
+      //           <Text weight="bold">Original text: </Text>
+      //           <Text>{currentContextMapping[i].userInput}</Text>
+      //           <Text weight="bold">Claim text: </Text>
+      //           <Text>{currentContextMapping[i].similarClaim}</Text>
+      //           <Text weight="bold">Context struct: </Text>
+      //           <Text>{currentContextMapping[i].contextStruct}</Text>
+      //         </Box>
+      //       </Button>
+      //       <div>
+      //         <img src={require('./logo.png')} className="img-responsive" />
+      //       </div>
+      //       {/* <Button> */}
+      //       <SimpleCollapsible open={true} />
+      //       {/* </Button> */}
+      //       <Box pad="xlarge" background="accent-1">
+      //         <Attraction size="xlarge" href="#" />
+      //       </Box>
+      //     </Carousel>
+      //   </Box>
+      // )
     }
     // this.setState({infoCards:infoCards})
 
+    const infoCardHeight = this.state.numOfX * 700 + 'px'
     return (
       <Grommet full theme={deepMerge(grommet, customToggleTheme)}>
-        <div>
-          <Display />
-        </div>
         <Grid
           fill
-          rows={['auto', 'auto']}
+          rows={['auto', 'full']}
           //   columns={['auto', 'flex']}
           columns={['3/4', '1/4']} // how many layout each column occupies
           areas={[
@@ -391,7 +355,7 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
             />
           </Box>
 
-          <Box gridArea="main" pad="large" height="xlarge">
+          <Box gridArea="main" pad="large" height="full">
             {/* TODO: change to another view  */}
             {/* <RichEditorExample /> */}
             {/* <SlateEditor /> */}
@@ -405,7 +369,8 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
 
           {sidebar && (
             //   TODO: change the element css here and semantic too!!
-            <Box gridArea="sidebar" pad="medium">
+            <Box gridArea="sidebar" pad="medium" height={infoCardHeight}>
+              {/* Basically limitless height */}
               {infoCards}
               {/* <Box gap="medium" pad="medium" />
               <Box
@@ -485,7 +450,6 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
                   </Button>
                 </Carousel>
               </Box> */}
-
               <Box gap="medium" pad="medium" />
               <Box
                 width="auto"

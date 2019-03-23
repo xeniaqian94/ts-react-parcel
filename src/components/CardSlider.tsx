@@ -1,6 +1,20 @@
 import styles from './CardSlider.css'
 import { SimpleCollapsible } from './SimpleCollapsible'
 import * as React from 'react'
+import { Tooltip } from 'grommet-icons'
+// import image from 'Jones_2010_Age-and-Great-Invention-p10.png'
+
+import {
+  Grommet,
+  Box,
+  Button,
+  Grid,
+  Text,
+  Carousel,
+  CheckBox,
+  Paragraph,
+  Collapsible,
+} from 'grommet'
 
 function CardData() {
   const rtn = [
@@ -34,26 +48,230 @@ function CardData() {
   return rtn
 }
 
-export class Cards extends React.Component {
+export class ScrolledImage extends React.Component {
+  private stepInput: React.RefObject<HTMLInputElement>
+  constructor(props) {
+    super(props)
+    this.scrollInput = React.createRef()
+  }
+  //   componentDidUpdate() {
+  //     this.scrollInput.current.scrollTop = 2000
+  //     console.log('Inside componentDidUpdate')
+  //     console.log(this.scrollInput.current.scrollTop)
+  //   }
+
+  componentDidMount() {
+    // var node = React.findDOMNode(this)
+    // this.scrollInput.scrollLeft = this.scrollInput.scrollHeight
+    // this.refs['thisImage'].scrollTop = this.refs['thisImage'].scrollHeight
+    this.scrollInput.current.scrollTop = 500
+    console.log(this.scrollInput.current.scrollTop)
+
+    // .scrollHeight)
+    // console.log(this.scrollInput.scrollLeft)
+    this.render()
+    // node.scrollTop = node.scrollHeight
+  }
+
+  render() {
+    return (
+      <div
+        // href={card.url}
+        style={{
+          // height: '11in',
+          // width: '8.5in',
+          // overflow: 'scroll',
+
+          margin: '0px',
+          padding: '0px',
+          maxHeight: '300px',
+          maxWidth: 'full',
+          overflow: 'scroll',
+          position: 'relative',
+        }}
+        ref={this.scrollInput}
+      >
+        <img
+          // https://blog.vjeux.com/2013/javascript/scroll-position-with-react.html
+          // src="https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg"
+          // src={imagePath}
+          src={require('../images/Jones_2010_Age-and-Great-Invention-p10.png')}
+          id="Jones_2010_Age-and-Great-Invention-p10"
+          // scrollTop="700px"
+          style={{
+            //   width: '200%',
+            width: '1275px' /* width:'670px'  7in; */,
+            height: '1650px' /*'900px',*/,
+            //   position: 'absolute',
+            //   scrollLeft: '500px',
+            //   top:
+            //     showTop + 'px' /*TODO translate the numbers correctly*/,
+            //   position: 'absolute',
+            //   transform: 'translateX(10px)',
+            //   clip: 'rect(0, 100px, 200px, 0)',
+            /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+            //   }
+            //   minWidth: '300%',
+            //   margin: '0px',
+            //   padding: '0px',
+            //   width: '100px' /* width: 7in; */,
+            //   height: '100px' /* or height: 9.5in; */,
+            //   clear: both;
+            //   background-color: gray;
+            //   page-break-after: always;
+            //   overflow: 'visible',
+            //   'max-width': '200%',
+          }}
+        />
+      </div>
+    )
+  }
+}
+
+export class SingleCard extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      originalText: props.originalText,
+      similarClaim: props.similarClaim,
+      contextStruct: props.contextStruct,
+      i: props.i,
+      open: false,
+    }
+  }
+
+  render() {
+    const { open } = this.state
+    // const imagePath =
+    //   '../images/' +
+    //   this.state.contextStruct.pdfDir +
+    //   '-p' +
+    //   this.state.contextStruct.pageNumber +
+    //   '.png'
+    // console.log(imagePath)
+    const showWidth = 1275 // scale=2 letter width 670
+    const showHeight = 1650
+    const showTop = -1 * this.state.contextStruct.top
+
+    return (
+      <div
+        className="card"
+        id="card"
+        style={this.props.cardStyle}
+        key={this.state.i}
+      >
+        <Grid
+          rows={['auto', 'auto']}
+          columns={['3/4', '1/4']}
+          gap="small"
+          fill={true}
+          areas={[
+            { name: 'headerLeft', start: [0, 0], end: [0, 0] },
+            { name: 'headerRight', start: [1, 0], end: [1, 0] },
+            { name: 'main', start: [0, 1], end: [1, 1] },
+          ]}
+          align="center"
+          alignContent="center"
+          alignSelf="center"
+          justify="center"
+        >
+          <Box gridArea="headerLeft">
+            {/* <p className="desc">{this.state.similarClaim}</p> */}
+            {/* <p className="desc" align="center">
+              "{this.state.similarClaim}"{' '}
+            </p> */}
+            <p className="desc" align="center">
+              "{this.state.similarClaim}" <br />
+              from
+              <b>
+                {' '}
+                {this.state.contextStruct.pdfDir}-p
+                {this.state.contextStruct.pageNumber}
+              </b>
+            </p>
+          </Box>
+          {/* <SimpleCollapsible gridArea="headerRight" /> */}
+          <Button
+            onClick={() => this.setState({ open: !open })}
+            icon={<Tooltip color="plain" />}
+            plain={true}
+            alignSelf="center"
+            gridArea="headerRight"
+          >
+            {/* <Tooltip /> */}
+          </Button>
+          <Box gridArea="main">
+            <Collapsible open={open} {...this.props} gridArea="main">
+              <Box
+              //   background="light-2"
+              //   round="medium"
+              //   pad="medium"
+              //   align="center"
+              //   justify="center"
+              >
+                {/* <Text>
+      <Anchor> This is </Anchor>This is a box inside a Collapsible
+      component
+    </Text> */}
+
+                <ScrolledImage />
+                {/* </div> */}
+              </Box>
+            </Collapsible>
+            {/* <Text>This is other content outside the Collapsible box</Text> */}
+          </Box>
+        </Grid>
+        {/* <p className="title">{card.title}</p> */}
+        {/* <p className="title">{this.state.originalText}</p> */}
+        {/* <SimpleCollapsible /> */}
+        {/* Do something for the semantic of SimpleCollapsible */}
+        {/* <p className="desc">{card.desc}</p>
+    <p className="desc">{this.state.similarClaim}</p>
+    <p className="desc">
+      {this.state.contextStruct.pdfDir.toString()}
+    </p> */}
+        {/* <div> */}
+        {/* <div
+      // href={card.url}
+      style={{
+        height: '200px',
+        width: '200px',
+        overflow: 'scroll',
+      }}
+    >
+      <img
+        src={card.url}
+        style={{
+          width: '500px',
+        }}
+      />
+    </div> */}
+        {/* </div> */}
+      </div>
+    )
+  }
+}
+
+export class CardDeck extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      originalText: props.originalText,
+      similarClaim: props.similarClaim,
+      contextStruct: props.contextStruct,
+    }
+  }
   render() {
     const cardData = CardData()
     return (
       <section>
         {cardData.map((card, i) => {
           return (
-            <div
-              className="card"
-              id="card"
-              style={this.props.cardStyle}
-              key={i}
-            >
-              <p className="title">{card.title}</p>
-              <SimpleCollapsible />
-              <p className="desc">{card.desc}</p>
-              <a href={card.url}>
-                <img src={card.url} />
-              </a>
-            </div>
+            <SingleCard
+              {...this.state}
+              cardStyle={this.props.cardStyle}
+              i={i}
+            />
           )
         })}
       </section>
@@ -73,7 +291,14 @@ export class Display extends React.Component {
         transform: 'translateX(0px)',
       },
       width: 0,
+      originalText: props.originalText,
+      similarClaim: props.similarClaim,
+      contextStruct: props.contextStruct,
     }
+    // console.log('as Display argument')
+    // console.log(this.state.originalText)
+    // console.log(this.state.similarClaim)
+    // console.log(this.state.contextStruct)
   }
 
   componentDidMount() {
@@ -132,10 +357,11 @@ export class Display extends React.Component {
             &gt;
           </button>
         </div>
-        <Cards cardStyle={this.state.cardStyle} />
+        <CardDeck cardStyle={this.state.cardStyle} {...this.state} />
       </div>
     )
   }
 }
 
 // ReactDOM.render(<Display />, document.getElementById('root'))
+// document.getElementById('Jones_2010_Age-and-Great-Invention-p10')

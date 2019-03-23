@@ -10,6 +10,7 @@ import {
   Anchor,
 } from 'grommet'
 import { grommet } from 'grommet/themes'
+import { Tooltip } from 'grommet-icons'
 
 export class SimpleCollapsible extends React.Component<any, any> {
   state = {
@@ -24,10 +25,12 @@ export class SimpleCollapsible extends React.Component<any, any> {
       <Grommet theme={grommet}>
         <Box align="start" gap="small">
           <Button
-            primary
             onClick={() => this.setState({ open: !open })}
-            label="Toggle"
-          />
+            icon={<Tooltip color="plain" />}
+            plain={true}
+          >
+            {/* <Tooltip /> */}
+          </Button>
           <Collapsible open={open} {...this.props}>
             <Box
               background="light-2"
@@ -36,14 +39,28 @@ export class SimpleCollapsible extends React.Component<any, any> {
               align="center"
               justify="center"
             >
-              <Text>
+              {/* <Text>
                 <Anchor> This is </Anchor>This is a box inside a Collapsible
                 component
-              </Text>
-              <img src={urlSrc} />
+              </Text> */}
+              <div
+                // href={card.url}
+                style={{
+                  height: '200px',
+                  width: '200px',
+                  overflow: 'scroll',
+                }}
+              >
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg"
+                  style={{
+                    width: '500px',
+                  }}
+                />
+              </div>
             </Box>
           </Collapsible>
-          <Text>This is other content outside the Collapsible box</Text>
+          {/* <Text>This is other content outside the Collapsible box</Text> */}
         </Box>
       </Grommet>
     )

@@ -1,8 +1,8 @@
 .cards-slider {
   overflow: hidden;
   white-space: nowrap;
-  width: 500px;
-  height: 100%;
+  width: 450px;
+  height: auto;
   position: relative;
   display: inline-block;
   background: #e3e3e3;
@@ -11,12 +11,28 @@
   box-shadow: 1px 1px 10px #d8d8d8;
 }
 
+/* .cards-slider {
+  overflow: scroll;
+  overflow-y: visible;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 450px;
+  height: 300px;
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  margin: 5px 0;
+  border: 1px solid #fff; 
+  box-shadow: 1px 1px 10px #fff;
+} */
+
 .card {
   float: left !important;
   text-align: left;
   background: #fff;
-  width: 385px;
-  max-width: 385px !important;
+  width: 395px;
+  max-width: 395px !important;
+  /* max-height: 500px; */
   position: relative;
   display: inline-block;
   left: 0;
@@ -35,10 +51,11 @@
 }
 
 .card .desc {
-  font-size: 14px;
+  font-size: 20px;
   word-wrap: break-word;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
+  font-style: italic;
 }
 
 .card img {
