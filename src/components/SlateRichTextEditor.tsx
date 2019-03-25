@@ -29,6 +29,7 @@ export class SlateRichTextEditor extends React.Component {
   state = {
     value: Value.fromJSON(initialValue),
   }
+  timeout: number = 0
 
   /**
    * Check if the current selection has a mark with `type` in it.
@@ -54,18 +55,24 @@ export class SlateRichTextEditor extends React.Component {
     return value.blocks.some(node => node.type === type)
   }
 
+  codeForFun = () => {
+    console.log(
+      'Code for fun!!! [TODO] maybe use this function to insert an href element for floating window'
+    )
+    // console.log(this.editor.value.document.nodes.get(0).text)
+  }
   /**
    * Store a reference to the `editor`.
    *
    * @param {Editor} editor
    */
 
-  ref = editor => {
+  refRealEditor = editor => {
     this.editor = editor
   }
-  getEditorDocument() {
-    return this.ref.document
-  }
+  // getEditorDocument() {
+  //   return this.refRealEditor.document
+  // }
 
   componentDidMount() {
     // console.log('componentDidMount' + this.editor.value)
@@ -96,7 +103,7 @@ export class SlateRichTextEditor extends React.Component {
           spellCheck
           autoFocus
           placeholder="Enter some rich text..."
-          ref={this.ref}
+          ref={this.refRealEditor}
           value={this.state.value}
           onChange={this.onChange}
           onKeyDown={this.onKeyDown}
@@ -183,7 +190,20 @@ export class SlateRichTextEditor extends React.Component {
       case 'heading-two':
         return <h2 {...attributes}>{children}</h2>
       case 'list-item':
-        return <li {...attributes}>{children}</li>
+        return (
+          <li {...attributes}>
+            {children}
+            <button
+              onClick={() => {
+                // console.log('BADDDDD w3docs')
+                window.location.href = 'https://www.w3docs.com'
+              }}
+              //  {/* Just kidding but BIG TODO: add floating box in someway like this...  */}
+            >
+              To w3docs
+            </button>
+          </li>
+        )
       case 'numbered-list':
         return <ol {...attributes}>{children}</ol>
       default:
@@ -217,6 +237,7 @@ export class SlateRichTextEditor extends React.Component {
 
   /**
    * On change, save the new `value`.
+   * (from Xin) This falls apart, however, because the user can usually type faster your server can respond.
    *
    * @param {Editor} editor
    *
@@ -224,8 +245,17 @@ export class SlateRichTextEditor extends React.Component {
    */
 
   onChange = ({ value }) => {
+    clearTimeout(this.timeout)
+    // console.log('Timeout cleared' + this.timeout)
+
+    // Make a new timeout set to go off in 800ms
+    this.timeout = setTimeout(() => {
+      // console.log('500 seconds, updated')
+      this.props.onUpdate(value, 1)
+    }, 500)
+
     this.setState({ value })
-    this.props.onUpdate(value, 1)
+    // this.props.onUpdate(value, 1)
 
     // console.log(value.toJSON())
     // get selected text https://github.com/ianstormtaylor/slate/issues/551
@@ -271,14 +301,14 @@ export class SlateRichTextEditor extends React.Component {
   //   console.log(editor.value.fragment.text)
   // }
 
-  onMouseUp = (event, editor, next) => {
-    // when selection finished
-    console.log('Mouse up!')
-    // this.props.onUpdate(value.fragment.text)
+  // onMouseUp = (event, editor, next) => {
+  //   // when selection finished
+  //   // console.log('Mouse up!')
+  //   // this.props.onUpdate(value.fragment.text)
 
-    this.props.onUpdate(editor.value, 1)
-    console.log(editor.value.fragment.text)
-  }
+  //   this.props.onUpdate(editor.value, 1)
+  //   // console.log(editor.value.fragment.text)
+  // }
 
   /**
    * When a mark button is clicked, toggle the current mark.

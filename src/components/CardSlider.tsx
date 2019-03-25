@@ -2,6 +2,11 @@ import styles from './CardSlider.css'
 import { SimpleCollapsible } from './SimpleCollapsible'
 import * as React from 'react'
 import { Tooltip } from 'grommet-icons'
+// import images from '../images/*'
+// console.log(images)
+
+// import { readFileSync } from 'fs'
+
 // import image from 'Jones_2010_Age-and-Great-Invention-p10.png'
 
 import {
@@ -53,27 +58,55 @@ export class ScrolledImage extends React.Component {
   constructor(props) {
     super(props)
     this.scrollInput = React.createRef()
+
+    this.state = {
+      contextStruct: props.contextStruct,
+    }
   }
-  //   componentDidUpdate() {
-  //     this.scrollInput.current.scrollTop = 2000
-  //     console.log('Inside componentDidUpdate')
-  //     console.log(this.scrollInput.current.scrollTop)
-  //   }
 
   componentDidMount() {
     // var node = React.findDOMNode(this)
     // this.scrollInput.scrollLeft = this.scrollInput.scrollHeight
     // this.refs['thisImage'].scrollTop = this.refs['thisImage'].scrollHeight
-    this.scrollInput.current.scrollTop = 500
-    console.log(this.scrollInput.current.scrollTop)
-
-    // .scrollHeight)
-    // console.log(this.scrollInput.scrollLeft)
+    this.scrollInput.current.scrollTop = this.state.contextStruct.top
+    this.scrollInput.current.scrollLeft = this.state.contextStruct.left
+    // console.log(this.scrollInput.current.scrollTop)
     this.render()
-    // node.scrollTop = node.scrollHeight
   }
 
   render() {
+    let imageRequire: string
+    // console.log(this.state.contextStruct.pdfDir)
+    // console.log(
+    //   this.state.contextStruct.pdfDir ===
+    //     'Jones-2009-Review-of-Economic-Studies-The-Burden-of-Knowledge-and-the-“Death-of-the-Renaissance-Man”-Is-Innovation-Getting-Harder'
+    // )
+    switch (this.state.contextStruct.pdfDir) {
+      case 'Jones_2010_Age-and-Great-Invention':
+        imageRequire = require('../images/Jones_2010_Age-and-Great-Invention-p10.png')
+        break
+      case 'Bloom-et-al_2017_Are-Ideas-Getting-Harder-to-Find':
+        imageRequire = require('../images/Bloom-et-al_2017_Are-Ideas-Getting-Harder-to-Find-p10.png')
+        break
+      case 'Jones-2009-Review-of-Economic-Studies-The-Burden-of-Knowledge-and-the-“Death-of-the-Renaissance-Man”-Is-Innovation-Getting-Harder':
+        imageRequire = require('../images/Jones-2009-Review-of-Economic-Studies-The-Burden-of-Knowledge-and-the-“Death-of-the-Renaissance-Man”-Is-Innovation-Get-p24.png')
+        break
+      case 'Wuchty-et-al_2007_The-increasing-dominance-of-teams-in-production-of-knowledge':
+        imageRequire = require('../images/Wuchty-et-al_2007_The-increasing-dominance-of-teams-in-production-of-knowledge-p3.png')
+        break
+      case 'nsf_big_ideas':
+        imageRequire = require('../images/nsf_big_ideas-p11.png')
+        break
+      case 'Wu-et-al_2019_Large-teams-develop-and-small-teams-disrupt-science-and-technology':
+        imageRequire = require('../images/Wu-et-al_2019_Large-teams-develop-and-small-teams-disrupt-science-and-technology-p3.png')
+        break
+      case 'Bloom-et-al_2017_Are-Ideas-Getting-Harder-to-Find':
+        imageRequire = require('../images/Bloom-et-al_2017_Are-Ideas-Getting-Harder-to-Find-p10.png')
+        break
+      default:
+        imageRequire = require('../images/Jones_2010_Age-and-Great-Invention-p10.png') // code block
+    }
+
     return (
       <div
         // href={card.url}
@@ -84,8 +117,13 @@ export class ScrolledImage extends React.Component {
 
           margin: '0px',
           padding: '0px',
-          maxHeight: '300px',
+          maxHeight:
+            (this.state.contextStruct.height < 250
+              ? 250
+              : this.state.contextStruct.height) + 'px',
+          minHeight: '30px',
           maxWidth: 'full',
+          minWidth: '100px',
           overflow: 'scroll',
           position: 'relative',
         }}
@@ -95,8 +133,7 @@ export class ScrolledImage extends React.Component {
           // https://blog.vjeux.com/2013/javascript/scroll-position-with-react.html
           // src="https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg"
           // src={imagePath}
-          src={require('../images/Jones_2010_Age-and-Great-Invention-p10.png')}
-          id="Jones_2010_Age-and-Great-Invention-p10"
+          src={imageRequire}
           // scrollTop="700px"
           style={{
             //   width: '200%',
@@ -152,6 +189,13 @@ export class SingleCard extends React.Component {
     const showWidth = 1275 // scale=2 letter width 670
     const showHeight = 1650
     const showTop = -1 * this.state.contextStruct.top
+
+    // const dir = './'
+    // const raw = readFileSync(
+    //   dir + 'src/images/' + this.state.contextStruct.pdfDir.toString(),
+    //   'utf-8'
+    // )
+    // console.log(raw)
 
     return (
       <div
@@ -214,7 +258,7 @@ export class SingleCard extends React.Component {
       component
     </Text> */}
 
-                <ScrolledImage />
+                <ScrolledImage {...this.state} />
                 {/* </div> */}
               </Box>
             </Collapsible>
@@ -270,6 +314,7 @@ export class CardDeck extends React.Component {
             <SingleCard
               {...this.state}
               cardStyle={this.props.cardStyle}
+              key={i}
               i={i}
             />
           )
@@ -294,6 +339,7 @@ export class Display extends React.Component {
       originalText: props.originalText,
       similarClaim: props.similarClaim,
       contextStruct: props.contextStruct,
+      displayKey: props.displayKey,
     }
     // console.log('as Display argument')
     // console.log(this.state.originalText)
@@ -342,7 +388,11 @@ export class Display extends React.Component {
   // # {styles['cards-slider']}>
   render() {
     return (
-      <div className="cards-slider">
+      <div
+        className="cards-slider"
+        id={this.state.displayKey}
+        key={this.state.displayKey}
+      >
         <div className="slider-btns">
           <button
             className="slider-btn btn-l"
