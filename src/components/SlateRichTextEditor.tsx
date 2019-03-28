@@ -30,6 +30,7 @@ export class SlateRichTextEditor extends React.Component {
     value: Value.fromJSON(initialValue),
   }
   timeout: number = 0
+  RECONTEXTUALIZE_HOOK_ICON = 'find_in_page'
 
   /**
    * Check if the current selection has a mark with `type` in it.
@@ -57,7 +58,7 @@ export class SlateRichTextEditor extends React.Component {
 
   codeForFun = () => {
     console.log(
-      'Code for fun!!! [TODO] maybe use this function to insert an href element for floating window'
+      'Code for fun!!! [TODO] maybe use this function to local recontext-hook and insert an href element for floating window'
     )
     // console.log(this.editor.value.document.nodes.get(0).text)
   }
@@ -98,6 +99,11 @@ export class SlateRichTextEditor extends React.Component {
           {this.renderBlockButton('block-quote', 'format_quote')}
           {this.renderBlockButton('numbered-list', 'format_list_numbered')}
           {this.renderBlockButton('bulleted-list', 'format_list_bulleted')}
+          {this.renderMarkButton(
+            'recontextualize_hook',
+            this.RECONTEXTUALIZE_HOOK_ICON
+          )}{' '}
+          {/* TODO when user click this button, it will insert into current cursor position a reconteztualize hook, e.g. [cite!] or [x] */}
         </Toolbar>
         <Editor
           spellCheck
@@ -126,13 +132,19 @@ export class SlateRichTextEditor extends React.Component {
 
   renderMarkButton = (type, icon) => {
     const isActive = this.hasMark(type)
+    let sidenote = <div />
+    if (icon === this.RECONTEXTUALIZE_HOOK_ICON) {
+      sidenote = '( et.al) [cite!]'
+    }
 
+    // TODO: onClickMark for recontext hook
     return (
       <Button
         active={isActive}
         onMouseDown={event => this.onClickMark(event, type)}
       >
         <Icon>{icon}</Icon>
+        {sidenote}
       </Button>
     )
   }
@@ -179,31 +191,32 @@ export class SlateRichTextEditor extends React.Component {
 
   renderNode = (props, editor, next) => {
     const { attributes, children, node } = props
+    // console.log('node.type')
+    // console.log(node.type)
+    // console.log(children)
 
     switch (node.type) {
       case 'block-quote':
         return <blockquote {...attributes}>{children}</blockquote>
       case 'bulleted-list':
-        return <ul {...attributes}>{children}</ul>
+        return (
+          <ul {...attributes}>
+            {children}{' '}
+            {/* <button
+              onClick={() => {
+                window.location.href = 'https://www.w3docs.com'
+              }}
+            >
+              {'To w3docs'}
+            </button> */}
+          </ul>
+        )
       case 'heading-one':
         return <h1 {...attributes}>{children}</h1>
       case 'heading-two':
         return <h2 {...attributes}>{children}</h2>
-      case 'list-item':
-        return (
-          <li {...attributes}>
-            {children}
-            <button
-              onClick={() => {
-                // console.log('BADDDDD w3docs')
-                window.location.href = 'https://www.w3docs.com'
-              }}
-              //  {/* Just kidding but BIG TODO: add floating box in someway like this...  */}
-            >
-              To w3docs
-            </button>
-          </li>
-        )
+      case 'list-item': // this is the node inside either bulleted-list or numbered-list
+        return <li {...attributes}>{children}</li>
       case 'numbered-list':
         return <ol {...attributes}>{children}</ol>
       default:
@@ -214,6 +227,8 @@ export class SlateRichTextEditor extends React.Component {
   /**
    * Render a Slate mark.
    *
+   *
+   * TODO: renderMark for recontext Hook
    * @param {Object} props
    * @return {Element}
    */
@@ -231,6 +246,9 @@ export class SlateRichTextEditor extends React.Component {
       case 'underlined':
         return <u {...attributes}>{children}</u>
       default:
+        // console.log('clicked something else ' + mark.type)
+        // return <div>Recontextualize hook! </div>
+        // return <p>{children}</p>
         return next()
     }
   }
@@ -252,7 +270,7 @@ export class SlateRichTextEditor extends React.Component {
     this.timeout = setTimeout(() => {
       // console.log('500 seconds, updated')
       this.props.onUpdate(value, 1)
-    }, 500)
+    }, 800)
 
     this.setState({ value })
     // this.props.onUpdate(value, 1)

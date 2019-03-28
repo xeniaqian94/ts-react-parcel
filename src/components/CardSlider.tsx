@@ -30,25 +30,25 @@ function CardData() {
       url:
         'https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg',
     },
-    {
-      title: 'STREET',
-      desc:
-        'A street is a public thoroughfare (usually paved) in a built environment.',
-      url:
-        'https://cdn.pixabay.com/photo/2017/08/01/20/06/storm-2567670__340.jpg',
-    },
-    {
-      title: 'CAMERA',
-      desc: 'Camera captures memories for you and saves them permanently.',
-      url:
-        'https://cdn.pixabay.com/photo/2017/08/07/01/41/magnifying-glass-2598507__340.jpg',
-    },
-    {
-      title: 'BREAKFAST',
-      desc: 'Breakfast provides many benefits to our health and wellbeing.',
-      url:
-        'https://images.pexels.com/photos/8524/food-spoon-milk-strawberry.jpg?h=350&auto=compress&cs=tinysrgb',
-    },
+    // {
+    //   title: 'STREET',
+    //   desc:
+    //     'A street is a public thoroughfare (usually paved) in a built environment.',
+    //   url:
+    //     'https://cdn.pixabay.com/photo/2017/08/01/20/06/storm-2567670__340.jpg',
+    // },
+    // {
+    //   title: 'CAMERA',
+    //   desc: 'Camera captures memories for you and saves them permanently.',
+    //   url:
+    //     'https://cdn.pixabay.com/photo/2017/08/07/01/41/magnifying-glass-2598507__340.jpg',
+    // },
+    // {
+    //   title: 'BREAKFAST',
+    //   desc: 'Breakfast provides many benefits to our health and wellbeing.',
+    //   url:
+    //     'https://images.pexels.com/photos/8524/food-spoon-milk-strawberry.jpg?h=350&auto=compress&cs=tinysrgb',
+    // },
   ]
   return rtn
 }
@@ -206,12 +206,12 @@ export class SingleCard extends React.Component {
       >
         <Grid
           rows={['auto', 'auto']}
-          columns={['3/4', '1/4']}
+          columns={['70%', '30%']}
           gap="small"
           fill={true}
           areas={[
-            { name: 'headerLeft', start: [0, 0], end: [0, 0] },
-            { name: 'headerRight', start: [1, 0], end: [1, 0] },
+            { name: 'headerLeft', start: [0, 0], end: [1, 0] },
+            // { name: 'headerRight', start: [1, 0], end: [1, 0] },
             { name: 'main', start: [0, 1], end: [1, 1] },
           ]}
           align="center"
@@ -233,17 +233,26 @@ export class SingleCard extends React.Component {
                 {this.state.contextStruct.pageNumber}
               </b>
             </p>
+            <Button
+              onClick={() => this.setState({ open: !open })}
+              icon={<Tooltip color="plain" />}
+              plain={true}
+              alignSelf="center"
+              gridArea="headerRight"
+            >
+              {/* <Tooltip /> */}
+            </Button>
           </Box>
           {/* <SimpleCollapsible gridArea="headerRight" /> */}
-          <Button
+          {/* <Button
             onClick={() => this.setState({ open: !open })}
             icon={<Tooltip color="plain" />}
             plain={true}
             alignSelf="center"
-            gridArea="headerRight"
+            gridArea="headerRigt"
           >
-            {/* <Tooltip /> */}
-          </Button>
+
+          </Button> */}
           <Box gridArea="main">
             <Collapsible open={open} {...this.props} gridArea="main">
               <Box
@@ -309,10 +318,16 @@ export class CardDeck extends React.Component {
     const cardData = CardData()
     return (
       <section>
+        {/* BIG TODO: we aim at showing the exact # of contexts per userInput. 
+        Originally 4 because of the tutorial 
+        TODO maybe also hidden scroll arrow for each card */}
+
         {cardData.map((card, i) => {
           return (
             <SingleCard
               {...this.state}
+              // TODO: modify semantic meaning of this.state ([] or string)
+              // so CardDeck will have either be single card or multiple cards
               cardStyle={this.props.cardStyle}
               key={i}
               i={i}
@@ -341,10 +356,6 @@ export class Display extends React.Component {
       contextStruct: props.contextStruct,
       displayKey: props.displayKey,
     }
-    // console.log('as Display argument')
-    // console.log(this.state.originalText)
-    // console.log(this.state.similarClaim)
-    // console.log(this.state.contextStruct)
   }
 
   componentDidMount() {
@@ -406,6 +417,22 @@ export class Display extends React.Component {
           >
             &gt;
           </button>
+          {/* <button
+            className="slider-btn btn-ml"
+            onClick={() => this.handleClick('prev')}
+          >
+            Prev
+          </button> */}
+          <button className="slider-btn btn-mm">
+            {this.state.currentCard + 1}/{CardData().length}
+          </button>
+
+          {/* <button
+            className="slider-btn btn-mr"
+            onClick={() => this.handleClick('next')}
+          >
+            Next
+          </button> */}
         </div>
         <CardDeck cardStyle={this.state.cardStyle} {...this.state} />
       </div>

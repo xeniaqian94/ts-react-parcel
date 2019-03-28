@@ -322,8 +322,10 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     this.setState(this.updateContextMapping(currentContextMapping))
     // console.log('currentContextMapping')
     // console.log(this.state.contextMapping)
+
+    // TODO: this is where to insert floating box hovering button
     if (null != this.editorRef && null != this.editorRef.current) {
-      this.editorRef.current.codeForFun()
+      this.editorRef.current.codeForFun() //This will be invoked whenever the code is on change!!
     }
   }
 
@@ -365,7 +367,7 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
           fill
           rows={['auto', 'full']}
           //   columns={['auto', 'flex']}
-          columns={['3/4', '1/4']} // how many layout each column occupies
+          columns={['60%', '40%']} // how many layout each column occupies
           areas={[
             { name: 'header', start: [0, 0], end: [1, 0] },
             // { name: 'headertwo', start: [1, 0], end: [1, 0] },

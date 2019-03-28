@@ -1,7 +1,7 @@
 .cards-slider {
   overflow: hidden;
   white-space: nowrap;
-  width: 450px;
+  width: 650px;
   height: auto;
   position: relative;
   display: inline-block;
@@ -30,8 +30,8 @@
   float: left !important;
   text-align: left;
   background: #fff;
-  width: 395px;
-  max-width: 395px !important;
+  width: 650px;
+  max-width: 650px !important;
   /* max-height: 500px; */
   position: relative;
   display: inline-block;
@@ -90,4 +90,20 @@
 }
 .btn-l {
   left: 0px;
+}
+.btn-mr {
+  left: 70%;
+  height: 20%;
+  bottom: 10px;
+}
+
+.btn-ml {
+  left: 30%;
+  height: 20%;
+  bottom: 10px;
+}
+.btn-mm {
+  left: 310px;
+  height: 30px;
+  /* top: 10px; */
 }
