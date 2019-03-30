@@ -7,7 +7,19 @@ import { SimpleCollapsible } from './SimpleCollapsible'
 import { Display } from './CardSlider'
 import { normalizeColor, deepMerge } from 'grommet/utils'
 import { Block } from 'slate'
+import { compose } from 'lodash/fp'
+
+import './CheckBox.css'
+
 import { Grommet, Box, Button, Grid, Text, Carousel, CheckBox } from 'grommet'
+// var CSSTransitionGroup = require('react-transition-group/CSSTransitionGroup')
+// import { CSSTransition } from 'react-transition-group'
+import {
+  Transition,
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group'
+
 import {
   Attraction,
   Car,
@@ -25,27 +37,182 @@ const checkboxCheckStyle = css`
   border-color: #e03a3e;
 `
 
+// const todostyle = css`
+//   .example-enter {
+//     opacity: 0.01;
+//   }
+
+//   .example-enter.example-enter-active {
+//     opacity: 1;
+//     transition: opacity 500ms ease-in;
+//   }
+
+//   .example-leave {
+//     opacity: 1;
+//   }
+
+//   .example-leave.example-leave-active {
+//     opacity: 0.01;
+//     transition: opacity 300ms ease-in;
+//   }
+// `
+
+export class TodoList extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { items: ['hello', 'world', 'click', 'me'], effect: true }
+    this.handleAdd = this.handleAdd.bind(this)
+  }
+
+  handleAdd() {
+    const newItems = this.state.items.concat([prompt('Enter some text')])
+    this.setState({ items: newItems })
+  }
+
+  changeState() {
+    this.setState({ effect: !this.state.effect })
+    // this.effect = !this.effect
+    console.log(this.state.effect)
+  }
+
+  handleRemove(i) {
+    let newItems = this.state.items.slice()
+    newItems.splice(i, 1)
+    this.setState({ items: newItems })
+  }
+
+  render() {
+    const items = this.state.items.map((item, i) => (
+      <div key={item} onClick={() => this.handleRemove(i)}>
+        {item}
+      </div>
+    ))
+
+    const { effect } = this.state
+    console.log(effect)
+
+    return (
+      <div>
+        <button onClick={this.handleAdd}>Add Item </button>
+        <button onClick={() => this.changeState()}>
+          Fade out Item {`${effect}`}
+        </button>
+        {/* <TransitionGroup> */}
+        <CSSTransition in={true} appear={true} timeout={6000} classNames="fade">
+          <div>
+            <h1>Fading at Initial Mount</h1> sgosgosng
+          </div>
+          {/* <FormCheckmark /> */}
+        </CSSTransition>
+        {/* </TransitionGroup> */}
+        {items}
+      </div>
+    )
+  }
+}
+
+export class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.transitionEnd = this.transitionEnd.bind(this)
+    this.mountStyle = this.mountStyle.bind(this)
+    this.unMountStyle = this.unMountStyle.bind(this)
+    this.state = {
+      //base css
+      show: true,
+      style: {
+        fontSize: 60,
+        opacity: 0,
+        transition: 'all 2s ease',
+      },
+    }
+  }
+
+  componentWillReceiveProps(newProps) {
+    // check for the mounted props
+    if (!newProps.mounted) return this.unMountStyle() // call outro animation when mounted prop is false
+    this.setState({
+      // remount the node when the mounted prop is true
+      show: true,
+    })
+    setTimeout(this.mountStyle, 10) // call the into animation
+  }
+
+  unMountStyle() {
+    // css for unmount animation
+    this.setState({
+      style: {
+        fontSize: 60,
+        opacity: 0,
+        transition: 'all 1s ease',
+      },
+    })
+  }
+
+  mountStyle() {
+    // css for mount animation
+    this.setState({
+      style: {
+        fontSize: 60,
+        opacity: 1,
+        transition: 'all 1s ease',
+      },
+    })
+  }
+
+  componentDidMount() {
+    setTimeout(this.mountStyle, 10) // call the into animation
+  }
+
+  transitionEnd() {
+    if (!this.props.mounted) {
+      // remove the node on transition end when the mounted prop is false
+      this.setState({
+        show: false,
+      })
+    }
+  }
+
+  render() {
+    return (
+      this.state.show && (
+        <h1 style={this.state.style} onTransitionEnd={this.transitionEnd}>
+          Hello
+        </h1>
+      )
+    )
+  }
+}
+
+export class Parent extends React.Component {
+  constructor(props) {
+    super(props)
+    this.buttonClick = this.buttonClick.bind(this)
+    this.state = {
+      showChild: true,
+    }
+  }
+  buttonClick() {
+    this.setState({
+      showChild: !this.state.showChild,
+    })
+  }
+  render() {
+    return (
+      <div>
+        <App
+          onTransitionEnd={this.transitionEnd}
+          mounted={this.state.showChild}
+        />
+        <button onClick={this.buttonClick}>
+          {this.state.showChild ? 'Unmount' : 'Mount'}
+        </button>
+      </div>
+    )
+  }
+}
+
 export class InfoCards extends React.Component {
-  // private stepInput: React.RefObject<HTMLInputElement>
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     contextMapping: props.contextMapping,
-  //   }
-  // }
-
-  // static getDerivedStateFromProps(props, state) {
-  //   if (props.contextMapping !== state.contextMapping) {
-  //     console.log('state changed!! ')
-  //     return {
-  //       contextMapping: props.contextMapping,
-  //     }
-  //   }
-
-  //   // Return null if the state hasn't changed
-  //   return null
-  // }
-
   render() {
     // console.log('contextMapping within new class InfoCards')
     // console.log(this.props.contextMapping)
@@ -71,22 +238,7 @@ export class InfoCards extends React.Component {
   }
 }
 
-// export class SingleInfoCard extends React.Component {
-//   render() {
-//     return (
-//       <Display
-//         originalText={this.props.userInput}
-//         similarClaim={this.props.similarClaim}
-//         contextStruct={this.props.contextStruct}
-//         displayKey={this.props.displayKey}
-//         key={this.props.displayKey}
-//       />
-//     )
-//   }
-// }
-
 // https://teamcolorcodes.com/maryland-terrapins-color-codes/
-
 const customToggleTheme = {
   global: {
     colors: {
@@ -174,30 +326,28 @@ const customCheckBoxTheme = {
   },
 }
 
-const reservedRecontextualizeMap: { [userInputText: string]: string } = {
-  'The most important problems in science are increasingly interdisciplinary':
-    'grand challenges in science are increasingly interdisciplinary',
-  'This means we have a growing interdisciplinary “burden of knowledge”':
-    'the burden of knowledge on innovators and scientists is increasing',
-  'With more specialized education':
-    'people tend to specialize more over time (especially in areas with deeper knowledge) due to....',
-}
-
 export class SynthesisLayoutGrid extends React.Component<any, any> {
   constructor(props) {
     super(props)
     this.editorRef = React.createRef()
+    this.state = {
+      // style: {
+      //   // transition: `opacity 3s ease-in-out`,
+      //   // opacity: 0,
+      //   transition: `width 2s`,
+      //   // transition-timing-function: linear;
+      // },
+      sidebar: false,
+      editorSelectedValue: null,
+      numOfX: 0,
+      contextMapping: null,
+      editorValue: null,
+      infoCards: null,
+    }
   }
 
   // https://stackoverflow.com/questions/35800491/how-to-get-values-from-child-components-in-react
-  state = {
-    sidebar: false,
-    editorSelectedValue: null,
-    numOfX: 0,
-    contextMapping: null,
-    editorValue: null,
-    infoCards: null,
-  }
+  // state = {}
   mapping = require('./mapping.json')
   // infoCards:any = null
 
@@ -222,7 +372,7 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     for (const nodeID in nodes) {
       let node = nodes[nodeID]
 
-      if (node['data'].hasOwnProperty('text')) {
+      if (node['data'] && node['data'].hasOwnProperty('text')) {
         if (flattenedClaims.includes(node['data']['text'])) {
           claim2ClaimID[node['data']['text']] = node['id']
         }
@@ -250,10 +400,57 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
 
   componentDidMount() {
     this.fromClaimToContext()
-    // console.log("componentDidMount")
-    // console.log(this.claim2Context)
-    // console.log(this.editorRef.current.codeForFun())
+
+    // TODO: check how to get reference for child component
+    // for (var i = 0; i < Object.keys(this.refsCollection).length; i++) {
+    //   if (
+    //     Object.keys(this.refsCollection)[i] ===
+    //     'The most important problems in science are increasingly interdisciplinary'
+    //   ) {
+    //     console.log('matched!')
+    //     console.log(this.refsCollection[i])
+    //   } else {
+    //     console.log('not matched!')
+    //     console.log(
+    //       Object.keys(this.refsCollection)[i] ===
+    //         'The most important problems in science are increasingly interdisciplinary'
+    //     )
+    //   }
+    // }
+
+    // console.log(this.props.children)
+    // console.log(Object.keys(this.refsCollection)[0]) //['By doing more science in teams'])
+    // console.log(this.refsCollection[Object.keys(this.refsCollection)[0]])
   }
+
+  // componentDidUpdate(prevProps, prevState) {
+  //   console.log('inside componentDidUpdate')
+
+  //   const userInput =
+  //     'The most important problems in science are increasingly interdisciplinary'
+
+  //   console.log(this.refsCollection[userInput])
+
+  //   if (
+  //     this.refsCollection.hasOwnProperty(userInput) &&
+  //     // this.refsCollection[userInput].hasOwnProperty('current') &&
+  //     this.refsCollection[userInput] != null
+  //   ) {
+  //     console.log(Object.keys(this.refsCollection[userInput]))
+  //     console.log(this.refsCollection[userInput].style)
+  //     // console.log(window.getComputedStyle(this.refsCollection[userInput]))
+  //     this.refsCollection[userInput].setStyle()
+  //     // const node = ReactDOM.findDOMNode(this)
+  //     // console.log(this.refsCollection[userInput]['current'].focus())
+  //     // console.log(
+  //     //   Object.keys(this.refsCollection[userInput]['current'].state.style)
+  //     // )
+  //   }
+
+  //   // if (this.refsCollection.hasOwnProperty
+  //   //   'The most important problems in science are increasingly interdisciplinary' &&this.refsCollection['The most important problems in science are increasingly interdisciplinary']!=null){
+  //   //   console.log(this.refsCollection['The most important problems in science are increasingly interdisciplinary'].current)}
+  // }
 
   onUpdate(value, selected_or_whole) {
     // For sibling communication https://stackoverflow.com/questions/24147331/react-the-right-way-to-pass-form-element-state-to-sibling-parent-elements
@@ -284,85 +481,97 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     let currentContextMapping: Object[] = []
     for (var i = 0; i < value.document.nodes.size; i++) {
       const node: Block = value.document.nodes.get(i)
-      // const nodeText = node.text.replace(/\[x\]/g, '').trim() // /\[x\]|\[x,*|,*x\]/g TODO: change to ONLY allow [x]
-      // console.log('this.mapping[nodeText]  ' + nodeText)
-      // console.log(this.mapping[nodeText])
       const toRecontextArray = node.text.match(/(.*?)(\[x\])+/g) //non-greedy match followed by [x] and its variant
       if (toRecontextArray != null && null != this.claim2Context) {
         for (var j = 0; j < toRecontextArray.length; j++) {
           const nodeText = toRecontextArray[j].replace(/\[x\]/g, '').trim()
-          // console.log('nodeText this.mapping[nodetext]')
-          // console.log(nodeText)
-          // console.log(this.mapping[nodeText]) //TODO: current mapping is manual, later change to heuristic rules (character overlap, etc.)
           const mappingValue = this.mapping[nodeText]
           if (typeof mappingValue === 'string') {
             if (null != this.claim2Context[mappingValue]) {
               currentContextMapping.push({
                 userInput: nodeText,
-                similarClaim: mappingValue,
-                contextStruct: this.claim2Context[mappingValue].data, //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
+                similarClaim: [mappingValue],
+                contextStruct: [this.claim2Context[mappingValue].data], //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
               })
             }
           } else if (Array.isArray(mappingValue)) {
+            let similarClaims = []
+            let contextStructs = []
             for (var k = 0; k < mappingValue.length; k++) {
               if (null != this.claim2Context[mappingValue[k]]) {
-                currentContextMapping.push({
-                  userInput: nodeText,
-                  similarClaim: mappingValue[k],
-                  contextStruct: this.claim2Context[mappingValue[k]].data, //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
-                })
+                similarClaims.push(mappingValue[k])
+                contextStructs.push(this.claim2Context[mappingValue[k]].data)
               }
             }
+            currentContextMapping.push({
+              userInput: nodeText,
+              similarClaim: similarClaims,
+              contextStruct: contextStructs, //this.claim2Context[this.mapping[nodeText]].data.pdfDir.toString()
+            })
           }
         }
       }
     }
 
-    // this.setState({ contextMapping: currentContextMapping })
     this.setState(this.updateContextMapping(currentContextMapping))
-    // console.log('currentContextMapping')
-    // console.log(this.state.contextMapping)
 
     // TODO: this is where to insert floating box hovering button
     if (null != this.editorRef && null != this.editorRef.current) {
       this.editorRef.current.codeForFun() //This will be invoked whenever the code is on change!!
     }
+
+    for (var i = 0; i < currentContextMapping.length; i++) {
+      this.refsCollection[
+        currentContextMapping[i].userInput
+      ] = React.createRef()
+    }
   }
+
+  refsCollection = {}
 
   render() {
     const { sidebar } = this.state
 
     const infoCardHeight = this.state.numOfX * 700 + 'px'
-
+    // console.log(this.state.contextMapping)
     const listItems =
       this.state.contextMapping != null ? (
-        this.state.contextMapping.map((item, index) => (
-          <div
-            key={
-              'outerkk' +
-              item.userInput.substring(0, 10) +
-              item.similarClaim.substring(0, 10)
-            }
-          >
-            <Display
-              originalText={item.userInput}
-              contextStruct={item.contextStruct}
-              similarClaim={item.similarClaim}
-              displayKey={item.userInput}
-              key={item.userInput} //Must use a key value unique to the element from https://stackoverflow.com/questions/43642351/react-list-rendering-wrong-data-after-deleting-item.
-            />
-          </div>
+        this.state.contextMapping.map(
+          (item, index) => (
+            <CSSTransition
+              in={true}
+              appear={true}
+              enter={true}
+              timeout={2000}
+              classNames="fade"
+              // unmountOnExit
+              key={'CSSTransition' + item.userInput.substring(0, 10)}
+            >
+              <div key={'Display' + item.userInput.substring(0, 10)}>
+                <Display
+                  // ref={this.refsCollection[item.userInput.toString()]}
+                  ref={c =>
+                    (this.refsCollection[item.userInput.toString()] = c)
+                  }
+                  originalText={item.userInput}
+                  contextStruct={item.contextStruct}
+                  similarClaim={item.similarClaim}
+                  displayKey={item.userInput}
+                  key={item.userInput} //Must use a key value unique to the element from https://stackoverflow.com/questions/43642351/react-list-rendering-wrong-data-after-deleting-item.
+                />
+              </div>
+            </CSSTransition>
+          )
           // <div>{item.userInput}</div>
-        ))
+        )
       ) : (
         <div />
       )
 
-    // console.log('listItems')
-    // console.log(listItems)
-
     return (
       <Grommet full theme={deepMerge(grommet, customToggleTheme)}>
+        {/* TODO: animate based on this Parent component  */}
+        {/* <CSSTransition in={true} appear={true} timeout={6000} classNames="fade"><TodoList /></CSSTransition> */}
         <Grid
           fill
           rows={['auto', 'full']}
@@ -390,7 +599,7 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
               weight="bold"
               color="#800020"
             >
-              Synthesis interface prototype
+              Synthesis interface
             </Text>
             <CheckBox
               toggle={true}
@@ -401,15 +610,6 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
               }
               checked={this.state.sidebar}
               onChange={() => {
-                // if (
-                //   this.state.sidebar === false &&
-                //   this.state.editorValue != null
-                // ) {
-                //   //to be changed to true
-                //   {
-                //     this.getContextMapping(this.state.editorValue)
-                //   }
-                // }
                 this.setState({ sidebar: !sidebar })
               }}
             />

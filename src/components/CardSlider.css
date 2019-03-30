@@ -5,7 +5,7 @@
   height: auto;
   position: relative;
   display: inline-block;
-  background: #e3e3e3;
+  background: #fff;
   margin: 5px 0;
   border: 1px solid #d8d8d8;
   box-shadow: 1px 1px 10px #d8d8d8;
@@ -39,7 +39,7 @@
   clear: both;
   margin-right: 5px;
   float: none !important;
-  transition: transform 0.2s ease-in-out;
+  transition: all 1s ease-in-out;
   vertical-align: top;
   padding: 20px 25px;
 }

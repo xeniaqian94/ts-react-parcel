@@ -1,7 +1,14 @@
 import styles from './CardSlider.css'
 import { SimpleCollapsible } from './SimpleCollapsible'
+// import posed from 'react-pose'
+// var CSSTransitionGroup = require('react-transition-group/CSSTransitionGroup')
+// console.log(CSSTransitionGroup)
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+
 import * as React from 'react'
 import { Tooltip } from 'grommet-icons'
+// import ReactCSSTransitionGroup from 'react-addons-css-transition-group' // ES5 with npm
+
 // import images from '../images/*'
 // console.log(images)
 
@@ -30,25 +37,13 @@ function CardData() {
       url:
         'https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg',
     },
-    // {
-    //   title: 'STREET',
-    //   desc:
-    //     'A street is a public thoroughfare (usually paved) in a built environment.',
-    //   url:
-    //     'https://cdn.pixabay.com/photo/2017/08/01/20/06/storm-2567670__340.jpg',
-    // },
-    // {
-    //   title: 'CAMERA',
-    //   desc: 'Camera captures memories for you and saves them permanently.',
-    //   url:
-    //     'https://cdn.pixabay.com/photo/2017/08/07/01/41/magnifying-glass-2598507__340.jpg',
-    // },
-    // {
-    //   title: 'BREAKFAST',
-    //   desc: 'Breakfast provides many benefits to our health and wellbeing.',
-    //   url:
-    //     'https://images.pexels.com/photos/8524/food-spoon-milk-strawberry.jpg?h=350&auto=compress&cs=tinysrgb',
-    // },
+    {
+      title: 'CARNATIONS',
+      desc:
+        "Carnations require well-drained, neutral to slightly alkaline soil, and full sun. Numerous cultivars have been selected for garden planting.[4] Typical examples include 'Gina Porto', 'Helen', 'Laced Romeo', and 'Red Rocket'.",
+      url:
+        'https://cdn.pixabay.com/photo/2017/07/24/02/40/pink-roses-2533389__340.jpg',
+    },
   ]
   return rtn
 }
@@ -170,32 +165,32 @@ export class SingleCard extends React.Component {
     super(props)
     this.state = {
       originalText: props.originalText,
-      similarClaim: props.similarClaim,
-      contextStruct: props.contextStruct,
+      similarClaim: props.similarClaim, // a single string
+      contextStruct: props.contextStruct, //an element
       i: props.i,
       open: false,
+      hovered: false,
     }
+  }
+
+  handleMouseEnter = () => {
+    this.setState({
+      hovered: true,
+    })
+  }
+
+  handleMouseLeave = () => {
+    this.setState({
+      hovered: false,
+    })
   }
 
   render() {
     const { open } = this.state
-    // const imagePath =
-    //   '../images/' +
-    //   this.state.contextStruct.pdfDir +
-    //   '-p' +
-    //   this.state.contextStruct.pageNumber +
-    //   '.png'
-    // console.log(imagePath)
+
     const showWidth = 1275 // scale=2 letter width 670
     const showHeight = 1650
     const showTop = -1 * this.state.contextStruct.top
-
-    // const dir = './'
-    // const raw = readFileSync(
-    //   dir + 'src/images/' + this.state.contextStruct.pdfDir.toString(),
-    //   'utf-8'
-    // )
-    // console.log(raw)
 
     return (
       <div
@@ -220,10 +215,6 @@ export class SingleCard extends React.Component {
           justify="center"
         >
           <Box gridArea="headerLeft">
-            {/* <p className="desc">{this.state.similarClaim}</p> */}
-            {/* <p className="desc" align="center">
-              "{this.state.similarClaim}"{' '}
-            </p> */}
             <p className="desc" align="center">
               "{this.state.similarClaim}" <br />
               from
@@ -243,30 +234,9 @@ export class SingleCard extends React.Component {
               {/* <Tooltip /> */}
             </Button>
           </Box>
-          {/* <SimpleCollapsible gridArea="headerRight" /> */}
-          {/* <Button
-            onClick={() => this.setState({ open: !open })}
-            icon={<Tooltip color="plain" />}
-            plain={true}
-            alignSelf="center"
-            gridArea="headerRigt"
-          >
-
-          </Button> */}
           <Box gridArea="main">
             <Collapsible open={open} {...this.props} gridArea="main">
-              <Box
-              //   background="light-2"
-              //   round="medium"
-              //   pad="medium"
-              //   align="center"
-              //   justify="center"
-              >
-                {/* <Text>
-      <Anchor> This is </Anchor>This is a box inside a Collapsible
-      component
-    </Text> */}
-
+              <Box>
                 <ScrolledImage {...this.state} />
                 {/* </div> */}
               </Box>
@@ -274,32 +244,6 @@ export class SingleCard extends React.Component {
             {/* <Text>This is other content outside the Collapsible box</Text> */}
           </Box>
         </Grid>
-        {/* <p className="title">{card.title}</p> */}
-        {/* <p className="title">{this.state.originalText}</p> */}
-        {/* <SimpleCollapsible /> */}
-        {/* Do something for the semantic of SimpleCollapsible */}
-        {/* <p className="desc">{card.desc}</p>
-    <p className="desc">{this.state.similarClaim}</p>
-    <p className="desc">
-      {this.state.contextStruct.pdfDir.toString()}
-    </p> */}
-        {/* <div> */}
-        {/* <div
-      // href={card.url}
-      style={{
-        height: '200px',
-        width: '200px',
-        overflow: 'scroll',
-      }}
-    >
-      <img
-        src={card.url}
-        style={{
-          width: '500px',
-        }}
-      />
-    </div> */}
-        {/* </div> */}
       </div>
     )
   }
@@ -315,21 +259,28 @@ export class CardDeck extends React.Component {
     }
   }
   render() {
-    const cardData = CardData()
+    // console.log('here we are getting N cards' + this.state.similarClaim.length)
+    // const cardData = CardData()
     return (
       <section>
         {/* BIG TODO: we aim at showing the exact # of contexts per userInput. 
         Originally 4 because of the tutorial 
         TODO maybe also hidden scroll arrow for each card */}
-
-        {cardData.map((card, i) => {
+        {this.state.similarClaim.map((aClaim, i) => {
+          // console.log('similar Claim ' + i)
+          {
+            /* {this.state.similarClaim.map((aClaim, i) => { */
+          }
+          // console.log(this.state.similarClaim)
+          // console.log(this.state.similarClaim[i])
           return (
             <SingleCard
-              {...this.state}
-              // TODO: modify semantic meaning of this.state ([] or string)
-              // so CardDeck will have either be single card or multiple cards
+              // {...this.state}
+              originalText={this.state.originalText}
+              similarClaim={this.state.similarClaim[i]}
+              contextStruct={this.state.contextStruct[i]}
               cardStyle={this.props.cardStyle}
-              key={i}
+              key={i + this.state.similarClaim[i]}
               i={i}
             />
           )
@@ -338,8 +289,6 @@ export class CardDeck extends React.Component {
     )
   }
 }
-
-// className={styles.relative}
 
 export class Display extends React.Component {
   constructor(props) {
@@ -352,15 +301,43 @@ export class Display extends React.Component {
       },
       width: 0,
       originalText: props.originalText,
-      similarClaim: props.similarClaim,
-      contextStruct: props.contextStruct,
+      similarClaim: props.similarClaim, //now it is a list
+      contextStruct: props.contextStruct, //now it is a list of same length as similarClaim
       displayKey: props.displayKey,
     }
+  }
+  selfRef = React.createRef()
+
+  // mountStyle() {
+  //   console.log('inside mountStyle')
+  //   // css for mount animation
+  //   this.setState({
+  //     style: {
+  //       fontSize: 60,
+  //       opacity: 1,
+  //       transition: 'all 1s ease',
+  //     },
+  //   })
+  // }
+
+  setStyle() {
+    // this.setState({
+    //   style: {
+    //     border: '1px solid #d8d8d8',
+    //   },
+    // })
+
+    console.log('inside set style')
+    // console.log(this.selfRef.current.style.background)
+    // this.selfRef.current.style['border-color'] = 'red'
+    // this.selfRef.current.style['border-width'] = '2px'
   }
 
   componentDidMount() {
     let boxWidth = document.getElementById('card').clientWidth
     this.setState({ width: boxWidth })
+
+    // setTimeout(this.mountStyle, 10) // call the into animation
   }
 
   // func: click the slider buttons
@@ -372,7 +349,7 @@ export class Display extends React.Component {
 
     const cardWidth = this.state.width // the card's width
     const cardMargin = margin // the card's margin
-    const cardNumber = CardData().length // the number of cards
+    const cardNumber = this.state.similarClaim.length // the number of cards
     let currentCard = this.state.currentCard // the index of the current card
     let position = this.state.position // the position of the cards
 
@@ -396,13 +373,14 @@ export class Display extends React.Component {
       },
     })
   }
-  // # {styles['cards-slider']}>
+
   render() {
     return (
       <div
         className="cards-slider"
         id={this.state.displayKey}
         key={this.state.displayKey}
+        ref={this.selfRef}
       >
         <div className="slider-btns">
           <button
@@ -417,28 +395,12 @@ export class Display extends React.Component {
           >
             &gt;
           </button>
-          {/* <button
-            className="slider-btn btn-ml"
-            onClick={() => this.handleClick('prev')}
-          >
-            Prev
-          </button> */}
           <button className="slider-btn btn-mm">
-            {this.state.currentCard + 1}/{CardData().length}
+            {this.state.currentCard + 1}/{this.state.similarClaim.length}
           </button>
-
-          {/* <button
-            className="slider-btn btn-mr"
-            onClick={() => this.handleClick('next')}
-          >
-            Next
-          </button> */}
         </div>
         <CardDeck cardStyle={this.state.cardStyle} {...this.state} />
       </div>
     )
   }
 }
-
-// ReactDOM.render(<Display />, document.getElementById('root'))
-// document.getElementById('Jones_2010_Age-and-Great-Invention-p10')

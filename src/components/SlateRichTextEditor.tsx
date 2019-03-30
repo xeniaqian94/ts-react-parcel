@@ -1,5 +1,6 @@
 import { Editor } from 'slate-react'
-import { Value, Document, Selection } from 'slate'
+import { Value, Block, Document, Selection } from 'slate'
+import { LinkPlugin, LinkButton } from '@slate-editor/link-plugin'
 
 import * as React from 'react'
 const initialValue = require('./value.json') // TODO: pre-load Joel's outline
@@ -12,7 +13,9 @@ const isBoldHotkey = isKeyHotkey('mod+b') // Mac users shall press cmd + b
 const isItalicHotkey = isKeyHotkey('mod+i')
 const isUnderlinedHotkey = isKeyHotkey('mod+u')
 const isCodeHotkey = isKeyHotkey('mod+`')
+const isRecontextualize = isKeyHotkey('mod+r')
 
+const plugins = [LinkPlugin()]
 /**
  * The rich text example. from https://github.com/ianstormtaylor/slate/tree/master/examples/rich-text
  *
@@ -41,6 +44,7 @@ export class SlateRichTextEditor extends React.Component {
 
   hasMark = type => {
     const { value } = this.state
+    // console.log(type)
     return value.activeMarks.some(mark => mark.type === type)
   }
 
@@ -57,9 +61,9 @@ export class SlateRichTextEditor extends React.Component {
   }
 
   codeForFun = () => {
-    console.log(
-      'Code for fun!!! [TODO] maybe use this function to local recontext-hook and insert an href element for floating window'
-    )
+    // console.log(
+    //   'Code for fun!!! [TODO] maybe use this function to local recontext-hook and insert an href element for floating window'
+    // )
     // console.log(this.editor.value.document.nodes.get(0).text)
   }
   /**
@@ -78,6 +82,10 @@ export class SlateRichTextEditor extends React.Component {
   componentDidMount() {
     // console.log('componentDidMount' + this.editor.value)
     this.props.onUpdate(this.editor.value, 0)
+  }
+
+  componentDidUpdate() {
+    // console.log('updated something is it [x]')
   }
 
   /**
@@ -104,6 +112,7 @@ export class SlateRichTextEditor extends React.Component {
             this.RECONTEXTUALIZE_HOOK_ICON
           )}{' '}
           {/* TODO when user click this button, it will insert into current cursor position a reconteztualize hook, e.g. [cite!] or [x] */}
+          {/* <LinkButton /> */}
         </Toolbar>
         <Editor
           spellCheck
@@ -117,6 +126,8 @@ export class SlateRichTextEditor extends React.Component {
           renderMark={this.renderMark}
           // onMouseDown={this.onMouseDown}
           onMouseUp={this.onMouseUp}
+          // decorateNode={this.decorateNode}
+          // plugins={plugins}
         />
       </div>
     )
@@ -134,7 +145,7 @@ export class SlateRichTextEditor extends React.Component {
     const isActive = this.hasMark(type)
     let sidenote = <div />
     if (icon === this.RECONTEXTUALIZE_HOOK_ICON) {
-      sidenote = '( et.al) [cite!]'
+      sidenote = 'cmd+r'
     }
 
     // TODO: onClickMark for recontext hook
@@ -191,26 +202,11 @@ export class SlateRichTextEditor extends React.Component {
 
   renderNode = (props, editor, next) => {
     const { attributes, children, node } = props
-    // console.log('node.type')
-    // console.log(node.type)
-    // console.log(children)
-
     switch (node.type) {
       case 'block-quote':
         return <blockquote {...attributes}>{children}</blockquote>
       case 'bulleted-list':
-        return (
-          <ul {...attributes}>
-            {children}{' '}
-            {/* <button
-              onClick={() => {
-                window.location.href = 'https://www.w3docs.com'
-              }}
-            >
-              {'To w3docs'}
-            </button> */}
-          </ul>
-        )
+        return <ul {...attributes}>{children}</ul>
       case 'heading-one':
         return <h1 {...attributes}>{children}</h1>
       case 'heading-two':
@@ -219,6 +215,17 @@ export class SlateRichTextEditor extends React.Component {
         return <li {...attributes}>{children}</li>
       case 'numbered-list':
         return <ol {...attributes}>{children}</ol>
+      case 'recontextualize-hook':
+        return (
+          <button
+            onClick={() => {
+              window.location.href = 'https://www.w3docs.com'
+            }}
+            {...attributes}
+          >
+            nnn{children}
+          </button>
+        )
       default:
         return next()
     }
@@ -235,7 +242,6 @@ export class SlateRichTextEditor extends React.Component {
 
   renderMark = (props, editor, next) => {
     const { children, mark, attributes } = props
-
     switch (mark.type) {
       case 'bold':
         return <strong {...attributes}>{children}</strong>
@@ -246,9 +252,6 @@ export class SlateRichTextEditor extends React.Component {
       case 'underlined':
         return <u {...attributes}>{children}</u>
       default:
-        // console.log('clicked something else ' + mark.type)
-        // return <div>Recontextualize hook! </div>
-        // return <p>{children}</p>
         return next()
     }
   }
@@ -273,13 +276,6 @@ export class SlateRichTextEditor extends React.Component {
     }, 800)
 
     this.setState({ value })
-    // this.props.onUpdate(value, 1)
-
-    // console.log(value.toJSON())
-    // get selected text https://github.com/ianstormtaylor/slate/issues/551
-    // console.log(value.selection.toJSON())
-    // console.log(value.fragment.text)
-    // this.props.onUpdate(value)
   }
 
   /**
@@ -301,8 +297,24 @@ export class SlateRichTextEditor extends React.Component {
       mark = 'underlined'
     } else if (isCodeHotkey(event)) {
       mark = 'code'
+    } else if (isRecontextualize(event)) {
+      //   mark = 'recontextualize-hook'
+      //   console.log('mod+r clicked do insert the button')
+      this.editor.insertText('[x]')
+      // this.editor
+      //   .focus()
+      //   .insertBlock({
+      //     type: 'recontextualize-hook',
+      //     data: {
+      //       className: 'img-responsive',
+      //     },
+      //   })
+      //   .insertBlock('paragraph')
+      //   .delete()
+      // this.editor.delete()
+      // event.preventDefault()
+      // return next()
     } else {
-      // this.props.onUpdate(editor.value, 0)
       return next()
     }
 
@@ -311,21 +323,29 @@ export class SlateRichTextEditor extends React.Component {
     // window.alert('onkeydown')
   }
 
-  // onMouseDown = (event, editor, next) => {
-  //   console.log('Mouse down')
-  //   // this.props.onUpdate(value.fragment.text)
+  /*
 
-  //   this.props.onUpdate(editor.value.fragment.text)
-  //   console.log(editor.value.fragment.text)
-  // }
+  TODO: decorateNode
 
-  // onMouseUp = (event, editor, next) => {
-  //   // when selection finished
-  //   // console.log('Mouse up!')
-  //   // this.props.onUpdate(value.fragment.text)
+    Function decorateNode(node: Node, editor: Editor, next: Function) => Array<Decoration>|Void
+    The decorateNode hook takes a node and returns an array of decorations with marks to be applied 
+    to the node when it is rendered.
+  */
+  // decorateNode = (node, editor, next) => {
+  //   // console.log('inside decorateNode')
+  //   // console.log(node)
 
-  //   this.props.onUpdate(editor.value, 1)
-  //   // console.log(editor.value.fragment.text)
+  //   const others = next() || []
+
+  //   let decorations = []
+
+  //   console.log(node.key)
+
+  //   if (node.text.includes('[x]')) {
+  //     node.type = 'recontextualize-hook'
+  //   }
+
+  //   return [...others, ...decorations]
   // }
 
   /**
@@ -336,6 +356,22 @@ export class SlateRichTextEditor extends React.Component {
    */
 
   onClickMark = (event, type) => {
+    // if (type === 'recontextualize_hook') {
+    // console.log('inside recontexutalize_hook')
+    this.editor.insertText('[x]')
+    // this.editor
+    //   .focus()
+    //   // .moveToEndOfBlock()
+    //   .insertInline({
+    //     type: 'recontextualize-hook',
+    //     data: {
+    //       src: 'http://placekitten.com/200/300',
+    //       alt: 'Kittens',
+    //     },
+    //   })
+    //   .insertBlock('paragraph')
+    // }
+
     event.preventDefault()
     this.editor.toggleMark(type)
   }
@@ -391,9 +427,3 @@ export class SlateRichTextEditor extends React.Component {
     }
   }
 }
-
-/**
- * Export.
- */
-
-// export default SlateRichTextEditor
