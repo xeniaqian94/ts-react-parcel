@@ -28,6 +28,20 @@
             "object": "text",
             "leaves": [
               {
+                "text": "This means we have a growing interdisciplinary \"burden of knowledge\" [x] - intuitively, the \"overhead\" we have to pay to get into a position to do the science is getting bigger and bigger"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "object": "block",
+        "type": "paragraph",
+        "nodes": [
+          {
+            "object": "text",
+            "leaves": [
+              {
                 "text": "We’re coping with this (for now)..."
               }
             ]

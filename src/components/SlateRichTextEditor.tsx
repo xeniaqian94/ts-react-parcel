@@ -80,7 +80,6 @@ export class SlateRichTextEditor extends React.Component {
   // }
 
   componentDidMount() {
-    // console.log('componentDidMount' + this.editor.value)
     this.props.onUpdate(this.editor.value, 0)
   }
 
@@ -126,7 +125,8 @@ export class SlateRichTextEditor extends React.Component {
           renderMark={this.renderMark}
           // onMouseDown={this.onMouseDown}
           onMouseUp={this.onMouseUp}
-          // decorateNode={this.decorateNode}
+          decorateNode={this.decorateNode}
+          onClick={this.onClick}
           // plugins={plugins}
         />
       </div>
@@ -215,17 +215,6 @@ export class SlateRichTextEditor extends React.Component {
         return <li {...attributes}>{children}</li>
       case 'numbered-list':
         return <ol {...attributes}>{children}</ol>
-      case 'recontextualize-hook':
-        return (
-          <button
-            onClick={() => {
-              window.location.href = 'https://www.w3docs.com'
-            }}
-            {...attributes}
-          >
-            nnn{children}
-          </button>
-        )
       default:
         return next()
     }
@@ -244,13 +233,39 @@ export class SlateRichTextEditor extends React.Component {
     const { children, mark, attributes } = props
     switch (mark.type) {
       case 'bold':
-        return <strong {...attributes}>{children}</strong>
+        return (
+          <strong {...attributes}>
+            {children}
+            {/* <button
+              onClick={() => {
+                window.location.href = 'https://www.w3docs.com'
+              }}
+              {...attributes}
+            >
+              nnn{children}
+            </button> */}
+          </strong>
+        )
       case 'code':
         return <code {...attributes}>{children}</code>
       case 'italic':
         return <em {...attributes}>{children}</em>
       case 'underlined':
+        // console.log(editor.value.inlines.get(0))
         return <u {...attributes}>{children}</u>
+      case 'recontextualize-hook':
+        return (
+          <Button
+            onMouseOver={() => {
+              const textBeforeHook = props.node.text.substring(0, props.offset)
+              this.props.onHoverHighlightCurrentUserInput(textBeforeHook)
+            }}
+            {...attributes} //attributes has few information
+            style={{ color: 'blue' }}
+          >
+            [x]
+          </Button>
+        )
       default:
         return next()
     }
@@ -267,15 +282,18 @@ export class SlateRichTextEditor extends React.Component {
 
   onChange = ({ value }) => {
     clearTimeout(this.timeout)
-    // console.log('Timeout cleared' + this.timeout)
-
-    // Make a new timeout set to go off in 800ms
     this.timeout = setTimeout(() => {
       // console.log('500 seconds, updated')
       this.props.onUpdate(value, 1)
     }, 800)
 
     this.setState({ value })
+  }
+
+  onClick = (event, editor, next) => {
+    // console.log('On click!')
+    // editor.focus()
+    // event.preventDefault()
   }
 
   /**
@@ -299,7 +317,7 @@ export class SlateRichTextEditor extends React.Component {
       mark = 'code'
     } else if (isRecontextualize(event)) {
       //   mark = 'recontextualize-hook'
-      //   console.log('mod+r clicked do insert the button')
+      console.log('mod+r clicked do insert the button')
       this.editor.insertText('[x]')
       // this.editor
       //   .focus()
@@ -330,23 +348,52 @@ export class SlateRichTextEditor extends React.Component {
     Function decorateNode(node: Node, editor: Editor, next: Function) => Array<Decoration>|Void
     The decorateNode hook takes a node and returns an array of decorations with marks to be applied 
     to the node when it is rendered.
+
+    Significant decor delay: https://github.com/ianstormtaylor/slate/issues/1788
   */
-  // decorateNode = (node, editor, next) => {
-  //   // console.log('inside decorateNode')
-  //   // console.log(node)
 
-  //   const others = next() || []
+  decorateNode = (node, editor, next) => {
+    const others = next() || []
+    let decorations = []
+    // const texts = node.getTexts().toArray()
+    // let startText = texts[0] /// Current we assume each block has only one element
+    let startText = node.getFirstText()
 
-  //   let decorations = []
+    let re = /\[x\]/g
+    re.lastIndex = 0
+    let str = startText.text
+    var match
 
-  //   console.log(node.key)
+    while ((match = re.exec(str)) !== null) {
+      // console.log(match.index) // Match index.
+      // console.log(match[0]) // Matching string.
+      const dec = {
+        anchor: {
+          key: startText.key,
+          offset: match.index,
+        },
+        focus: {
+          key: startText.key,
+          offset: match.index + 3,
+        },
+        mark: {
+          type: 'recontextualize-hook',
+        },
+      }
+      decorations.push(dec)
+    }
 
-  //   if (node.text.includes('[x]')) {
-  //     node.type = 'recontextualize-hook'
-  //   }
+    // while ((match = re.exec(str)))
+    //   indexes.push([match.index, match.index + match[0].length])
 
-  //   return [...others, ...decorations]
-  // }
+    // if (matches != null)
+    //   for (var i = 0; i < matches.length; i++) {
+    //     console.log(matches)
+    //     console.log(' ' + str.length)
+    //   }
+
+    return [...others, ...decorations]
+  }
 
   /**
    * When a mark button is clicked, toggle the current mark.
@@ -356,21 +403,28 @@ export class SlateRichTextEditor extends React.Component {
    */
 
   onClickMark = (event, type) => {
-    // if (type === 'recontextualize_hook') {
-    // console.log('inside recontexutalize_hook')
-    this.editor.insertText('[x]')
-    // this.editor
-    //   .focus()
-    //   // .moveToEndOfBlock()
-    //   .insertInline({
-    //     type: 'recontextualize-hook',
-    //     data: {
-    //       src: 'http://placekitten.com/200/300',
-    //       alt: 'Kittens',
-    //     },
-    //   })
-    //   .insertBlock('paragraph')
-    // }
+    if (type === 'recontextualize_hook') {
+      // console.log('inside recontexutalize_hook')
+      this.editor.insertText('[x]')
+      // this.editor
+      //   .insertInline({ type: 'recontextualize-hook', data: {} })
+      //   .moveToStartOfNextText()
+      //   .focus()
+      // this.editor
+      //   .focus()
+      //   // .moveToEndOfBlock()
+      //   .insertInline({
+      //     type: 'recontextualize-hook',
+      //     data: {
+      //       src: 'http://placekitten.com/200/300',
+      //       alt: 'Kittens',
+      //     },
+      //   })
+      //   .insertBlock('paragraph')
+      return
+    }
+
+    // console.log('Inside onClickMark')
 
     event.preventDefault()
     this.editor.toggleMark(type)

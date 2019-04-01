@@ -398,6 +398,37 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     // console.log(claim2Context)
   }
 
+  /*
+    onHoverHighlightCurrentUserInput() is an example of 
+    child to parent communication. 
+    It executes when the child SlateRichTextEditor passes
+    value to it. 
+  */
+
+  onHoverHighlightCurrentUserInput = userInput => {
+    console.log('userInput is ' + userInput)
+    const trimedUserInput = userInput.trim()
+
+    //TODO: change border color for corresponding infocard
+
+    if (
+      this.refsCollection != null &&
+      this.refsCollection.hasOwnProperty(trimedUserInput) &&
+      // this.refsCollection[userInput].hasOwnProperty('current') &&
+      this.refsCollection[trimedUserInput] != null
+    ) {
+      // console.log(Object.keys(this.refsCollection[trimedUserInput]))
+      // console.log(this.refsCollection[trimedUserInput].style)
+      // console.log(window.getComputedStyle(this.refsCollection[userInput]))
+      this.refsCollection[trimedUserInput].setStyle()
+      // const node = ReactDOM.findDOMNode(this)
+      // console.log(this.refsCollection[userInput]['current'].focus())
+      // console.log(
+      //   Object.keys(this.refsCollection[userInput]['current'].state.style)
+      // )
+    }
+  }
+
   componentDidMount() {
     this.fromClaimToContext()
 
@@ -423,34 +454,32 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
     // console.log(this.refsCollection[Object.keys(this.refsCollection)[0]])
   }
 
-  // componentDidUpdate(prevProps, prevState) {
-  //   console.log('inside componentDidUpdate')
+  componentDidUpdate(prevProps, prevState) {
+    console.log('inside componentDidUpdate')
 
-  //   const userInput =
-  //     'The most important problems in science are increasingly interdisciplinary'
+    // const userInput =
+    //   'The most important problems in science are increasingly interdisciplinary'
 
-  //   console.log(this.refsCollection[userInput])
+    // if (
+    //   this.refsCollection.hasOwnProperty(userInput) &&
+    //   // this.refsCollection[userInput].hasOwnProperty('current') &&
+    //   this.refsCollection[userInput] != null
+    // ) {
+    //   console.log(Object.keys(this.refsCollection[userInput]))
+    //   console.log(this.refsCollection[userInput].style)
+    //   // console.log(window.getComputedStyle(this.refsCollection[userInput]))
+    //   this.refsCollection[userInput].setStyle()
+    //   // const node = ReactDOM.findDOMNode(this)
+    //   // console.log(this.refsCollection[userInput]['current'].focus())
+    //   // console.log(
+    //   //   Object.keys(this.refsCollection[userInput]['current'].state.style)
+    //   // )
+    // }
 
-  //   if (
-  //     this.refsCollection.hasOwnProperty(userInput) &&
-  //     // this.refsCollection[userInput].hasOwnProperty('current') &&
-  //     this.refsCollection[userInput] != null
-  //   ) {
-  //     console.log(Object.keys(this.refsCollection[userInput]))
-  //     console.log(this.refsCollection[userInput].style)
-  //     // console.log(window.getComputedStyle(this.refsCollection[userInput]))
-  //     this.refsCollection[userInput].setStyle()
-  //     // const node = ReactDOM.findDOMNode(this)
-  //     // console.log(this.refsCollection[userInput]['current'].focus())
-  //     // console.log(
-  //     //   Object.keys(this.refsCollection[userInput]['current'].state.style)
-  //     // )
-  //   }
-
-  //   // if (this.refsCollection.hasOwnProperty
-  //   //   'The most important problems in science are increasingly interdisciplinary' &&this.refsCollection['The most important problems in science are increasingly interdisciplinary']!=null){
-  //   //   console.log(this.refsCollection['The most important problems in science are increasingly interdisciplinary'].current)}
-  // }
+    // if (this.refsCollection.hasOwnProperty
+    //   'The most important problems in science are increasingly interdisciplinary' &&this.refsCollection['The most important problems in science are increasingly interdisciplinary']!=null){
+    //   console.log(this.refsCollection['The most important problems in science are increasingly interdisciplinary'].current)}
+  }
 
   onUpdate(value, selected_or_whole) {
     // For sibling communication https://stackoverflow.com/questions/24147331/react-the-right-way-to-pass-form-element-state-to-sibling-parent-elements
@@ -624,6 +653,9 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
               onUpdate={this.onUpdate.bind(this)}
               // ref="thisEditor"
               ref={this.editorRef}
+              onHoverHighlightCurrentUserInput={
+                this.onHoverHighlightCurrentUserInput
+              }
             />
             {/* updateSelectedValue={this.updateSelectedValue} */}
           </Box>
