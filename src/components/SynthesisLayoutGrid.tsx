@@ -401,31 +401,38 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
   /*
     onHoverHighlightCurrentUserInput() is an example of 
     child to parent communication. 
-    It executes when the child SlateRichTextEditor passes
-    value to it. 
+    It changes infocard style (border color) when the child 
+    SlateRichTextEditor passes value to it. 
   */
 
   onHoverHighlightCurrentUserInput = userInput => {
-    console.log('userInput is ' + userInput)
+    // console.log('userInput is ' + userInput)
     const trimedUserInput = userInput.trim()
-
-    //TODO: change border color for corresponding infocard
 
     if (
       this.refsCollection != null &&
       this.refsCollection.hasOwnProperty(trimedUserInput) &&
-      // this.refsCollection[userInput].hasOwnProperty('current') &&
       this.refsCollection[trimedUserInput] != null
     ) {
-      // console.log(Object.keys(this.refsCollection[trimedUserInput]))
-      // console.log(this.refsCollection[trimedUserInput].style)
-      // console.log(window.getComputedStyle(this.refsCollection[userInput]))
       this.refsCollection[trimedUserInput].setStyle()
-      // const node = ReactDOM.findDOMNode(this)
-      // console.log(this.refsCollection[userInput]['current'].focus())
-      // console.log(
-      //   Object.keys(this.refsCollection[userInput]['current'].state.style)
-      // )
+    }
+  }
+
+  /*
+    offHoverHighlightCurrentUserInput() is another example of 
+    child to parent communication. 
+    It resets infocard style (border color) when the child SlateRichTextEditor 
+    passes signal to it. 
+  */
+
+  offHoverHighlightCurrentUserInput = userInput => {
+    const trimedUserInput = userInput.trim()
+    if (
+      this.refsCollection != null &&
+      this.refsCollection.hasOwnProperty(trimedUserInput) &&
+      this.refsCollection[trimedUserInput] != null
+    ) {
+      this.refsCollection[trimedUserInput].resetStyle()
     }
   }
 
@@ -655,6 +662,9 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
               ref={this.editorRef}
               onHoverHighlightCurrentUserInput={
                 this.onHoverHighlightCurrentUserInput
+              }
+              offHoverHighlightCurrentUserInput={
+                this.offHoverHighlightCurrentUserInput
               }
             />
             {/* updateSelectedValue={this.updateSelectedValue} */}

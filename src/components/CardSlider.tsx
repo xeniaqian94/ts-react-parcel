@@ -328,8 +328,13 @@ export class Display extends React.Component {
     // })
     // console.log('inside set style')
     // console.log(this.selfRef.current.style.background)
-    this.selfRef.current.style['border-color'] = 'red'
-    this.selfRef.current.style['border-width'] = '3px'
+    this.selfRef.current.style['border-color'] = 'MediumSeaGreen'
+    this.selfRef.current.style['border-width'] = '5px'
+  }
+
+  resetStyle() {
+    this.selfRef.current.style['border-color'] = ''
+    this.selfRef.current.style['border-width'] = ''
   }
 
   componentDidMount() {

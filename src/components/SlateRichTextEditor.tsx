@@ -260,10 +260,14 @@ export class SlateRichTextEditor extends React.Component {
               const textBeforeHook = props.node.text.substring(0, props.offset)
               this.props.onHoverHighlightCurrentUserInput(textBeforeHook)
             }}
+            onMouseOut={() => {
+              const textBeforeHook = props.node.text.substring(0, props.offset)
+              this.props.offHoverHighlightCurrentUserInput(textBeforeHook)
+            }}
             {...attributes} //attributes has few information
-            style={{ color: 'blue' }}
+            style={{ color: 'green' }}
           >
-            [x]
+            <b>[x]</b>
           </Button>
         )
       default:
