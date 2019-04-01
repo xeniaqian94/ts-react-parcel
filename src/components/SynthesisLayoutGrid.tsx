@@ -556,48 +556,52 @@ export class SynthesisLayoutGrid extends React.Component<any, any> {
       this.editorRef.current.codeForFun() //This will be invoked whenever the code is on change!!
     }
 
-    for (var i = 0; i < currentContextMapping.length; i++) {
-      this.refsCollection[
-        currentContextMapping[i].userInput
-      ] = React.createRef()
-    }
+    // for (var i = 0; i < currentContextMapping.length; i++) {
+    //   this.refsCollection[
+    //     currentContextMapping[i].userInput
+    //   ] = React.createRef()
+    // }
   }
 
   refsCollection = {}
 
   render() {
     const { sidebar } = this.state
+    this.refsCollection = {}
 
     const infoCardHeight = this.state.numOfX * 700 + 'px'
     // console.log(this.state.contextMapping)
     const listItems =
       this.state.contextMapping != null ? (
         this.state.contextMapping.map(
-          (item, index) => (
-            <CSSTransition
-              in={true}
-              appear={true}
-              enter={true}
-              timeout={2000}
-              classNames="fade"
-              // unmountOnExit
-              key={'CSSTransition' + item.userInput.substring(0, 10)}
-            >
-              <div key={'Display' + item.userInput.substring(0, 10)}>
-                <Display
-                  // ref={this.refsCollection[item.userInput.toString()]}
-                  ref={c =>
-                    (this.refsCollection[item.userInput.toString()] = c)
-                  }
-                  originalText={item.userInput}
-                  contextStruct={item.contextStruct}
-                  similarClaim={item.similarClaim}
-                  displayKey={item.userInput}
-                  key={item.userInput} //Must use a key value unique to the element from https://stackoverflow.com/questions/43642351/react-list-rendering-wrong-data-after-deleting-item.
-                />
-              </div>
-            </CSSTransition>
-          )
+          (item, index) => {
+            this.refsCollection[item.userInput.toString()] = React.createRef()
+            return (
+              <CSSTransition
+                in={true}
+                appear={true}
+                enter={true}
+                timeout={2000}
+                classNames="fade"
+                // unmountOnExit
+                key={'CSSTransition' + item.userInput.substring(0, 10)}
+              >
+                <div key={'Display' + item.userInput.substring(0, 10)}>
+                  <Display
+                    // ref={this.refsCollection[item.userInput.toString()]}
+                    ref={c =>
+                      (this.refsCollection[item.userInput.toString()] = c)
+                    }
+                    originalText={item.userInput}
+                    contextStruct={item.contextStruct}
+                    similarClaim={item.similarClaim}
+                    displayKey={item.userInput}
+                    key={item.userInput} //Must use a key value unique to the element from https://stackoverflow.com/questions/43642351/react-list-rendering-wrong-data-after-deleting-item.
+                  />
+                </div>
+              </CSSTransition>
+            )
+          }
           // <div>{item.userInput}</div>
         )
       ) : (

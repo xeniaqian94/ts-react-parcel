@@ -231,6 +231,7 @@ export class SlateRichTextEditor extends React.Component {
 
   renderMark = (props, editor, next) => {
     const { children, mark, attributes } = props
+
     switch (mark.type) {
       case 'bold':
         return (
@@ -255,6 +256,7 @@ export class SlateRichTextEditor extends React.Component {
         return <u {...attributes}>{children}</u>
       case 'recontextualize-hook':
         return (
+          /* always use {children} https://github.com/ianstormtaylor/slate/issues/2142 */
           <Button
             onMouseOver={() => {
               const textBeforeHook = props.node.text.substring(0, props.offset)
@@ -267,7 +269,7 @@ export class SlateRichTextEditor extends React.Component {
             {...attributes} //attributes has few information
             style={{ color: 'green' }}
           >
-            <b>[x]</b>
+            <b>{children}</b>
           </Button>
         )
       default:
@@ -359,8 +361,6 @@ export class SlateRichTextEditor extends React.Component {
   decorateNode = (node, editor, next) => {
     const others = next() || []
     let decorations = []
-    // const texts = node.getTexts().toArray()
-    // let startText = texts[0] /// Current we assume each block has only one element
     let startText = node.getFirstText()
 
     let re = /\[x\]/g
@@ -369,8 +369,6 @@ export class SlateRichTextEditor extends React.Component {
     var match
 
     while ((match = re.exec(str)) !== null) {
-      // console.log(match.index) // Match index.
-      // console.log(match[0]) // Matching string.
       const dec = {
         anchor: {
           key: startText.key,
@@ -387,14 +385,7 @@ export class SlateRichTextEditor extends React.Component {
       decorations.push(dec)
     }
 
-    // while ((match = re.exec(str)))
-    //   indexes.push([match.index, match.index + match[0].length])
-
-    // if (matches != null)
-    //   for (var i = 0; i < matches.length; i++) {
-    //     console.log(matches)
-    //     console.log(' ' + str.length)
-    //   }
+    // editor.deselect().focus() //Or other commands??
 
     return [...others, ...decorations]
   }
@@ -408,8 +399,13 @@ export class SlateRichTextEditor extends React.Component {
 
   onClickMark = (event, type) => {
     if (type === 'recontextualize_hook') {
-      // console.log('inside recontexutalize_hook')
-      this.editor.insertText('[x]')
+      console.log('inside recontexutalize_hook')
+      // this.editor.insertText('[x]')
+
+      // this.editor
+      //   .wrapInline({ type: 'recontextualize-hook', data: {} })
+      // .moveToStartOfNextText()
+      // .focus()
       // this.editor
       //   .insertInline({ type: 'recontextualize-hook', data: {} })
       //   .moveToStartOfNextText()
