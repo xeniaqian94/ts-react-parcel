@@ -386,7 +386,6 @@ export class SlateRichTextEditor extends React.Component {
     }
 
     // editor.deselect().focus() //Or other commands??
-
     return [...others, ...decorations]
   }
 
@@ -400,7 +399,7 @@ export class SlateRichTextEditor extends React.Component {
   onClickMark = (event, type) => {
     if (type === 'recontextualize_hook') {
       console.log('inside recontexutalize_hook')
-      // this.editor.insertText('[x]')
+      this.editor.insertText('[x]')
 
       // this.editor
       //   .wrapInline({ type: 'recontextualize-hook', data: {} })
