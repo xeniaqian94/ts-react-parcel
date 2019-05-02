@@ -123,7 +123,8 @@ export class RichEditorExample extends React.Component {
     // Editor state includes the current selection state:
     // https://draftjs.org/docs/api-reference-editor-state
     this.onChange(RichUtils.toggleInlineStyle(this.state.editorState, 'BOLD'))
-    console.log("{CURRENT SELECTION}"
+    console.log('{CURRENT SELECTION}')
+    console.log(
       this._getTextSelection(
         this.state.editorState.getCurrentContent(),
         this.state.editorState.getSelection(),
@@ -202,14 +203,13 @@ function getBlockStyle(block) {
       return null
   }
 }
+// defaultProps=1
+// typeof defaultProps === 'number'
 
-export class StyleButton extends React.Component {
-  constructor() {
-    super()
-    this.onToggle = e => {
-      e.preventDefault()
-      this.props.onToggle(this.props.style)
-    }
+export class StyleButton extends React.Component<any, any> {
+  onToggle = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
+    e.preventDefault()
+    this.props.onToggle(this.props.style)
   }
 
   render() {

@@ -186,7 +186,7 @@ export default class RichAccordion extends React.Component<any, any> {
                         (item: Detail, index: any) => (
                           // good practice: always have a key -> https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js
                           // <Box>
-                            <text size="xsmall" color="dark-3" key='RichAccordion'{index}>
+                            <text size="xsmall" color="dark-3" key='RichAccordion'{...index}>
                               {index+1}: {item.text} (Confidence <strong>{item.score.toFixed(2)}</strong>)
                             </text>
                           // </Box>

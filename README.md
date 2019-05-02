@@ -30,7 +30,7 @@ yarn install
     # With type checking
     yarn develop
 
-    # Transpile only (this is what Xin's code is using!!)
+    # Transpile only (this is what Xin Qian's code is using!!)
     yarn start
 
 Execute the command and you can run & test the application on `localhost:1234` in the browser.
